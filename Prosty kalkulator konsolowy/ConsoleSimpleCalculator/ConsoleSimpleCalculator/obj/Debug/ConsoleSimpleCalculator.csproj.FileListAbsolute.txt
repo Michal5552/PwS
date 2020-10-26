@@ -1,0 +1,7 @@
+D:\studia\PwŚ\projekt\ConsoleSimpleCalculator\ConsoleSimpleCalculator\bin\Debug\ConsoleSimpleCalculator.exe.config
+D:\studia\PwŚ\projekt\ConsoleSimpleCalculator\ConsoleSimpleCalculator\bin\Debug\ConsoleSimpleCalculator.exe
+D:\studia\PwŚ\projekt\ConsoleSimpleCalculator\ConsoleSimpleCalculator\bin\Debug\ConsoleSimpleCalculator.pdb
+D:\studia\PwŚ\projekt\ConsoleSimpleCalculator\ConsoleSimpleCalculator\obj\Debug\ConsoleSimpleCalculator.csprojAssemblyReference.cache
+D:\studia\PwŚ\projekt\ConsoleSimpleCalculator\ConsoleSimpleCalculator\obj\Debug\ConsoleSimpleCalculator.csproj.CoreCompileInputs.cache
+D:\studia\PwŚ\projekt\ConsoleSimpleCalculator\ConsoleSimpleCalculator\obj\Debug\ConsoleSimpleCalculator.exe
+D:\studia\PwŚ\projekt\ConsoleSimpleCalculator\ConsoleSimpleCalculator\obj\Debug\ConsoleSimpleCalculator.pdb
