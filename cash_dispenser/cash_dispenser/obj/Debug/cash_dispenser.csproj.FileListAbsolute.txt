@@ -3,3 +3,8 @@
 /Users/michal/Desktop/cash_dispenser/cash_dispenser/obj/Debug/cash_dispenser.csprojAssemblyReference.cache
 /Users/michal/Desktop/cash_dispenser/cash_dispenser/obj/Debug/cash_dispenser.exe
 /Users/michal/Desktop/cash_dispenser/cash_dispenser/obj/Debug/cash_dispenser.pdb
+/Users/michal/Desktop/PwS/cash_dispenser/cash_dispenser/bin/Debug/cash_dispenser.exe
+/Users/michal/Desktop/PwS/cash_dispenser/cash_dispenser/bin/Debug/cash_dispenser.pdb
+/Users/michal/Desktop/PwS/cash_dispenser/cash_dispenser/obj/Debug/cash_dispenser.csprojAssemblyReference.cache
+/Users/michal/Desktop/PwS/cash_dispenser/cash_dispenser/obj/Debug/cash_dispenser.exe
+/Users/michal/Desktop/PwS/cash_dispenser/cash_dispenser/obj/Debug/cash_dispenser.pdb
