@@ -29,15 +29,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06b44fa6-1efc-4011-865e-ef08a9c1431d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cash_dispenser/Data/PinVAL/Exceptions/PinVAL_Exception.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash_dispenser/Data/PinVAL/Exceptions/PinVAL_ExceptionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash_dispenser/Data/PinVAL/PinVAL.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash_dispenser/Model/BasicUser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cash_dispenser/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cash_dispenser/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cash_dispenser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cash_dispenser/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cash_dispenser/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cash_dispenser/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_dispenser/Properties/Administrator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cash_dispenser/Model/Administrator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_dispenser/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cash_dispenser/Data/AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_dispenser/Properties/BasicUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cash_dispenser/Model/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cash_dispenser/bin/Debug/cash_dispenser.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cash_dispenser/bin/Debug/cash_dispenser.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cash_dispenser/bin/Debug/cash_dispenser.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cash_dispenser/bin/Debug/cash_dispenser.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash_dispenser/obj/Debug/cash_dispenser.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cash_dispenser/obj/Debug/cash_dispenser.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_dispenser/cash_dispenser.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/cash_dispenser/cash_dispenser.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cash_dispenser/obj/Debug/cash_dispenser.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cash_dispenser/obj/Debug/cash_dispenser.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cash_dispenser/obj/Debug/cash_dispenser.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cash_dispenser/obj/Debug/cash_dispenser.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../file0.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +60,12 @@
         <option value="$PROJECT_DIR$/cash_dispenser/Properties/Administrator.cs" />
         <option value="$PROJECT_DIR$/cash_dispenser/Properties/BasicUser.cs" />
         <option value="$PROJECT_DIR$/cash_dispenser/Program.cs" />
+        <option value="$PROJECT_DIR$/cash_dispenser/Model/User.cs" />
+        <option value="$PROJECT_DIR$/cash_dispenser/Model/Administrator.cs" />
+        <option value="$PROJECT_DIR$/cash_dispenser/Model/BasicUser.cs" />
+        <option value="$PROJECT_DIR$/cash_dispenser/Data/PinVAL/PinVAL.cs" />
+        <option value="$PROJECT_DIR$/cash_dispenser/Data/PinVAL/Exceptions/PinVAL_ExceptionType.cs" />
+        <option value="$PROJECT_DIR$/cash_dispenser/Data/PinVAL/Exceptions/PinVAL_Exception.cs" />
       </list>
     </option>
   </component>
@@ -73,9 +85,9 @@
   </component>
   <component name="RunManager">
     <configuration name="cash_dispenser" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/cash_dispenser/bin/Debug/cash_dispenser.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cash_dispenser/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -85,7 +97,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -103,6 +115,15 @@
       <workItem from="1604917802166" duration="304000" />
       <workItem from="1605018723594" duration="1710000" />
       <workItem from="1605031322994" duration="1175000" />
+      <workItem from="1605105525058" duration="24000" />
+      <workItem from="1605112160701" duration="194000" />
+      <workItem from="1605113163381" duration="134000" />
+      <workItem from="1605113618214" duration="144000" />
+      <workItem from="1605451569949" duration="197000" />
+      <workItem from="1605459387934" duration="1015000" />
+      <workItem from="1605541439053" duration="1093000" />
+      <workItem from="1605548204721" duration="1221000" />
+      <workItem from="1605646933389" duration="1842000" />
     </task>
     <servers />
   </component>
@@ -133,34 +154,43 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605541498313">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1605541498313" />
     <state width="437" height="464" key="DebuggerActiveHint" timestamp="1605020108633">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="437" height="464" key="DebuggerActiveHint/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1605020108633" />
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1605021665456">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1605461588094">
+      <screen x="48" y="23" width="1232" height="777" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1605021665456" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1605459757632" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/48.23.1232.777/1280.-84.1920.1057@48.23.1232.777" timestamp="1605461588094" />
     <state width="1238" height="291" key="GridCell.Tab.0.bottom/50.23.1230.777/1280.-84.1920.1057@50.23.1230.777" timestamp="1605020285000" />
-    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1605021665454">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1605461588092">
+      <screen x="48" y="23" width="1232" height="777" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1605021665454" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1605459757630" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/48.23.1232.777/1280.-84.1920.1057@48.23.1232.777" timestamp="1605461588092" />
     <state width="1238" height="291" key="GridCell.Tab.0.center/50.23.1230.777/1280.-84.1920.1057@50.23.1230.777" timestamp="1605020284999" />
-    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1605021665454">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1605461588092">
+      <screen x="48" y="23" width="1232" height="777" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1605021665454" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1605459757629" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/48.23.1232.777/1280.-84.1920.1057@48.23.1232.777" timestamp="1605461588092" />
     <state width="1238" height="291" key="GridCell.Tab.0.left/50.23.1230.777/1280.-84.1920.1057@50.23.1230.777" timestamp="1605020284998" />
-    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1605021665455">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1605461588093">
+      <screen x="48" y="23" width="1232" height="777" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1605021665455" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1605459757631" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/48.23.1232.777/1280.-84.1920.1057@48.23.1232.777" timestamp="1605461588093" />
     <state width="1238" height="291" key="GridCell.Tab.0.right/50.23.1230.777/1280.-84.1920.1057@50.23.1230.777" timestamp="1605020285000" />
     <state width="1238" height="211" key="GridCell.Tab.1.bottom" timestamp="1605021665458">
       <screen x="0" y="0" width="1280" height="800" />
@@ -194,5 +224,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="640" height="400" key="XDebugger.FullValuePopup/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1605020102349" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1605541857290">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1605541857290" />
   </component>
 </project>

@@ -1,7 +1,6 @@
 namespace Cash_dispenser.Properties
 {
-    public class BasicUser
+    public abstract class User
     {
-        
     }
 }
