@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 
 namespace Cash_dispenser.Data.PinVAL.Exceptions
 {
@@ -8,7 +9,24 @@ namespace Cash_dispenser.Data.PinVAL.Exceptions
 
         public PinVAL_Exception(PinVAL_ExceptionType pinVAL_ExceptionType) =>
             _PinVAL_ExceptionType = pinVAL_ExceptionType;
-        
-        // TODO write what method
+
+        public string What()
+        {
+            switch (_PinVAL_ExceptionType)
+            {
+                case PinVAL_ExceptionType.LetterInPin:
+                {
+                    return "!!! W pinie znajduje się niedozwolony znak !!!";
+                }
+                    break;
+                case PinVAL_ExceptionType.ToShortPin:
+                {
+                    return "!!! Pin składa się z mniej niż 3 cyfr !!!";
+                }
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
     }
 }

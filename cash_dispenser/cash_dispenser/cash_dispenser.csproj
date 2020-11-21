@@ -38,16 +38,23 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Data\Administrator.cs" />
         <Compile Include="Data\AssemblyInfo.cs" />
+        <Compile Include="Data\BasicUser.cs" />
+        <Compile Include="Data\NameVAL\Exceptions\NameVAL_Exception.cs" />
+        <Compile Include="Data\NameVAL\Exceptions\NameVAL_ExceptionType.cs" />
+        <Compile Include="Data\NameVAL\NameVAL.cs" />
         <Compile Include="Data\PinVAL\Exceptions\PinVAL_Exception.cs" />
         <Compile Include="Data\PinVAL\Exceptions\PinVAL_ExceptionType.cs" />
         <Compile Include="Data\PinVAL\PinVAL.cs" />
-        <Compile Include="Model\Administrator.cs" />
-        <Compile Include="Model\BasicUser.cs" />
-        <Compile Include="Model\User.cs" />
+        <Compile Include="Data\SurnameVAL\Exceptions\SurnameVAL_Exception.cs" />
+        <Compile Include="Data\SurnameVAL\Exceptions\SurnameVAL_ExceptionType.cs" />
+        <Compile Include="Data\SurnameVAL\SurnameVAL.cs" />
+        <Compile Include="Data\User.cs" />
         <Compile Include="Program.cs" />
     </ItemGroup>
     <ItemGroup>
+      <Folder Include="Model" />
       <Folder Include="Properties" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

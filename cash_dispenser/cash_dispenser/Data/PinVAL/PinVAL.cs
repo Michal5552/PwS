@@ -1,4 +1,3 @@
-using System.CodeDom;
 using System.Linq;
 using Cash_dispenser.Data.PinVAL.Exceptions;
 
@@ -24,6 +23,12 @@ namespace Cash_dispenser.Data.PinVAL
             {
                 throw new PinVAL_Exception(PinVAL_ExceptionType.ToShortPin);
             }
+
+            //Set value
+            _Value = value;
         }
+
+        public void ChangePin(PinVAL pinVAL) =>
+            _Value = pinVAL._Value;
     }
 }
