@@ -1,0 +1,5 @@
+/Users/michal/Desktop/PwS/cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.csprojAssemblyReference.cache
+/Users/michal/Desktop/PwS/cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll
+/Users/michal/Desktop/PwS/cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb
+/Users/michal/Desktop/PwS/cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll
+/Users/michal/Desktop/PwS/cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb

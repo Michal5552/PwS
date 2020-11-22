@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:cash_dispenser_CORE" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="545e1128-3307-4f9f-aebb-6f17bd2c8d8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/Currency.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL_Exception.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL_ExceptionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/MoneyVAL.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/NameVAL/NameVAL.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/.idea/.idea.cashDispenserLibraryTest/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/.idea/.idea.cashDispenserLibraryTest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/.idea/.idea.cashDispenserLibraryTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/MoneyVAL_Test.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/nunit.framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/nunit.framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/cashDispenserLibraryTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserTest.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserTest.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserTest.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/.idea/.idea.cash_dispenser/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/.idea/.idea.cash_dispenser/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/.idea/.idea.cash_dispenser/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/.idea/.idea.cash_dispenser/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/.idea/.idea.cash_dispenser/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/.idea/.idea.cash_dispenser/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/.idea/.idea.cash_dispenser/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/.idea/.idea.cash_dispenser/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/.idea/.idea.cash_dispenser/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/.idea/.idea.cash_dispenser.dir/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/.idea/.idea.cashDispenserLibraryTest/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/.idea/.idea.cash_dispenser.dir/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/.idea/.idea.cash_dispenser.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/.idea/.idea.cash_dispenser.dir/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/.idea/.idea.cashDispenserLibraryTest/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/.idea/.idea.cash_dispenser.dir/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/.idea/.idea.cash_dispenser.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/.idea/.idea.cashDispenserLibraryTest/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/.idea/.idea.cash_dispenser.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/.idea/.idea.cash_dispenser.dir/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/.idea/.idea.cash_dispenser.dir/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/Administrator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/BasicUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/NameVAL/Exceptions/NameVAL_Exception.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/NameVAL/Exceptions/NameVAL_ExceptionType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/NameVAL/NameVAL.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/PinVAL/Exceptions/PinVAL_Exception.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/PinVAL/Exceptions/PinVAL_ExceptionType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/PinVAL/PinVAL.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/SurnameVAL/Exceptions/SurnameVAL_Exception.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/SurnameVAL/Exceptions/SurnameVAL_ExceptionType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/SurnameVAL/SurnameVAL.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Data/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/bin/Debug/cash_dispenser.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/bin/Debug/cash_dispenser.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/cash_dispenser.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/obj/Debug/cash_dispenser.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/obj/Debug/cash_dispenser.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/obj/Debug/cash_dispenser.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cash_dispenser/cash_dispenser/obj/Debug/cash_dispenser.pdb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Class1.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/aaa.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/NameVAL_Exceptions/NameVAL_ExceptionType.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/NameVAL_Exceptions/NameVAL_Exception.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/NameVAL.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/NameVAL/Exceptions/NameVAL_ExceptionType.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/NameVAL/NameVAL.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL_Exceptions/PinVAL.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL_Exceptions/PinVAL_ExceptionType.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL_Exceptions/PinVAL_Exception.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/Administrator.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/Exceptions/PinVAL_ExceptionType.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/PinVAL.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/SurnameVAL/SurnameVAL.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/SurnameVAL/Exceptions/SurnameVAL_ExceptionType.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/User.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/BasicUser.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL_ExceptionType.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/Currency.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/SurnameVAL/Exceptions/SurnameVAL_Exception.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/NameVAL/Exceptions/NameVAL_Exception.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL_Exception.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/Exceptions/PinVAL_Exception.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/MoneyVAL.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kdxuJxdggFEnIGJw0bZBUPlQSB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="545e1128-3307-4f9f-aebb-6f17bd2c8d8c" name="Default Changelist" comment="" />
+      <created>1606044490732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606044490732</updated>
+      <workItem from="1606044496146" duration="334000" />
+      <workItem from="1606045076558" duration="3296000" />
+      <workItem from="1606055029767" duration="1610000" />
+      <workItem from="1606058147454" duration="4319000" />
+      <workItem from="1606069566487" duration="1893000" />
+      <workItem from="1606075300460" duration="1135000" />
+      <workItem from="1606081639896" duration="882000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="cash_dispenser_CORE" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="cash_dispenser_CORE" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="39" key="SettingsEditor" timestamp="1606061236588">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606061236588" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1606058437353">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606058437353" />
+  </component>
+</project>

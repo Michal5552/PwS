@@ -1,0 +1,10 @@
+/Users/michal/Desktop/PwS/cashDispenserTest/cashDispenserTest/bin/Debug/cashDispenserTest.dll
+/Users/michal/Desktop/PwS/cashDispenserTest/cashDispenserTest/bin/Debug/cashDispenserTest.pdb
+/Users/michal/Desktop/PwS/cashDispenserTest/cashDispenserTest/bin/Debug/cashDispenserLibrary.dll
+/Users/michal/Desktop/PwS/cashDispenserTest/cashDispenserTest/bin/Debug/nunit.framework.dll
+/Users/michal/Desktop/PwS/cashDispenserTest/cashDispenserTest/bin/Debug/cashDispenserLibrary.pdb
+/Users/michal/Desktop/PwS/cashDispenserTest/cashDispenserTest/bin/Debug/nunit.framework.xml
+/Users/michal/Desktop/PwS/cashDispenserTest/cashDispenserTest/obj/Debug/cashDispenserTest.csprojAssemblyReference.cache
+/Users/michal/Desktop/PwS/cashDispenserTest/cashDispenserTest/obj/Debug/cashDispenserTest.csproj.CopyComplete
+/Users/michal/Desktop/PwS/cashDispenserTest/cashDispenserTest/obj/Debug/cashDispenserTest.dll
+/Users/michal/Desktop/PwS/cashDispenserTest/cashDispenserTest/obj/Debug/cashDispenserTest.pdb

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="cashDispenserLibraryTest" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="cashDispenserLibraryTest.csproj" t="IncludeRecursive" />
+        <e p="DataTests" t="Include">
+          <e p="MoneyVAL_Test.cs" t="Include" />
+        </e>
+        <e p="MockRepositoriesTest" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="cashDispenserLibraryTest.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_cashDispenserLibraryTest.-2059351840.00" t="ExcludeRecursive" />
+  </component>
+</project>
