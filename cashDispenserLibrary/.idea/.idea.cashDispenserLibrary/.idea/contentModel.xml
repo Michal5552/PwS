@@ -7,6 +7,9 @@
         <e p="cashDispenserLibrary.csproj" t="IncludeRecursive" />
         <e p="Data" t="Include">
           <e p="Administrator.cs" t="Include" />
+          <e p="BankAccount" t="Include">
+            <e p="BankAccount.cs" t="Include" />
+          </e>
           <e p="BasicUser.cs" t="Include" />
           <e p="MoneyVAL" t="Include">
             <e p="Currency.cs" t="Include" />
@@ -38,6 +41,9 @@
             <e p="SurnameVAL.cs" t="Include" />
           </e>
           <e p="User.cs" t="Include" />
+        </e>
+        <e p="Model" t="Include">
+          <e p="MockbasicUsersRepository.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">

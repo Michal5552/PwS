@@ -1,4 +1,4 @@
-namespace cashDispenserLibrary.Data.MoneyVAL.Exceptions
+namespace cashDispenserLibrary.Data.Exceptions
 {
     public enum MoneyVAL_ExceptionType
     {

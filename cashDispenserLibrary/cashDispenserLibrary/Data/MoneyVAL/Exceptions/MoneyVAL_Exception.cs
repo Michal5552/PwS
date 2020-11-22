@@ -1,7 +1,7 @@
 using System;
 #pragma warning disable 162
 
-namespace cashDispenserLibrary.Data.MoneyVAL.Exceptions
+namespace cashDispenserLibrary.Data.Exceptions
 {
     public class MoneyVAL_Exception : Exception
     {

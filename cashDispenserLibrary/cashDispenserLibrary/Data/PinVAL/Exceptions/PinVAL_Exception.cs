@@ -5,14 +5,14 @@ namespace cashDispenserLibrary.Data.Exceptions
 {
     public class PinVAL_Exception : Exception
     {
-        public PinVAL_ExceptionType _PinVAL_ExceptionType { get; private set; }
+        public PinVAL_ExceptionType _ExceptionType { get; private set; }
 
         public PinVAL_Exception(PinVAL_ExceptionType pinVAL_ExceptionType) =>
-            _PinVAL_ExceptionType = pinVAL_ExceptionType;
+            _ExceptionType = pinVAL_ExceptionType;
 
         public string What()
         {
-            switch (_PinVAL_ExceptionType)
+            switch (_ExceptionType)
             {
                 case PinVAL_ExceptionType.LetterInPin:
                 {

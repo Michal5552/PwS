@@ -1,6 +1,6 @@
-using cashDispenserLibrary.Data.MoneyVAL.Exceptions;
+using cashDispenserLibrary.Data.Exceptions;
 
-namespace cashDispenserLibrary.Data.MoneyVAL
+namespace cashDispenserLibrary.Data
 {
     public class MoneyVAL
     {

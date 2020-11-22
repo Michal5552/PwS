@@ -5,14 +5,14 @@ namespace cashDispenserLibrary.Data.Exceptions
 {
     public class SurnameVAL_Exception : Exception
     {
-        public SurnameVAL_ExceptionType _SurnameVAL_ExceptionType { get; private set; }
+        public SurnameVAL_ExceptionType _ExceptionType { get; private set; }
 
         public SurnameVAL_Exception(SurnameVAL_ExceptionType surnameVAL_ExceptionType)
-            => _SurnameVAL_ExceptionType = surnameVAL_ExceptionType;
+            => _ExceptionType = surnameVAL_ExceptionType;
 
         public string What()
         {
-            switch (_SurnameVAL_ExceptionType)
+            switch (_ExceptionType)
             {
                 case SurnameVAL_ExceptionType.BadSurname:
                 {

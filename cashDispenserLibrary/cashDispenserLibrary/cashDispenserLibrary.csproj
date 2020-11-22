@@ -39,6 +39,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Data\Administrator.cs" />
+        <Compile Include="Data\BankAccount\BankAccount.cs" />
         <Compile Include="Data\BasicUser.cs" />
         <Compile Include="Data\MoneyVAL\Currency.cs" />
         <Compile Include="Data\MoneyVAL\Exceptions\MoneyVAL_Exception.cs" />
@@ -54,6 +55,7 @@
         <Compile Include="Data\SurnameVAL\Exceptions\SurnameVAL_ExceptionType.cs" />
         <Compile Include="Data\SurnameVAL\SurnameVAL.cs" />
         <Compile Include="Data\User.cs" />
+        <Compile Include="Model\MockbasicUsersRepository.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
