@@ -1,0 +1,28 @@
+using System;
+
+#pragma warning disable 162
+
+namespace cashDispenserLibrary.Data.Exceptions
+{
+    public class BankAccount_Exception : Exception
+    {
+        public BankAccount_ExceptionType _ExceptionType { get; private set; }
+
+        public BankAccount_Exception(BankAccount_ExceptionType exceptionType)
+            => _ExceptionType = exceptionType;
+
+        public string What()
+        {
+            switch (_ExceptionType)
+            {
+                case BankAccount_ExceptionType.TooLittleMoney:
+                {
+                    return "!!! Stan konta nie pozwala na wypłatę tej kwoty !!!";
+                }
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
+    }
+}

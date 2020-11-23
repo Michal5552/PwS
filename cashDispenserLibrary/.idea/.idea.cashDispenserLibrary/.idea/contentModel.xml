@@ -9,6 +9,10 @@
           <e p="Administrator.cs" t="Include" />
           <e p="BankAccount" t="Include">
             <e p="BankAccount.cs" t="Include" />
+            <e p="Exceptions" t="Include">
+              <e p="BankAccount_Exception.cs" t="Include" />
+              <e p="BankAccount_ExceptionType.cs" t="Include" />
+            </e>
           </e>
           <e p="BasicUser.cs" t="Include" />
           <e p="MoneyVAL" t="Include">
@@ -39,6 +43,14 @@
               <e p="SurnameVAL_ExceptionType.cs" t="Include" />
             </e>
             <e p="SurnameVAL.cs" t="Include" />
+          </e>
+          <e p="TransactionReportVAL" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="TransactionReportVAL_Exception.cs" t="Include" />
+              <e p="TransactionReportVAL_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="TransactionReportType.cs" t="Include" />
+            <e p="TransactionReportVAL.cs" t="Include" />
           </e>
           <e p="User.cs" t="Include" />
         </e>

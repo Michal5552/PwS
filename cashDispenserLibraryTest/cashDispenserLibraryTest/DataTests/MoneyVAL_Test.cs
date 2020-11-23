@@ -1,15 +1,16 @@
+using System;
+using cashDispenserLibrary.Data;
+using cashDispenserLibrary.Data.Exceptions;
 using NUnit.Framework;
-using cashDispenserLibrary.Data.MoneyVAL;
-using cashDispenserLibrary.Data.MoneyVAL.Exceptions;
 
 namespace cashDispenserTest.DataTests
 {
     [TestFixture]
     public class MoneyVAL_Test
     {
-        [TestCase(-200, Currency.PLN, "!!! Niepoprawny zapis kwoty !!!"),
-         TestCase(123, Currency.PLN, "OK"),
-         TestCase(0, Currency.GBP, "OK")]
+        [TestCase(123, Currency.PLN, "OK"),
+         TestCase(0, Currency.GBP, "OK"),
+         TestCase(-200, Currency.PLN, "!!! Niepoprawny zapis kwoty !!!")]
         public void MoneyVAL_When_Init_Cases(decimal value, Currency currency,
             string expected)
         {
