@@ -1,8 +1,8 @@
-namespace cashDispenserLibrary.Data.TransactionReportVAL.Exceptions
+namespace cashDispenserLibrary.Data.Exceptions
 {
     public enum TransactionReportVAL_ExceptionType
     {
-        BadValue,
-        BadDate
+        BadRemainingBalance,
+        BadValue
     }
 }

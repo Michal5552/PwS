@@ -9,6 +9,8 @@
           <e p="Administrator.cs" t="Include" />
           <e p="BankAccount" t="Include">
             <e p="BankAccount.cs" t="Include" />
+            <e p="BankAccountModel.cs" t="Include" />
+            <e p="CurrencyRatesModel.cs" t="Include" />
             <e p="Exceptions" t="Include">
               <e p="BankAccount_Exception.cs" t="Include" />
               <e p="BankAccount_ExceptionType.cs" t="Include" />

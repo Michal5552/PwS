@@ -3,15 +3,9 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=171b1008_002D0c36_002D4489_002Db208_002Dc4c7e2ed4607/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MoneyVAL_Test_Cases" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.MoneyVAL_Test&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.TransactionReportVAL_Test.TransactionReportVAL_When_transaction_Report_Cases&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.TransactionReportVAL_Test&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=500b1093_002D51e3_002D46eb_002D8ee0_002D89731088d10b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MoneyVAL_Test_Cases #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.MoneyVAL_Test&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d8a1b877_002Dc357_002D491c_002Db418_002D82d11596cdc2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MoneyVAL_Test_Cases #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.MoneyVAL_Test&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+	
+	</wpf:ResourceDictionary>

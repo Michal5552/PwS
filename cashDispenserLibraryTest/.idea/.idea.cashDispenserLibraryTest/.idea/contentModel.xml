@@ -7,6 +7,7 @@
         <e p="cashDispenserLibraryTest.csproj" t="IncludeRecursive" />
         <e p="DataTests" t="Include">
           <e p="MoneyVAL_Test.cs" t="Include" />
+          <e p="TransactionReportVAL_Test.cs" t="Include" />
         </e>
         <e p="MockRepositoriesTest" t="Include" />
         <e p="obj" t="ExcludeRecursive" />

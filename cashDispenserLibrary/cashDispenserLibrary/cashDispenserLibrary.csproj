@@ -40,6 +40,8 @@
     <ItemGroup>
         <Compile Include="Data\Administrator.cs" />
         <Compile Include="Data\BankAccount\BankAccount.cs" />
+        <Compile Include="Data\BankAccount\BankAccountModel.cs" />
+        <Compile Include="Data\BankAccount\CurrencyRatesModel.cs" />
         <Compile Include="Data\BankAccount\Exceptions\BankAccount_Exception.cs" />
         <Compile Include="Data\BankAccount\Exceptions\BankAccount_ExceptionType.cs" />
         <Compile Include="Data\BasicUser.cs" />

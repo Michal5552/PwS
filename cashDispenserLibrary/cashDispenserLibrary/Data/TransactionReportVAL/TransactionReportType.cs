@@ -1,4 +1,4 @@
-namespace cashDispenserLibrary.Data.TransactionReportVAL
+namespace cashDispenserLibrary.Data
 {
     public enum TransactionReportType
     {

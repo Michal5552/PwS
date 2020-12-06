@@ -20,25 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="494494bf-5558-4b1e-9cc3-ac755e3808da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/Exceptions/BankAccount_Exception.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/Exceptions/BankAccount_ExceptionType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/TransactionReportVAL/Exceptions/TransactionReportVAL_Exception.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/TransactionReportVAL/Exceptions/TransactionReportVAL_ExceptionType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/TransactionReportVAL/TransactionReportType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/TransactionReportVAL/TransactionReportVAL.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/BankAccountModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/CurrencyRatesModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/TransactionReportVAL_Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/.idea/.idea.cashDispenserLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/.idea/.idea.cashDispenserLibrary/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/Exceptions/BankAccount_Exception.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/Exceptions/BankAccount_Exception.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/TransactionReportVAL/Exceptions/TransactionReportVAL_Exception.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/TransactionReportVAL/Exceptions/TransactionReportVAL_Exception.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/TransactionReportVAL/Exceptions/TransactionReportVAL_ExceptionType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/TransactionReportVAL/Exceptions/TransactionReportVAL_ExceptionType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/TransactionReportVAL/TransactionReportType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/TransactionReportVAL/TransactionReportType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/TransactionReportVAL/TransactionReportVAL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/TransactionReportVAL/TransactionReportVAL.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/cashDispenserLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/cashDispenserLibrary.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibraryTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibraryTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibraryTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibraryTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/MoneyVAL_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/MoneyVAL_Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/cashDispenserLibraryTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/cashDispenserLibraryTest.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
@@ -60,6 +65,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/MoneyVAL_Test.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/TransactionReportVAL_Test.cs" />
       </list>
     </option>
   </component>
@@ -77,7 +83,6 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="171b1008-0c36-4489-b208-c4c7e2ed4607" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,6 +96,10 @@
       <workItem from="1606079814954" duration="2111000" />
       <workItem from="1606085087256" duration="247000" />
       <workItem from="1606115306413" duration="826000" />
+      <workItem from="1606123842425" duration="71000" />
+      <workItem from="1607258659739" duration="3451000" />
+      <workItem from="1607266421831" duration="3422000" />
+      <workItem from="1607280666876" duration="2021000" />
     </task>
     <servers />
   </component>
@@ -115,6 +124,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607258927191">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607258927191" />
     <state width="503" height="440" key="Diff.GoToChangePopup" timestamp="1606081755600">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -124,46 +137,50 @@
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606081924119" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/43.23.1237.777/1280.-84.1920.1057@43.23.1237.777" timestamp="1606080317508" />
-    <state width="1238" height="291" key="GridCell.Tab.0.bottom" timestamp="1606085335407">
+    <state width="1238" height="291" key="GridCell.Tab.0.bottom" timestamp="1607281729254">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606085335407" />
-    <state width="1238" height="291" key="GridCell.Tab.0.center" timestamp="1606085335406">
+    <state width="1238" height="291" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607281729254" />
+    <state width="1238" height="291" key="GridCell.Tab.0.center" timestamp="1607281729251">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.0.center/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606085335406" />
-    <state width="1238" height="291" key="GridCell.Tab.0.left" timestamp="1606085335405">
+    <state width="1238" height="291" key="GridCell.Tab.0.center/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607281729251" />
+    <state width="1238" height="291" key="GridCell.Tab.0.left" timestamp="1607281729249">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.0.left/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606085335405" />
-    <state width="1238" height="291" key="GridCell.Tab.0.right" timestamp="1606085335406">
+    <state width="1238" height="291" key="GridCell.Tab.0.left/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607281729249" />
+    <state width="1238" height="291" key="GridCell.Tab.0.right" timestamp="1607281729253">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.0.right/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606085335406" />
-    <state width="1238" height="291" key="GridCell.Tab.1.bottom" timestamp="1606085335405">
+    <state width="1238" height="291" key="GridCell.Tab.0.right/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607281729253" />
+    <state width="1238" height="291" key="GridCell.Tab.1.bottom" timestamp="1607281729248">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.1.bottom/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606085335405" />
-    <state width="1238" height="291" key="GridCell.Tab.1.center" timestamp="1606085335254">
+    <state width="1238" height="291" key="GridCell.Tab.1.bottom/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607281729248" />
+    <state width="1238" height="291" key="GridCell.Tab.1.center" timestamp="1607281729245">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.1.center/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606085335254" />
-    <state width="1238" height="291" key="GridCell.Tab.1.left" timestamp="1606085335252">
+    <state width="1238" height="291" key="GridCell.Tab.1.center/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607281729245" />
+    <state width="1238" height="291" key="GridCell.Tab.1.left" timestamp="1607281729244">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.1.left/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606085335252" />
-    <state width="1238" height="291" key="GridCell.Tab.1.right" timestamp="1606085335404">
+    <state width="1238" height="291" key="GridCell.Tab.1.left/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607281729244" />
+    <state width="1238" height="291" key="GridCell.Tab.1.right" timestamp="1607281729246">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.1.right/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606085335404" />
+    <state width="1238" height="291" key="GridCell.Tab.1.right/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607281729246" />
     <state x="224" y="142" key="VcsDiffUtil.ChangesDialog" timestamp="1606081778399">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="224" y="142" key="VcsDiffUtil.ChangesDialog/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606081778399" />
-    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1606085171835">
+    <state width="640" height="400" key="XDebugger.FullValuePopup" timestamp="1607281719026">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606085171835" />
+    <state width="640" height="400" key="XDebugger.FullValuePopup/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607281719026" />
+    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1607262636708">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607262636708" />
     <state x="303" y="121" width="672" height="678" key="search.everywhere.popup/42.23.1238.777/1280.-84.1920.1057@42.23.1238.777" timestamp="1606085110849" />
   </component>
 </project>

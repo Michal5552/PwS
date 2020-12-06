@@ -1,33 +1,96 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Net.Mail;
+
+// ReSharper disable RedundantBoolCompare
 
 namespace cashDispenserLibrary.Data
 {
     public class BankAccount
     {
-        private MoneyVAL state;
+        public MoneyVAL state { get; private set; }
 
-        public BankAccount() =>
-            state = new MoneyVAL(value: 0M, currency: Currency.PLN);
 
-        public IEnumerable<MoneyVAL> ShowState()
+        public BankAccount(MoneyVAL state) =>
+            this.state = state;
+
+        public IEnumerable<MoneyVAL> ShowState(Dictionary<Currency, decimal> currencyRates)
         {
-            //Create result collection
-            var result = new List<MoneyVAL>();
+            var responseMoneyVAL = new List<MoneyVAL>();
 
-            //Fill result collection state in all currency
-            for (int i = 0; i < CurrencySize.size; ++i)
+
+            //Fill response collection
+            foreach (var currencyRate in currencyRates)
             {
-                result.Add(new MoneyVAL(
-                    value: state._Value, currency: state._Currency));
+                //Core currency case
+                if (currencyRate.Key == Currency.PLN)
+                {
+                    responseMoneyVAL.Add(new MoneyVAL(
+                        value: state._Value, currency: Currency.PLN));
+                }
+                //Others case
+                else
+                {
+                    responseMoneyVAL.Add(new MoneyVAL(
+                        value: (state._Value * currencyRate.Value),
+                        currency: currencyRate.Key));
+                }
             }
 
-            return result;
+            return responseMoneyVAL;
         }
 
-        public MoneyVAL TakeOutMoney(bool report, MoneyVAL money)
+        public BankAccountModel TakeOutMoney(bool report,
+            decimal currencyRate, MoneyVAL money)
         {
-            // TODO implement
+            string reportData = "";
+
+
+            //Check take out money possibility
+            //Core currency case
+            if (money._Currency == Currency.PLN)
+            {
+                //Take out money from account
+                if (money._Value <= state._Value)
+                {
+                    state.ChangeMoney(new MoneyVAL(
+                        value: (state._Value - money._Value), currency: Currency.PLN));
+
+                    // TODO take out money wherewithal dbContext
+
+                    //Check transaction report case
+                    if (report == true)
+                    {
+                        //Generate transaction report
+                        TransactionReportVAL transactionReportVAL =
+                            new TransactionReportVAL(
+                                transactionReportType: TransactionReportType.TakeOutMoney,
+                                currency: Currency.PLN, remainingBalance: state._Value,
+                                value: money._Value, date: DateTime.Now);
+
+                        //Return response
+                        return new BankAccountModel(
+                            reportData: transactionReportVAL.PrintReport(),
+                            money: money);
+                    }
+                    else
+                    {
+                        //Return response
+                        return new BankAccountModel(reportData: "", money: money);
+                    }
+                }
+            }
+            //Others case
+            else if (money._Value <= (state._Value * currencyRate))
+            {
+                // TODO implement
+            }
+            else
+            {
+                // TODO throw exception
+            }
+
             throw new Exception();
         }
 

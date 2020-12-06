@@ -17,7 +17,7 @@ namespace cashDispenserLibrary.Data.Exceptions
             {
                 case BankAccount_ExceptionType.TooLittleMoney:
                 {
-                    return "!!! Stan konta nie pozwala na wypłatę tej kwoty !!!";
+                    return "!!! Stan Konta Nie Pozwala Na Wypłatę Tej Kwoty !!!";
                 }
                     break;
                 default:
