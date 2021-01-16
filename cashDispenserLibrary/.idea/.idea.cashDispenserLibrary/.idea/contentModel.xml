@@ -9,8 +9,6 @@
           <e p="Administrator.cs" t="Include" />
           <e p="BankAccount" t="Include">
             <e p="BankAccount.cs" t="Include" />
-            <e p="BankAccountModel.cs" t="Include" />
-            <e p="CurrencyRatesModel.cs" t="Include" />
             <e p="Exceptions" t="Include">
               <e p="BankAccount_Exception.cs" t="Include" />
               <e p="BankAccount_ExceptionType.cs" t="Include" />
@@ -31,6 +29,13 @@
               <e p="NameVAL_ExceptionType.cs" t="Include" />
             </e>
             <e p="NameVAL.cs" t="Include" />
+          </e>
+          <e p="PhysicalMoneyVAL" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="PhysicalMoneyVAL_Exception.cs" t="Include" />
+              <e p="PhysicalMoneyVAL_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="PhysicalMoneyVAL.cs" t="Include" />
           </e>
           <e p="PinVAL" t="Include">
             <e p="Exceptions" t="Include">
@@ -57,7 +62,17 @@
           <e p="User.cs" t="Include" />
         </e>
         <e p="Model" t="Include">
-          <e p="MockbasicUsersRepository.cs" t="Include" />
+          <e p="MockBasicUsersRepository" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="MockBasicUsersRepository_Exception.cs" t="Include" />
+              <e p="MockBasicUsersRepository_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="MockbasicUsersRepository.cs" t="Include" />
+          </e>
+          <e p="MockPhysicalMoneyRepository" t="Include">
+            <e p="MockPhysicalMoneyRepository.cs" t="Include" />
+          </e>
+          <e p="PlatformType.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">

@@ -6,10 +6,14 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="cashDispenserLibraryTest.csproj" t="IncludeRecursive" />
         <e p="DataTests" t="Include">
+          <e p="BankAccount_Test.cs" t="Include" />
           <e p="MoneyVAL_Test.cs" t="Include" />
+          <e p="PhysicalMoneyVAL_Test.cs" t="Include" />
           <e p="TransactionReportVAL_Test.cs" t="Include" />
         </e>
-        <e p="MockRepositoriesTest" t="Include" />
+        <e p="MockRepositoriesTest" t="Include">
+          <e p="MockBasicUsersRepository_Test.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />

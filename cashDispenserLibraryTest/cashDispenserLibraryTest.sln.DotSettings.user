@@ -5,6 +5,8 @@
     &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.MoneyVAL_Test&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.TransactionReportVAL_Test.TransactionReportVAL_When_transaction_Report_Cases&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.TransactionReportVAL_Test&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockBasicUsersRepository_Test&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.PhysicalMoneyVAL_Test&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	

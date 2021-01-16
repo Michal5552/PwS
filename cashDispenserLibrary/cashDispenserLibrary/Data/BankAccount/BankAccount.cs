@@ -2,14 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
+using cashDispenserLibrary.Data.Exceptions;
 
 // ReSharper disable RedundantBoolCompare
 
 namespace cashDispenserLibrary.Data
 {
+    // TODO set try catch clause in MoneyVAL changeMoney
     public class BankAccount
     {
-        public MoneyVAL state { get; private set; }
+        public MoneyVAL state;
 
 
         public BankAccount(MoneyVAL state) =>
@@ -41,12 +43,8 @@ namespace cashDispenserLibrary.Data
             return responseMoneyVAL;
         }
 
-        public BankAccountModel TakeOutMoney(bool report,
-            decimal currencyRate, MoneyVAL money)
+        public MoneyVAL TakeOutMoney(decimal currencyRate, MoneyVAL money, BasicUser user)
         {
-            string reportData = "";
-
-
             //Check take out money possibility
             //Core currency case
             if (money._Currency == Currency.PLN)
@@ -58,46 +56,54 @@ namespace cashDispenserLibrary.Data
                         value: (state._Value - money._Value), currency: Currency.PLN));
 
                     // TODO take out money wherewithal dbContext
-
-                    //Check transaction report case
-                    if (report == true)
-                    {
-                        //Generate transaction report
-                        TransactionReportVAL transactionReportVAL =
-                            new TransactionReportVAL(
-                                transactionReportType: TransactionReportType.TakeOutMoney,
-                                currency: Currency.PLN, remainingBalance: state._Value,
-                                value: money._Value, date: DateTime.Now);
-
-                        //Return response
-                        return new BankAccountModel(
-                            reportData: transactionReportVAL.PrintReport(),
-                            money: money);
-                    }
-                    else
-                    {
-                        //Return response
-                        return new BankAccountModel(reportData: "", money: money);
-                    }
                 }
+
+                //Take out money
+                return money;
             }
-            //Others case
+            //Others currency case
             else if (money._Value <= (state._Value * currencyRate))
             {
-                // TODO implement
+                //Take out money from account
+                state.ChangeMoney(moneyVAL: new MoneyVAL(
+                    value: (state._Value - (money._Value * currencyRate)),
+                    currency: Currency.PLN));
+
+                // TODO take out money wherewithal dbContext
+
+                //Take out money
+                return money;
             }
+            //Not enough money in bank account case
             else
             {
-                // TODO throw exception
+                throw new BankAccount_Exception(BankAccount_ExceptionType.TooLittleMoney);
             }
-
-            throw new Exception();
         }
 
-        public void AddMoney(bool report, MoneyVAL money)
+        public void AddMoney(decimal currencyRate, MoneyVAL money, BasicUser user)
         {
             // TODO implement
-            throw new Exception();
+            //Core currency case
+            if (state._Currency == money._Currency)
+            {
+                //Add money to account
+                state.ChangeMoney(moneyVAL: new MoneyVAL(
+                    value: (state._Value + money._Value),
+                    currency: Currency.PLN));
+
+                // TODO add money wherewithal dbContext
+            }
+            //Others currency case
+            else
+            {
+                //Add money to account
+                state.ChangeMoney(moneyVAL: new MoneyVAL(
+                    value: (state._Value + (money._Value * currencyRate)),
+                    money._Currency));
+                
+                // TODO add money wherewithal dbContext
+            }
         }
     }
 }

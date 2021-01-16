@@ -40,8 +40,6 @@
     <ItemGroup>
         <Compile Include="Data\Administrator.cs" />
         <Compile Include="Data\BankAccount\BankAccount.cs" />
-        <Compile Include="Data\BankAccount\BankAccountModel.cs" />
-        <Compile Include="Data\BankAccount\CurrencyRatesModel.cs" />
         <Compile Include="Data\BankAccount\Exceptions\BankAccount_Exception.cs" />
         <Compile Include="Data\BankAccount\Exceptions\BankAccount_ExceptionType.cs" />
         <Compile Include="Data\BasicUser.cs" />
@@ -52,6 +50,9 @@
         <Compile Include="Data\NameVAL\Exceptions\NameVAL_Exception.cs" />
         <Compile Include="Data\NameVAL\Exceptions\NameVAL_ExceptionType.cs" />
         <Compile Include="Data\NameVAL\NameVAL.cs" />
+        <Compile Include="Data\PhysicalMoneyVAL\Exceptions\PhysicalMoneyVAL_Exception.cs" />
+        <Compile Include="Data\PhysicalMoneyVAL\Exceptions\PhysicalMoneyVAL_ExceptionType.cs" />
+        <Compile Include="Data\PhysicalMoneyVAL\PhysicalMoneyVAL.cs" />
         <Compile Include="Data\PinVAL\Exceptions\PinVAL_Exception.cs" />
         <Compile Include="Data\PinVAL\Exceptions\PinVAL_ExceptionType.cs" />
         <Compile Include="Data\PinVAL\PinVAL.cs" />
@@ -63,7 +64,11 @@
         <Compile Include="Data\TransactionReportVAL\TransactionReportType.cs" />
         <Compile Include="Data\TransactionReportVAL\TransactionReportVAL.cs" />
         <Compile Include="Data\User.cs" />
-        <Compile Include="Model\MockbasicUsersRepository.cs" />
+        <Compile Include="Model\MockBasicUsersRepository\Exceptions\MockBasicUsersRepository_Exception.cs" />
+        <Compile Include="Model\MockBasicUsersRepository\Exceptions\MockBasicUsersRepository_ExceptionType.cs" />
+        <Compile Include="Model\MockBasicUsersRepository\MockBasicUsersRepository.cs" />
+        <Compile Include="Model\MockPhysicalMoneyRepository\MockPhysicalMoneyRepository.cs" />
+        <Compile Include="Model\PlatformType.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

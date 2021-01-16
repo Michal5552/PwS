@@ -19,24 +19,30 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:cash_dispenser_CORE" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="545e1128-3307-4f9f-aebb-6f17bd2c8d8c" name="Default Changelist" comment="bankAccount implement in progress">
-      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/BankAccountModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/CurrencyRatesModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/TransactionReportVAL_Test.cs" afterDir="false" />
+    <list default="true" id="545e1128-3307-4f9f-aebb-6f17bd2c8d8c" name="Default Changelist" comment="Almost finish implement BankAccount ver 2.0">
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/PhysicalMoneyVAL/Exceptions/PhysicalMoneyVAL_Exception.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/PhysicalMoneyVAL/Exceptions/PhysicalMoneyVAL_ExceptionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/PhysicalMoneyVAL/PhysicalMoneyVAL.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Model/MockBasicUsersRepository/Exceptions/MockBasicUsersRepository_Exception.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Model/MockBasicUsersRepository/Exceptions/MockBasicUsersRepository_ExceptionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Model/MockBasicUsersRepository/MockBasicUsersRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Model/MockPhysicalMoneyRepository/MockPhysicalMoneyRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cashDispenserLibrary/Model/PlatformType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/BankAccount_Test.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/PhysicalMoneyVAL_Test.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/MockRepositoriesTest/MockBasicUsersRepository_Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibrary/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/Exceptions/BankAccount_Exception.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/Exceptions/BankAccount_Exception.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/TransactionReportVAL/Exceptions/TransactionReportVAL_Exception.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/TransactionReportVAL/Exceptions/TransactionReportVAL_Exception.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/TransactionReportVAL/Exceptions/TransactionReportVAL_ExceptionType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/TransactionReportVAL/Exceptions/TransactionReportVAL_ExceptionType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/TransactionReportVAL/TransactionReportType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/TransactionReportVAL/TransactionReportType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/TransactionReportVAL/TransactionReportVAL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/TransactionReportVAL/TransactionReportVAL.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/BankAccountModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/CurrencyRatesModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Model/MockbasicUsersRepository.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/cashDispenserLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/cashDispenserLibrary.csproj" afterDir="false" />
@@ -53,6 +59,10 @@
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation/CashDispenserModel.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/../documentation/CashDispenserModel.mdj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation/CashDispenser_BasicUserClassDiagram.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../documentation/CashDispenser_BasicUserClassDiagram.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation/CashDispenser_MockRepositoriesClassDiagram.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../documentation/CashDispenser_MockRepositoriesClassDiagram.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation/Wstęp Do Programowania Obiektowego.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +71,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,7 +101,6 @@
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/Exceptions/PinVAL_Exception.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/SurnameVAL/Exceptions/SurnameVAL_Exception.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount.cs" />
-        <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockbasicUsersRepository.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL_Exception.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL_ExceptionType.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/Currency.cs" />
@@ -101,7 +113,17 @@
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/CurrencyRatesModel.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/TransactionReportVAL/TransactionReportVAL.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/MoneyVAL.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/Exceptions/MockBasicUsersRepository_ExceptionType.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/Exceptions/MockBasicUsersRepository_Exception.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/PlatformType.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockbasicUsersRepository.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockBasicUsersRepository.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockPhysicalMoneyRepository/MockPhysicalMoneyRepository.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/PhysicalMoneyVAL/Exceptions/PhysicalMoneyVAL_ExceptionType.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/PhysicalMoneyVAL/Exceptions/PhysicalMoneyVAL_Exception.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/PhysicalMoneyVAL/PhysicalMoneyVAL.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PhysicalMoneyVAL/PhysicalMoneyVAL.cs" />
       </list>
     </option>
   </component>
@@ -138,7 +160,14 @@
       <workItem from="1606130251824" duration="657000" />
       <workItem from="1607257852153" duration="4758000" />
       <workItem from="1607266387922" duration="8213000" />
-      <workItem from="1607278495084" duration="5351000" />
+      <workItem from="1607278495084" duration="5646000" />
+      <workItem from="1607287159594" duration="676000" />
+      <workItem from="1607336020584" duration="763000" />
+      <workItem from="1607345634904" duration="4583000" />
+      <workItem from="1607359876779" duration="1563000" />
+      <workItem from="1607423741942" duration="1658000" />
+      <workItem from="1610827361945" duration="48000" />
+      <workItem from="1610827466043" duration="5099000" />
     </task>
     <task id="LOCAL-00001" summary="bankAccount implement in progress">
       <created>1606084617124</created>
@@ -147,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606084617124</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Almost finish implement BankAccount">
+      <created>1607284115143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607284115144</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Almost finish implement BankAccount ver 2.0">
+      <created>1607284146265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607284146265</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,19 +203,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="cash_dispenser_CORE" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -197,7 +228,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="bankAccount implement in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="bankAccount implement in progress" />
+    <MESSAGE value="Almost finish implement BankAccount" />
+    <MESSAGE value="Almost finish implement BankAccount ver 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost finish implement BankAccount ver 2.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1606084661068">
@@ -208,17 +241,29 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="228" y="150" key="IDE.errors.dialog/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606084634115" />
+    <state x="240" y="139" key="Rider.ProjectTemplateDialog.Size" timestamp="1607349001159">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="139" key="Rider.ProjectTemplateDialog.Size/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607349001159" />
+    <state x="434" y="162" key="RiderGenerateDialog" timestamp="1607350381878">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="434" y="162" key="RiderGenerateDialog/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607350381878" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1606061236588">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606061236588" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1607284148253">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607284148253" />
     <state x="413" y="142" key="VcsDiffUtil.ChangesDialog" timestamp="1606084658640">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="413" y="142" key="VcsDiffUtil.ChangesDialog/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606084658640" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1606058437353">
+    <state width="600" height="428" key="javadoc.popup" timestamp="1610830907474">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="600" height="428" key="javadoc.popup/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606058437353" />
+    <state width="600" height="428" key="javadoc.popup/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1610830907474" />
   </component>
 </project>
