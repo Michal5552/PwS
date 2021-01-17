@@ -1,6 +1,6 @@
 using cashDispenserLibrary.Data;
-using cashDispenserLibrary.Model.PhysicalMoneyVAL;
-using cashDispenserLibrary.Model.PhysicalMoneyVAL.Exceptions;
+using cashDispenserLibrary.Model;
+using cashDispenserLibrary.Model.Exceptions;
 using NUnit.Framework;
 
 namespace cashDispenserTest.DataTests

@@ -1,7 +1,7 @@
 using cashDispenserLibrary.Data;
-using cashDispenserLibrary.Model.PhysicalMoneyVAL.Exceptions;
+using cashDispenserLibrary.Model.Exceptions;
 
-namespace cashDispenserLibrary.Model.PhysicalMoneyVAL
+namespace cashDispenserLibrary.Model
 {
     public class PhysicalMoneyVAL
     {

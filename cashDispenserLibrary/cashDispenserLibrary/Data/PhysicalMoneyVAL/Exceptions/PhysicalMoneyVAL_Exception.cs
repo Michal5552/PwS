@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace cashDispenserLibrary.Model.PhysicalMoneyVAL.Exceptions
+namespace cashDispenserLibrary.Model.Exceptions
 {
     public class PhysicalMoneyVAL_Exception : Exception
     {

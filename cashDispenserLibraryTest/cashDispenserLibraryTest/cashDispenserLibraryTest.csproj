@@ -50,6 +50,7 @@
         <Compile Include="DataTests\PhysicalMoneyVAL_Test.cs" />
         <Compile Include="DataTests\TransactionReportVAL_Test.cs" />
         <Compile Include="MockRepositoriesTest\MockBasicUsersRepository_Test.cs" />
+        <Compile Include="MockRepositoriesTest\MockPhysicalMoneyRepository_Test.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

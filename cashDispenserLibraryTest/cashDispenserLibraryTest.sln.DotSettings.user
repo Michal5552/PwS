@@ -7,6 +7,14 @@
     &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.TransactionReportVAL_Test&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockBasicUsersRepository_Test&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.PhysicalMoneyVAL_Test&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockPhysicalMoneyRepository_Test&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockPhysicalMoneyRepository_Test.MockPhysicalMoneyRepository_When_Get_In_Currency&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockPhysicalMoneyRepository_Test.MockPhysicalMoneyRepository_When_Get_In_Currency(1.0d,PLN,"OK")&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockPhysicalMoneyRepository_Test.MockPhysicalMoneyRepository_When_Get_In_Currency(3.5d,USD,"OK")&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockPhysicalMoneyRepository_Test.MockPhysicalMoneyRepository_When_Get_In_Currency(4.1d,EUR,"OK")&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockPhysicalMoneyRepository_Test.MockPhysicalMoneyRepository_When_Get_In_Currency(5.2d,GBP,"OK")&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockPhysicalMoneyRepository_Test.MockPhysicalMoneyRepository_When_Get_In_Currency(0.0d,USD,"OK")&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockPhysicalMoneyRepository_Test.MockPhysicalMoneyRepository_When_Get_In_Currency(-1.5d,USD,"!!! Zła Wartość Współczynnika Walutowego !!!")&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	

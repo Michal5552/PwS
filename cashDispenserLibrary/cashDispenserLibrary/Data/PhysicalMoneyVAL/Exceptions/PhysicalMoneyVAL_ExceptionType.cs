@@ -1,4 +1,4 @@
-namespace cashDispenserLibrary.Model.PhysicalMoneyVAL.Exceptions
+namespace cashDispenserLibrary.Model.Exceptions
 {
     public enum PhysicalMoneyVAL_ExceptionType
     {

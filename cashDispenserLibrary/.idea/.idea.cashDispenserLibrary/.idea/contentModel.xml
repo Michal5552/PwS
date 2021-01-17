@@ -15,8 +15,8 @@
             </e>
           </e>
           <e p="BasicUser.cs" t="Include" />
+          <e p="Currency.cs" t="Include" />
           <e p="MoneyVAL" t="Include">
-            <e p="Currency.cs" t="Include" />
             <e p="Exceptions" t="Include">
               <e p="MoneyVAL_Exception.cs" t="Include" />
               <e p="MoneyVAL_ExceptionType.cs" t="Include" />
@@ -70,6 +70,10 @@
             <e p="MockbasicUsersRepository.cs" t="Include" />
           </e>
           <e p="MockPhysicalMoneyRepository" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="MockPhysicalMoneyRepository_Exception.cs" t="Include" />
+              <e p="MockPhysicalMoneyRepository_ExceptionType.cs" t="Include" />
+            </e>
             <e p="MockPhysicalMoneyRepository.cs" t="Include" />
           </e>
           <e p="PlatformType.cs" t="Include" />

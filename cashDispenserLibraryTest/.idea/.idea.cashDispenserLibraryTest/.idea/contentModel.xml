@@ -13,6 +13,7 @@
         </e>
         <e p="MockRepositoriesTest" t="Include">
           <e p="MockBasicUsersRepository_Test.cs" t="Include" />
+          <e p="MockPhysicalMoneyRepository_Test.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
