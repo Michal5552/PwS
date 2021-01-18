@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Mail;
 using cashDispenserLibrary.Data.Exceptions;
+using cashDispenserLibrary.Model;
+using cashDispenserLibrary.Model.MockPhysicalMoneyRepository;
 
 // ReSharper disable RedundantBoolCompare
 
 namespace cashDispenserLibrary.Data
 {
-    // TODO set try catch clause in MoneyVAL changeMoney
     public class BankAccount
     {
         public MoneyVAL state;
@@ -17,10 +17,18 @@ namespace cashDispenserLibrary.Data
         public BankAccount(MoneyVAL state) =>
             this.state = state;
 
-        public IEnumerable<MoneyVAL> ShowState(Dictionary<Currency, decimal> currencyRates)
+        public IEnumerable<MoneyVAL> ShowState(
+            Dictionary<Currency, decimal> currencyRates)
         {
             var responseMoneyVAL = new List<MoneyVAL>();
 
+
+            //Validate currency Rates
+            if (currencyRates.Any((currencyRate)
+                => (currencyRate.Value <= 0.0M)))
+            {
+                throw new BankAccount_Exception(BankAccount_ExceptionType.BadCurrencyRate);
+            }
 
             //Fill response collection
             foreach (var currencyRate in currencyRates)
@@ -35,7 +43,7 @@ namespace cashDispenserLibrary.Data
                 else
                 {
                     responseMoneyVAL.Add(new MoneyVAL(
-                        value: (state._Value * currencyRate.Value),
+                        value: (state._Value / currencyRate.Value),
                         currency: currencyRate.Key));
                 }
             }
@@ -43,66 +51,144 @@ namespace cashDispenserLibrary.Data
             return responseMoneyVAL;
         }
 
-        public MoneyVAL TakeOutMoney(decimal currencyRate, MoneyVAL money, BasicUser user)
+        public MoneyVAL TakeOutMoney(
+            decimal currencyRate, MoneyVAL money, BasicUser user)
         {
-            //Check take out money possibility
+            //Validate currency rate
+            if (currencyRate <= 0.0M)
+            {
+                throw new BankAccount_Exception(BankAccount_ExceptionType.BadCurrencyRate);
+            }
+
             //Core currency case
             if (money._Currency == Currency.PLN)
             {
                 //Take out money from account
                 if (money._Value <= state._Value)
                 {
+                    //Arrange physical money database connection
+                    MockPhysicalMoneyRepository mockPhysicalMoneyRepository =
+                        new MockPhysicalMoneyRepository(SystemSettings._PlatformType);
+
+                    //Update bank account state
                     state.ChangeMoney(new MoneyVAL(
                         value: (state._Value - money._Value), currency: Currency.PLN));
 
-                    // TODO take out money wherewithal dbContext
-                }
+                    //Update physical money state
+                    PhysicalMoneyVAL mockPhysicalMoney =
+                        mockPhysicalMoneyRepository.GetInCurrency(
+                            currencyRate: currencyRate, currency: Currency.PLN);
 
-                //Take out money
-                return money;
+                    mockPhysicalMoneyRepository.UpdateInCurrency(
+                        currencyRate: currencyRate, new PhysicalMoneyVAL(
+                            value: (mockPhysicalMoney._Value - money._Value),
+                            currency: Currency.PLN));
+
+                    // TODO Update Basic user account state
+
+                    //Take out money
+                    return money;
+                }
+                //To little money to take out money case
+                else
+                {
+                    throw new BankAccount_Exception(BankAccount_ExceptionType.TooLittleMoney);
+                }
             }
             //Others currency case
-            else if (money._Value <= (state._Value * currencyRate))
-            {
-                //Take out money from account
-                state.ChangeMoney(moneyVAL: new MoneyVAL(
-                    value: (state._Value - (money._Value * currencyRate)),
-                    currency: Currency.PLN));
-
-                // TODO take out money wherewithal dbContext
-
-                //Take out money
-                return money;
-            }
-            //Not enough money in bank account case
             else
             {
-                throw new BankAccount_Exception(BankAccount_ExceptionType.TooLittleMoney);
+                //Take out money from account
+                if (money._Value <= (state._Value / currencyRate))
+                {
+                    //Arrange physical money database connection
+                    MockPhysicalMoneyRepository mockPhysicalMoneyRepository =
+                        new MockPhysicalMoneyRepository(SystemSettings._PlatformType);
+
+                    //Update bank account state
+                    state.ChangeMoney(new MoneyVAL(
+                        value: (state._Value - (money._Value * currencyRate)),
+                        currency: Currency.PLN));
+
+                    //Update physical money state
+                    PhysicalMoneyVAL mockPhysicalMoney =
+                        mockPhysicalMoneyRepository.GetInCurrency(
+                            currencyRate: currencyRate, currency: money._Currency);
+
+                    mockPhysicalMoneyRepository.UpdateInCurrency(
+                        currencyRate: currencyRate, new PhysicalMoneyVAL(
+                            value: (mockPhysicalMoney._Value - money._Value),
+                            currency: money._Currency));
+
+                    // TODO Update Basic user account state
+
+                    //Take out money
+                    return money;
+                }
+                //To little money to take out money case
+                else
+                {
+                    throw new BankAccount_Exception(BankAccount_ExceptionType.TooLittleMoney);
+                }
             }
         }
 
-        public void AddMoney(decimal currencyRate, MoneyVAL money, BasicUser user)
+        public void AddMoney(
+            decimal currencyRate, MoneyVAL money, BasicUser user)
         {
-            // TODO implement
-            //Core currency case
-            if (state._Currency == money._Currency)
+            //Validate currency rate
+            if (currencyRate <= 0.0M)
             {
-                //Add money to account
+                throw new BankAccount_Exception(BankAccount_ExceptionType.BadCurrencyRate);
+            }
+
+            //Add money to account in core currency case
+            if (money._Currency == Currency.PLN)
+            {
+                //Arrange physical money database connection
+                MockPhysicalMoneyRepository mockPhysicalMoneyRepository =
+                    new MockPhysicalMoneyRepository(SystemSettings._PlatformType);
+
+                //Update bank account state
                 state.ChangeMoney(moneyVAL: new MoneyVAL(
                     value: (state._Value + money._Value),
                     currency: Currency.PLN));
 
-                // TODO add money wherewithal dbContext
+                //Update physical money state
+                PhysicalMoneyVAL mockPhysicalMoney =
+                    mockPhysicalMoneyRepository.GetInCurrency(
+                        currencyRate: currencyRate, currency: Currency.PLN);
+
+                mockPhysicalMoneyRepository.UpdateInCurrency(
+                    currencyRate: currencyRate, new PhysicalMoneyVAL(
+                        value: (mockPhysicalMoney._Value + money._Value),
+                        currency: Currency.PLN));
+
+                // TODO Update Basic user account state
             }
             //Others currency case
             else
             {
-                //Add money to account
+                //Arrange physical money database connection
+                MockPhysicalMoneyRepository mockPhysicalMoneyRepository =
+                    new MockPhysicalMoneyRepository(SystemSettings._PlatformType);
+
+                //Update bank account state
                 state.ChangeMoney(moneyVAL: new MoneyVAL(
                     value: (state._Value + (money._Value * currencyRate)),
-                    money._Currency));
-                
-                // TODO add money wherewithal dbContext
+                    currency: Currency.PLN));
+
+                //Update physical money state
+                PhysicalMoneyVAL mockPhysicalMoney =
+                    mockPhysicalMoneyRepository.GetInCurrency(
+                        currencyRate: currencyRate, currency: money._Currency);
+
+                mockPhysicalMoneyRepository.UpdateInCurrency(
+                    currencyRate: currencyRate, new PhysicalMoneyVAL(
+                        value: (mockPhysicalMoney._Value + money._Value),
+                        currency: money._Currency));
+
+                // TODO Update Basic user account state
             }
         }
     }

@@ -56,9 +56,11 @@
         <Compile Include="Data\PinVAL\Exceptions\PinVAL_Exception.cs" />
         <Compile Include="Data\PinVAL\Exceptions\PinVAL_ExceptionType.cs" />
         <Compile Include="Data\PinVAL\PinVAL.cs" />
+        <Compile Include="Data\PlatformType.cs" />
         <Compile Include="Data\SurnameVAL\Exceptions\SurnameVAL_Exception.cs" />
         <Compile Include="Data\SurnameVAL\Exceptions\SurnameVAL_ExceptionType.cs" />
         <Compile Include="Data\SurnameVAL\SurnameVAL.cs" />
+        <Compile Include="Data\SystemSettings.cs" />
         <Compile Include="Data\TransactionReportVAL\Exceptions\TransactionReportVAL_Exception.cs" />
         <Compile Include="Data\TransactionReportVAL\Exceptions\TransactionReportVAL_ExceptionType.cs" />
         <Compile Include="Data\TransactionReportVAL\TransactionReportType.cs" />
@@ -70,7 +72,6 @@
         <Compile Include="Model\MockPhysicalMoneyRepository\Exceptions\MockPhysicalMoneyRepository_Exception.cs" />
         <Compile Include="Model\MockPhysicalMoneyRepository\Exceptions\MockPhysicalMoneyRepository_ExceptionType.cs" />
         <Compile Include="Model\MockPhysicalMoneyRepository\MockPhysicalMoneyRepository.cs" />
-        <Compile Include="Model\PlatformType.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

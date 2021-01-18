@@ -20,6 +20,11 @@ namespace cashDispenserLibrary.Data.Exceptions
                     return "!!! Stan Konta Nie Pozwala Na Wypłatę Tej Kwoty !!!";
                 }
                     break;
+                case BankAccount_ExceptionType.BadCurrencyRate:
+                {
+                    return "!!! Zła Wartość Współczynnika Walutowego !!!";
+                }
+                    break;
                 default:
                     throw new ArgumentOutOfRangeException();
             }

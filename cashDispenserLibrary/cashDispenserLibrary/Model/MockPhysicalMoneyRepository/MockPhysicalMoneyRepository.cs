@@ -1,10 +1,9 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using cashDispenserLibrary.Data;
-using cashDispenserLibrary.Model;
+using cashDispenserLibrary.Data.Exceptions;
 using cashDispenserLibrary.Model.Exceptions;
 
 namespace cashDispenserLibrary.Model.MockPhysicalMoneyRepository
@@ -22,6 +21,13 @@ namespace cashDispenserLibrary.Model.MockPhysicalMoneyRepository
             var responsePhysicalMoneyVAL = new List<PhysicalMoneyVAL>();
             string[] physicalMoneyData = null;
 
+            //Validate currency Rates
+            if (currencyRates.Any((currencyRate)
+                => (currencyRate.Value <= 0.0M)))
+            {
+                throw new MockPhysicalMoneyRepository_Exception(
+                    MockPhysicalMoneyRepository_ExceptionType.BadCurrencyRate);
+            }
 
             //Read physical money state
             using (StreamReader sr = new StreamReader(

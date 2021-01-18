@@ -44,6 +44,7 @@
             </e>
             <e p="PinVAL.cs" t="Include" />
           </e>
+          <e p="PlatformType.cs" t="Include" />
           <e p="SurnameVAL" t="Include">
             <e p="Exceptions" t="Include">
               <e p="SurnameVAL_Exception.cs" t="Include" />
@@ -51,6 +52,7 @@
             </e>
             <e p="SurnameVAL.cs" t="Include" />
           </e>
+          <e p="SystemSettings.cs" t="Include" />
           <e p="TransactionReportVAL" t="Include">
             <e p="Exceptions" t="Include">
               <e p="TransactionReportVAL_Exception.cs" t="Include" />
@@ -76,7 +78,6 @@
             </e>
             <e p="MockPhysicalMoneyRepository.cs" t="Include" />
           </e>
-          <e p="PlatformType.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">

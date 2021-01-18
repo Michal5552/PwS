@@ -1,12 +1,16 @@
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
+using System.Management.Instrumentation;
 using System.Security.Cryptography.X509Certificates;
 using cashDispenserLibrary.Data;
 
 namespace cashDispenserLibrary.Model
 {
+    //TODO implement basic users with bank account information
     public class MockBasicUsersRepository
     {
         public PlatformType _PlatformType { get; private set; }
@@ -17,30 +21,54 @@ namespace cashDispenserLibrary.Model
 
         public IEnumerable<BasicUser> GetAll()
         {
-            char slashSplit = (_PlatformType == PlatformType.Unix) ? '/' : '\\';
-            List<BasicUser> basicUsers = new List<BasicUser>();
+            var responseBasicUser = new List<BasicUser>();
+            var basicUsersData = new List<string[]>();
 
 
-            //Get data from cash dispenser database
-            using (var sr = new StreamReader(
-                "cashDispenserDatabase" + slashSplit + "BasicUsers.txt"))
+            //Read basic users data
+            using (StreamReader sr = new StreamReader(
+                (_PlatformType == PlatformType.Windows)
+                    ? "cashDispenserDatabase\\PhysicalMoney.txt"
+                    : "cashDispenserDatabase/PhysicalMoney.txt"))
             {
-                // TODO implement
-                //Get all basic users
+                //Get all basic users repository's records
                 while (sr.Peek() >= 0)
                 {
-                    var basicUserRecord = sr.ReadLine().Split(';');
-
-                    var pin = new PinVAL(basicUserRecord[0]);
-                    var name = new NameVAL(basicUserRecord[1]);
-                    var surname = new SurnameVAL(basicUserRecord[2]);
-                    
-                    // TODO finish implement
-                    // var basicUser = new BasicUser(pin: pin, name: name, surname: surname);
+                    basicUsersData.Add(sr.ReadLine().Split(';'));
                 }
             }
 
+            //Fill response collection
+            // responseBasicUser =
+            //     (List<BasicUser>) basicUsersData.Select<string[], BasicUser>(
+            //         (string[] basicUserData) =>
+            //         {
+            //             // TODO check indetifier mechanism
+            //             // return new BasicUser(
+            //             //     pin: new PinVAL(value: basicUserData[0]),
+            //             //     name: new NameVAL(value: basicUserData[1]),
+            //             //     surname: new SurnameVAL(value: basicUserData[2]));
+            //         });
+
             throw new Exception();
+        }
+
+        public BasicUser Get(int basicUserId)
+        {
+            throw new Exception();
+        }
+
+        public void Add(BasicUser basicUser)
+        {
+        }
+
+        public void Update(BasicUser basicUser)
+        {
+            throw new Exception();
+        }
+
+        public void Remove(int basicUserId)
+        {
         }
     }
 }
