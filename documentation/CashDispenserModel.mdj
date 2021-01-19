@@ -1493,7 +1493,7 @@
 							"top": 1096,
 							"width": 156,
 							"height": 66,
-							"text": "State represent bank account in PLN currency\nIt is not validate !!!"
+							"text": "State represent bank account only in PLN currency\nIt is validate !!!"
 						},
 						{
 							"_type": "UMLNoteLinkView",
@@ -9173,13 +9173,30 @@
 											"height": 13,
 											"text": "BadCurrencyRate",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLEnumerationLiteralView",
+											"_id": "AAAAAAF3Gt9aHsyQ7CE=",
+											"_parent": {
+												"$ref": "AAAAAAF11/Y49BfRnkQ="
+											},
+											"model": {
+												"$ref": "AAAAAAF3Gt9ZvsxjpE4="
+											},
+											"font": "Helvetica;13;0",
+											"left": 2509,
+											"top": 1049,
+											"width": 182.70200000000023,
+											"height": 13,
+											"text": "BadCurrencyType",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Helvetica;13;0",
 									"left": 2504,
 									"top": 1014,
 									"width": 192.70200000000023,
-									"height": 38
+									"height": 53
 								}
 							],
 							"font": "Helvetica;13;0",
@@ -9187,7 +9204,7 @@
 							"left": 2504,
 							"top": 976,
 							"width": 192.70200000000023,
-							"height": 76,
+							"height": 91,
 							"nameCompartment": {
 								"$ref": "AAAAAAF11/Y48xfI9Ls="
 							},
@@ -9216,8 +9233,8 @@
 								"$ref": "AAAAAAF1q+SxBzY7ALs="
 							},
 							"font": "Helvetica;13;0",
-							"left": 2624,
-							"top": 864,
+							"left": 2568,
+							"top": 840,
 							"width": 177,
 							"height": 51,
 							"text": "TooLittleMoney inform about too little money in take out money operation"
@@ -9236,7 +9253,7 @@
 								"$ref": "AAAAAAF11/Y48xfHc18="
 							},
 							"lineStyle": 1,
-							"points": "2634:975;2688:915"
+							"points": "2616:975;2647:891"
 						},
 						{
 							"_type": "UMLNoteView",
@@ -9587,7 +9604,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2424,
-									"top": 999,
+									"top": 1005,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -9607,8 +9624,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 2423,
-									"top": 984,
+									"left": 2424,
+									"top": 990,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -9629,7 +9646,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2425,
-									"top": 1028,
+									"top": 1034,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -9650,7 +9667,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2372,
-									"top": 1001,
+									"top": 1006,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -9670,8 +9687,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 2373,
-									"top": 988,
+									"left": 2374,
+									"top": 993,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -9690,8 +9707,8 @@
 										"$ref": "AAAAAAF11/1HM0n9xxI="
 									},
 									"font": "Arial;13;0",
-									"left": 2366,
-									"top": 1029,
+									"left": 2365,
+									"top": 1033,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -9714,7 +9731,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2476,
-									"top": 997,
+									"top": 1003,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -9733,8 +9750,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 2473,
-									"top": 984,
+									"left": 2474,
+									"top": 990,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -9753,7 +9770,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 2478,
-									"top": 1024,
+									"top": 1031,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -9804,7 +9821,7 @@
 								"$ref": "AAAAAAF11/UsewZ43QA="
 							},
 							"lineStyle": 1,
-							"points": "2347:1024;2503:1017",
+							"points": "2347:1028;2503:1024",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF11/1HM0oBfx4="
@@ -14879,6 +14896,35 @@
 							"headQualifiersCompartment": {
 								"$ref": "AAAAAAF3FuOYG2AKiBA="
 							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF3Gt+Y7c7Xptg=",
+							"_parent": {
+								"$ref": "AAAAAAF1q+SxBzY7ALs="
+							},
+							"font": "Helvetica;13;0",
+							"left": 2776,
+							"top": 896,
+							"width": 124.05712890625,
+							"height": 51,
+							"text": "BadCurrencyType is associate with constructor"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF3Gt+ZMM8fjbM=",
+							"_parent": {
+								"$ref": "AAAAAAF1q+SxBzY7ALs="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF3Gt+Y7c7Xptg="
+							},
+							"tail": {
+								"$ref": "AAAAAAF11/Y48xfHc18="
+							},
+							"lineStyle": 1,
+							"points": "2697:980;2775:947"
 						}
 					]
 				},
@@ -24415,6 +24461,14 @@
 								"$ref": "AAAAAAF11/Y48hfF1ss="
 							},
 							"name": "BadCurrencyRate"
+						},
+						{
+							"_type": "UMLEnumerationLiteral",
+							"_id": "AAAAAAF3Gt9ZvsxjpE4=",
+							"_parent": {
+								"$ref": "AAAAAAF11/Y48hfF1ss="
+							},
+							"name": "BadCurrencyType"
 						}
 					]
 				},

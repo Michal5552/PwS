@@ -45,8 +45,8 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="cashDispenserLibraryTestSettings.cs" />
-        <Compile Include="DataBase\DbContextState.cs" />
+        <Compile Include="cashDispenserLibraryTestSettings\cashDispenserLibraryTestSettings.cs" />
+        <Compile Include="Database\DbContextState.cs" />
         <Compile Include="DataTests\BankAccount_Test.cs" />
         <Compile Include="DataTests\MoneyVAL_Test.cs" />
         <Compile Include="DataTests\PhysicalMoneyVAL_Test.cs" />

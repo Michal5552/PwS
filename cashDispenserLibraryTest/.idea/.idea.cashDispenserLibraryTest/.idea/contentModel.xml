@@ -5,7 +5,9 @@
       <e p="cashDispenserLibraryTest" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="cashDispenserLibraryTest.csproj" t="IncludeRecursive" />
-        <e p="cashDispenserLibraryTestSettings.cs" t="Include" />
+        <e p="cashDispenserLibraryTestSettings" t="Include">
+          <e p="cashDispenserLibraryTestSettings.cs" t="Include" />
+        </e>
         <e p="DataBase" t="Include">
           <e p="DbContextState.cs" t="Include" />
         </e>

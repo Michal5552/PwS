@@ -24,6 +24,10 @@ namespace cashDispenserLibrary.Data.Exceptions
                 {
                     return "!!! Zła Wartość Współczynnika Walutowego !!!";
                 }
+                case BankAccount_ExceptionType.BadCurrencyType:
+                {
+                    return "!!! Waluta Jest Różna Od PLN !!!";
+                }
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();

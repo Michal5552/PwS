@@ -14,8 +14,17 @@ namespace cashDispenserLibrary.Data
         public MoneyVAL state;
 
 
-        public BankAccount(MoneyVAL state) =>
+        public BankAccount(MoneyVAL state)
+        {
+            //Validate currency type
+            if (state._Currency != Currency.PLN)
+            {
+                throw new BankAccount_Exception(
+                    BankAccount_ExceptionType.BadCurrencyType);
+            }
+
             this.state = state;
+        }
 
         public IEnumerable<MoneyVAL> ShowState(
             Dictionary<Currency, decimal> currencyRates)
@@ -24,10 +33,12 @@ namespace cashDispenserLibrary.Data
 
 
             //Validate currency Rates
-            if (currencyRates.Any((currencyRate)
+            if (currencyRates.Any((
+                    currencyRate)
                 => (currencyRate.Value <= 0.0M)))
             {
-                throw new BankAccount_Exception(BankAccount_ExceptionType.BadCurrencyRate);
+                throw new BankAccount_Exception(
+                    BankAccount_ExceptionType.BadCurrencyRate);
             }
 
             //Fill response collection
@@ -57,7 +68,8 @@ namespace cashDispenserLibrary.Data
             //Validate currency rate
             if (currencyRate <= 0.0M)
             {
-                throw new BankAccount_Exception(BankAccount_ExceptionType.BadCurrencyRate);
+                throw new BankAccount_Exception(
+                    BankAccount_ExceptionType.BadCurrencyRate);
             }
 
             //Core currency case
@@ -68,7 +80,8 @@ namespace cashDispenserLibrary.Data
                 {
                     //Arrange physical money database connection
                     MockPhysicalMoneyRepository mockPhysicalMoneyRepository =
-                        new MockPhysicalMoneyRepository(SystemSettings._PlatformType);
+                        new MockPhysicalMoneyRepository(
+                            SystemSettings._PlatformType);
 
                     //Update bank account state
                     state.ChangeMoney(new MoneyVAL(
@@ -92,7 +105,8 @@ namespace cashDispenserLibrary.Data
                 //To little money to take out money case
                 else
                 {
-                    throw new BankAccount_Exception(BankAccount_ExceptionType.TooLittleMoney);
+                    throw new BankAccount_Exception(
+                        BankAccount_ExceptionType.TooLittleMoney);
                 }
             }
             //Others currency case
@@ -128,7 +142,8 @@ namespace cashDispenserLibrary.Data
                 //To little money to take out money case
                 else
                 {
-                    throw new BankAccount_Exception(BankAccount_ExceptionType.TooLittleMoney);
+                    throw new BankAccount_Exception(
+                        BankAccount_ExceptionType.TooLittleMoney);
                 }
             }
         }
@@ -139,7 +154,8 @@ namespace cashDispenserLibrary.Data
             //Validate currency rate
             if (currencyRate <= 0.0M)
             {
-                throw new BankAccount_Exception(BankAccount_ExceptionType.BadCurrencyRate);
+                throw new BankAccount_Exception(
+                    BankAccount_ExceptionType.BadCurrencyRate);
             }
 
             //Add money to account in core currency case
@@ -147,7 +163,8 @@ namespace cashDispenserLibrary.Data
             {
                 //Arrange physical money database connection
                 MockPhysicalMoneyRepository mockPhysicalMoneyRepository =
-                    new MockPhysicalMoneyRepository(SystemSettings._PlatformType);
+                    new MockPhysicalMoneyRepository(
+                        SystemSettings._PlatformType);
 
                 //Update bank account state
                 state.ChangeMoney(moneyVAL: new MoneyVAL(
@@ -171,7 +188,8 @@ namespace cashDispenserLibrary.Data
             {
                 //Arrange physical money database connection
                 MockPhysicalMoneyRepository mockPhysicalMoneyRepository =
-                    new MockPhysicalMoneyRepository(SystemSettings._PlatformType);
+                    new MockPhysicalMoneyRepository(
+                        SystemSettings._PlatformType);
 
                 //Update bank account state
                 state.ChangeMoney(moneyVAL: new MoneyVAL(

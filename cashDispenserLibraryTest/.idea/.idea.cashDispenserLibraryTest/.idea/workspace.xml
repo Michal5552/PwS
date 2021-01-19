@@ -20,48 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="494494bf-5558-4b1e-9cc3-ac755e3808da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/SystemSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/DataBase/DbContextState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockPhysicalMoneyRepository_Test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/cashDispenserLibraryTestSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/.idea/.idea.cashDispenserLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/.idea/.idea.cashDispenserLibrary/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/Exceptions/BankAccount_Exception.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/Exceptions/BankAccount_Exception.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/Exceptions/BankAccount_ExceptionType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/Exceptions/BankAccount_ExceptionType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BasicUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BasicUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Model/MockBasicUsersRepository/MockBasicUsersRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Model/MockBasicUsersRepository/MockBasicUsersRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Model/MockPhysicalMoneyRepository/MockPhysicalMoneyRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Model/MockPhysicalMoneyRepository/MockPhysicalMoneyRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Model/PlatformType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/PlatformType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/cashDispenserLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/cashDispenserLibrary.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibraryTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibraryTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibraryTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibraryTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/DataBase/DbContextState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/Database/DbContextState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/BankAccount_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/BankAccount_Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/MoneyVAL_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/MoneyVAL_Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/PhysicalMoneyVAL_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/PhysicalMoneyVAL_Test.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/TransactionReportVAL_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/TransactionReportVAL_Test.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTest/MockBasicUsersRepository_Test.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTest/MockPhysicalMoneyRepository_Test.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/BasicUsers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/BasicUsers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/PhysicalMoney.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/PhysicalMoney.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockPhysicalMoneyRepository_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockPhysicalMoneyRepository_Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/cashDispenserLibraryTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/cashDispenserLibraryTest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/cashDispenserLibraryTestSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/cashDispenserLibraryTestSettings/cashDispenserLibraryTestSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documentation/CashDispenserModel.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/../documentation/CashDispenserModel.mdj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documentation/CashDispenser_BasicUserClassDiagram.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../documentation/CashDispenser_BasicUserClassDiagram.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../documentation/CashDispenser_MockRepositoriesClassDiagram.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../documentation/CashDispenser_MockRepositoriesClassDiagram.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,12 +57,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL_Exception.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/MoneyVAL/MoneyVAL.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04DC7BAA-E88C-476E-A5BF-B7668D57F21C/101/exception.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -89,7 +69,30 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/NameVAL/NameVAL.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL_Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/MoneyVAL/MoneyVAL.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04DC7BAA-E88C-476E-A5BF-B7668D57F21C/402/TargetInvocationException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -99,16 +102,18 @@
         <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/PhysicalMoneyVAL.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibraryTest/Test_Root.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibraryTest/cashDispenserLibraryTest_Root.cs" />
-        <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/TransactionReportVAL_Test.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTest/DbContextState.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTest/MockPhysicalMoneyRepository_Test.cs" />
-        <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/PhysicalMoneyVAL_Test.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTest/MockBasicUsersRepository_Test.cs" />
-        <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/MoneyVAL_Test.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/BankAccount_Test_.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataBase.cs" />
-        <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/BankAccount_Test.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibraryTest/Database/DbContextState.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/MoneyVAL_Test.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/PhysicalMoneyVAL_Test.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/TransactionReportVAL_Test.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockPhysicalMoneyRepository_Test.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibraryTest/cashDispenserLibraryTestSettings.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/BankAccount_Test.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +131,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="171b1008-0c36-4489-b208-c4c7e2ed4607" />
+  <component name="RunManager" selected="0a74dc74-b869-42b0-913e-ab3173a8a223" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -158,6 +163,8 @@
       <workItem from="1610995898244" duration="9002000" />
       <workItem from="1611007141781" duration="172000" />
       <workItem from="1611007352211" duration="1932000" />
+      <workItem from="1611063471807" duration="2163000" />
+      <workItem from="1611067896927" duration="1947000" />
     </task>
     <servers />
   </component>
@@ -186,6 +193,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607258927191" />
+    <state x="344" y="162" width="769" height="638" key="#xdebugger.evaluate" timestamp="1611069169831">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="344" y="162" width="769" height="638" key="#xdebugger.evaluate/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611069169831" />
     <state width="567" height="464" key="DebuggerActiveHint" timestamp="1610912147587">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -199,45 +210,45 @@
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1606081924119" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/43.23.1237.777/1280.-84.1920.1057@43.23.1237.777" timestamp="1606080317508" />
-    <state width="1238" height="291" key="GridCell.Tab.0.bottom" timestamp="1611009291761">
+    <state width="1238" height="291" key="GridCell.Tab.0.bottom" timestamp="1611069845585">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611009291761" />
+    <state width="1238" height="291" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611069845585" />
     <state width="1238" height="291" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-84.1920.1057@0.0.1280.800" timestamp="1610903239811" />
-    <state width="1238" height="291" key="GridCell.Tab.0.center" timestamp="1611009291759">
+    <state width="1238" height="291" key="GridCell.Tab.0.center" timestamp="1611069845584">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.0.center/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611009291759" />
+    <state width="1238" height="291" key="GridCell.Tab.0.center/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611069845584" />
     <state width="1238" height="291" key="GridCell.Tab.0.center/0.0.1280.800/1280.-84.1920.1057@0.0.1280.800" timestamp="1610903239809" />
-    <state width="1238" height="291" key="GridCell.Tab.0.left" timestamp="1611009291758">
+    <state width="1238" height="291" key="GridCell.Tab.0.left" timestamp="1611069845583">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.0.left/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611009291758" />
+    <state width="1238" height="291" key="GridCell.Tab.0.left/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611069845583" />
     <state width="1238" height="291" key="GridCell.Tab.0.left/0.0.1280.800/1280.-84.1920.1057@0.0.1280.800" timestamp="1610903239808" />
-    <state width="1238" height="291" key="GridCell.Tab.0.right" timestamp="1611009291760">
+    <state width="1238" height="291" key="GridCell.Tab.0.right" timestamp="1611069845585">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.0.right/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611009291760" />
+    <state width="1238" height="291" key="GridCell.Tab.0.right/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611069845585" />
     <state width="1238" height="291" key="GridCell.Tab.0.right/0.0.1280.800/1280.-84.1920.1057@0.0.1280.800" timestamp="1610903239810" />
-    <state width="1238" height="291" key="GridCell.Tab.1.bottom" timestamp="1611009291754">
+    <state width="1238" height="291" key="GridCell.Tab.1.bottom" timestamp="1611069845582">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.1.bottom/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611009291754" />
+    <state width="1238" height="291" key="GridCell.Tab.1.bottom/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611069845582" />
     <state width="1238" height="291" key="GridCell.Tab.1.bottom/0.0.1280.800/1280.-84.1920.1057@0.0.1280.800" timestamp="1610903239807" />
-    <state width="1238" height="291" key="GridCell.Tab.1.center" timestamp="1611009291602">
+    <state width="1238" height="291" key="GridCell.Tab.1.center" timestamp="1611069845421">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.1.center/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611009291602" />
+    <state width="1238" height="291" key="GridCell.Tab.1.center/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611069845421" />
     <state width="1238" height="291" key="GridCell.Tab.1.center/0.0.1280.800/1280.-84.1920.1057@0.0.1280.800" timestamp="1610903239805" />
-    <state width="1238" height="291" key="GridCell.Tab.1.left" timestamp="1611009291601">
+    <state width="1238" height="291" key="GridCell.Tab.1.left" timestamp="1611069845420">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.1.left/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611009291601" />
+    <state width="1238" height="291" key="GridCell.Tab.1.left/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611069845420" />
     <state width="1238" height="291" key="GridCell.Tab.1.left/0.0.1280.800/1280.-84.1920.1057@0.0.1280.800" timestamp="1610903239656" />
-    <state width="1238" height="291" key="GridCell.Tab.1.right" timestamp="1611009291753">
+    <state width="1238" height="291" key="GridCell.Tab.1.right" timestamp="1611069845581">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="291" key="GridCell.Tab.1.right/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611009291753" />
+    <state width="1238" height="291" key="GridCell.Tab.1.right/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611069845581" />
     <state width="1238" height="291" key="GridCell.Tab.1.right/0.0.1280.800/1280.-84.1920.1057@0.0.1280.800" timestamp="1610903239806" />
     <state x="460" y="106" key="RiderGenerateDialog" timestamp="1610894918891">
       <screen x="0" y="0" width="1280" height="800" />
@@ -259,14 +270,14 @@
       <screen x="1280" y="-107" width="1920" height="1080" />
     </state>
     <state x="1280" y="-107" width="1920" height="1080" maximized="true" key="dock-window-1/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1610991204400" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1611004923440">
+    <state width="600" height="428" key="javadoc.popup" timestamp="1611065659049">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="600" height="428" key="javadoc.popup/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611004923440" />
-    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1607262636708">
+    <state width="600" height="428" key="javadoc.popup/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611065659049" />
+    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1611069787791">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1607262636708" />
+    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup/0.0.1280.800/1280.-107.1920.1080@0.0.1280.800" timestamp="1611069787791" />
     <state x="303" y="121" width="672" height="678" key="search.everywhere.popup/42.23.1238.777/1280.-84.1920.1057@42.23.1238.777" timestamp="1606085110849" />
   </component>
 </project>
