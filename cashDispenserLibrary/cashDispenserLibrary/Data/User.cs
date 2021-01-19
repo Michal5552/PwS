@@ -1,6 +1,5 @@
 namespace cashDispenserLibrary.Data
 {
-    // TODO test User's identifier
     public abstract class User
     {
         public static int _Id_counter { get; set; }

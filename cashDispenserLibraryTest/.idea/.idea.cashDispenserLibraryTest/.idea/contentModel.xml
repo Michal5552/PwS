@@ -13,6 +13,7 @@
         </e>
         <e p="DataTests" t="Include">
           <e p="BankAccount_Test.cs" t="Include" />
+          <e p="BasicUser_Test.cs" t="Include" />
           <e p="MoneyVAL_Test.cs" t="Include" />
           <e p="PhysicalMoneyVAL_Test.cs" t="Include" />
           <e p="TransactionReportVAL_Test.cs" t="Include" />
