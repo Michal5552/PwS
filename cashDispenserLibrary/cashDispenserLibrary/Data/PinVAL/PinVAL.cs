@@ -19,9 +19,9 @@ namespace cashDispenserLibrary.Data
             }
 
             //Check pin's length
-            if (value.Length < 3)
+            if ((value.Length != 4) && (value.Length != 6))
             {
-                throw new PinVAL_Exception(PinVAL_ExceptionType.ToShortPin);
+                throw new PinVAL_Exception(PinVAL_ExceptionType.BadPinLength);
             }
 
             //Set value

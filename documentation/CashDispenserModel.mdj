@@ -3357,7 +3357,7 @@
 											"top": 98,
 											"width": 147.41162109375,
 											"height": 13,
-											"text": "ToShortPin",
+											"text": "BadPinLength",
 											"horizontalAlignment": 0
 										}
 									],
@@ -4041,7 +4041,7 @@
 							"top": 416,
 							"width": 188,
 							"height": 51,
-							"text": "_Value have to consist of at least 3 digits and consist of only digits"
+							"text": "_Value have to consist of 4 or 6 digits and consist of only digits"
 						},
 						{
 							"_type": "UMLNoteLinkView",
@@ -23501,7 +23501,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF10jhaGBdEAG4="
 							},
-							"name": "ToShortPin"
+							"name": "BadPinLength"
 						}
 					]
 				},
@@ -25802,14 +25802,14 @@
 											"top": 413,
 											"width": 427.400390625,
 											"height": 13,
-											"text": "+BasicUser(id: int, pin: PinVAL, name: NameVAL, surname: SurnameVAL)",
+											"text": "+BasicUser(id: int, pin: PinVAL, name: NameVAL, surname: SurnameVAL, bankAccount: BankAccount)",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Helvetica;13;0",
 									"left": 408,
 									"top": 408,
-									"width": 437.400390625,
+									"width": 603.61376953125,
 									"height": 23
 								},
 								{

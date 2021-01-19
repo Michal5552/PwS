@@ -26,19 +26,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="545e1128-3307-4f9f-aebb-6f17bd2c8d8c" name="Default Changelist" comment="Finish implement and test BankAccount class">
-      <change afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/BasicUser_Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/BasicUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/BasicUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/Exceptions/PinVAL_Exception.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/Exceptions/PinVAL_Exception.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/Exceptions/PinVAL_ExceptionType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/Exceptions/PinVAL_ExceptionType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/PinVAL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/PinVAL.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/.idea/.idea.cashDispenserLibraryTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/.idea/.idea.cashDispenserLibraryTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/.idea/.idea.cashDispenserLibraryTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/.idea/.idea.cashDispenserLibraryTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/BankAccount_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/BankAccount_Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/BasicUser_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/BasicUser_Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/Database/DbContextState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/Database/DbContextState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/cashDispenserLibraryTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/cashDispenserLibraryTest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documentation/CashDispenserModel.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/../documentation/CashDispenserModel.mdj" afterDir="false" />
@@ -67,14 +72,11 @@
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL_Exceptions/PinVAL_Exception.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/Administrator.cs" />
-        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/Exceptions/PinVAL_ExceptionType.cs" />
-        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/PinVAL.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/SurnameVAL/SurnameVAL.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/SurnameVAL/Exceptions/SurnameVAL_ExceptionType.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/NameVAL/NameVAL.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/NameVAL/Exceptions/NameVAL_Exception.cs" />
-        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/Exceptions/PinVAL_Exception.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/SurnameVAL/Exceptions/SurnameVAL_Exception.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL_Exception.cs" />
@@ -100,7 +102,6 @@
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PhysicalMoneyVAL/Exceptions/PhysicalMoneyVAL_ExceptionType.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockPhysicalMoneyRepository/Exceptions/MockPhysicalMoneyRepository_ExceptionType.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockPhysicalMoneyRepository/Exceptions/MockPhysicalMoneyRepository_Exception.cs" />
-        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/User.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockBasicUsersRepository/MockBasicUsersRepository.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/SystemSettings.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockPhysicalMoneyRepository/MockPhysicalMoneyRepository.cs" />
@@ -109,6 +110,10 @@
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/Exceptions/BankAccount_Exception.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/BasicUser.cs" />
         <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/User/User.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/User.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/Exceptions/PinVAL_ExceptionType.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/Exceptions/PinVAL_Exception.cs" />
+        <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/PinVAL.cs" />
       </list>
     </option>
   </component>
@@ -167,6 +172,8 @@
       <workItem from="1611069865160" duration="141000" />
       <workItem from="1611070937357" duration="699000" />
       <workItem from="1611071836598" duration="262000" />
+      <workItem from="1611073850251" duration="1707000" />
+      <workItem from="1611090345101" duration="2313000" />
     </task>
     <task id="LOCAL-00001" summary="bankAccount implement in progress">
       <created>1606084617124</created>

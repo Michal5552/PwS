@@ -19,9 +19,9 @@ namespace cashDispenserLibrary.Data.Exceptions
                     return "!!! W pinie znajduje się niedozwolony znak !!!";
                 }
                     break;
-                case PinVAL_ExceptionType.ToShortPin:
+                case PinVAL_ExceptionType.BadPinLength:
                 {
-                    return "!!! Pin składa się z mniej niż 3 cyfr !!!";
+                    return "!!! Długość Pinu Jest Nie Prawidłowa!!!";
                 }
                     break;
                 default:
