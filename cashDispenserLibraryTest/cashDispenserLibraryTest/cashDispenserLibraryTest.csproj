@@ -46,7 +46,6 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="cashDispenserLibraryTestSettings\cashDispenserLibraryTestSettings.cs" />
-        <Compile Include="Database\DbContextState.cs" />
         <Compile Include="DataTests\BankAccount_Test.cs" />
         <Compile Include="DataTests\BasicUser_Test.cs" />
         <Compile Include="DataTests\MoneyVAL_Test.cs" />

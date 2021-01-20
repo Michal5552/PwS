@@ -8,9 +8,6 @@
         <e p="cashDispenserLibraryTestSettings" t="Include">
           <e p="cashDispenserLibraryTestSettings.cs" t="Include" />
         </e>
-        <e p="DataBase" t="Include">
-          <e p="DbContextState.cs" t="Include" />
-        </e>
         <e p="DataTests" t="Include">
           <e p="BankAccount_Test.cs" t="Include" />
           <e p="BasicUser_Test.cs" t="Include" />
@@ -30,7 +27,7 @@
       <e p="cashDispenserLibraryTest.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_cashDispenserLibraryTest.-2059351840.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_cashDispenserLibraryTest.-2059351840.00" t="ExcludeRecursive" />
   </component>
 </project>
