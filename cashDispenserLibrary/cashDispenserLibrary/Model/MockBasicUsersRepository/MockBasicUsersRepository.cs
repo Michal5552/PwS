@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -157,12 +155,7 @@ namespace cashDispenserLibrary.Model
                 {
                     for (int i = 0; i < basicUserData.Length; ++i)
                     {
-                        sw.Write(basicUserData[i]);
-
-                        if (i != (basicUsersData.Count - 1))
-                        {
-                            sw.Write(';');
-                        }
+                        sw.Write(basicUserData[i] + ';');
                     }
 
                     sw.Write('\n');
@@ -228,12 +221,7 @@ namespace cashDispenserLibrary.Model
                 {
                     for (int i = 0; i < basicUserData.Length; ++i)
                     {
-                        sw.Write(basicUserData[i]);
-
-                        if (i != (basicUsersData.Count - 1))
-                        {
-                            sw.Write(';');
-                        }
+                        sw.Write(basicUserData[i] + ';');
                     }
 
                     sw.Write('\n');
@@ -291,12 +279,7 @@ namespace cashDispenserLibrary.Model
                 {
                     for (int i = 0; i < basicUserData.Length; ++i)
                     {
-                        sw.Write(basicUserData[i]);
-
-                        if (i != (basicUsersData.Count - 1))
-                        {
-                            sw.Write(';');
-                        }
+                        sw.Write(basicUserData[i] + ';');
                     }
 
                     sw.Write('\n');

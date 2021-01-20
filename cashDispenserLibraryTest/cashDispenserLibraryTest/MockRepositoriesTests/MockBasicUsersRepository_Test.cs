@@ -249,6 +249,10 @@ namespace cashDispenserTest.MockRepositoriesTest
              }, -1, "1023", "Marian",
              "Kozłowski", 500.00,
              Currency.PLN, "OK"),
+         TestCase(new string[] { },
+             6, "0123", "Marian",
+             "Kozłowski", 500.00,
+             Currency.PLN, "OK"),
          TestCase(new string[]
              {
                  "0;0007;James;Bond;3000582.69;0",

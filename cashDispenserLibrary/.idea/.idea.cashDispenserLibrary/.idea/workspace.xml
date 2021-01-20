@@ -72,6 +72,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -125,6 +126,7 @@
       <workItem from="1611156670927" duration="3004000" />
       <workItem from="1611161289036" duration="4001000" />
       <workItem from="1611169871787" duration="4405000" />
+      <workItem from="1611180857115" duration="844000" />
     </task>
     <task id="LOCAL-00001" summary="bankAccount implement in progress">
       <created>1606084617124</created>

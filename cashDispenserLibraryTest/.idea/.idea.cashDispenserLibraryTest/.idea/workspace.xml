@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="494494bf-5558-4b1e-9cc3-ac755e3808da" name="Default Changelist" comment="MockBasicUsersRepository_When_Get_All work">
+    <list default="true" id="494494bf-5558-4b1e-9cc3-ac755e3808da" name="Default Changelist" comment="Finish test MockBasicUsersRepository">
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Model/MockBasicUsersRepository/MockBasicUsersRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Model/MockBasicUsersRepository/MockBasicUsersRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
@@ -35,7 +35,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibraryTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibraryTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/BasicUsers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/BasicUsers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
@@ -58,9 +57,9 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL_Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/MoneyVAL/MoneyVAL.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/NameVAL/NameVAL.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -68,7 +67,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04DC7BAA-E88C-476E-A5BF-B7668D57F21C/94/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04DC7BAA-E88C-476E-A5BF-B7668D57F21C/101/exception.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04DC7BAA-E88C-476E-A5BF-B7668D57F21C/402/TargetInvocationException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -77,65 +75,6 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL_Exception.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/MoneyVAL/MoneyVAL.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/NameVAL/NameVAL.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -182,7 +121,6 @@
     <property name="settings.editor.selected.configurable" value="RiderUnitTestingPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="25aa1692-8b89-406d-aa2d-619eff0aea14" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -223,7 +161,8 @@
       <workItem from="1611093028970" duration="156000" />
       <workItem from="1611144075649" duration="1774000" />
       <workItem from="1611161309286" duration="4645000" />
-      <workItem from="1611167357045" duration="7693000" />
+      <workItem from="1611167357045" duration="7774000" />
+      <workItem from="1611181497911" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="Before test BasicUser">
       <created>1611072149382</created>
@@ -253,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611165956478</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finish test MockBasicUsersRepository">
+      <created>1611175106284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611175106284</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,91 +237,92 @@
     <MESSAGE value="Finish test show state in BasicUser_Test" />
     <MESSAGE value="Finish implement and test BasicUser_Test" />
     <MESSAGE value="MockBasicUsersRepository_When_Get_All work" />
-    <option name="LAST_COMMIT_MESSAGE" value="MockBasicUsersRepository_When_Get_All work" />
+    <MESSAGE value="Finish test MockBasicUsersRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish test MockBasicUsersRepository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <condition expression="basicUserSurname.Equals(&quot;Sise&quot;)" language="C#" />
+          <condition expression="basicUserId == -1" language="C#" />
           <url>file://$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs</url>
-          <line>328</line>
+          <line>332</line>
           <properties documentPath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs" initialLine="333" containingFunctionPresentation="method 'MockBasicUsersRepository_When_Add'">
             <startOffsets>
-              <option value="12557" />
+              <option value="12695" />
             </startOffsets>
             <endOffsets>
-              <option value="12581" />
+              <option value="12719" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <condition expression="basicUserSurname.Equals(&quot;Sise&quot;)" language="C#" />
+          <condition expression="basicUserId == -1" language="C#" />
           <url>file://$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs</url>
-          <line>337</line>
+          <line>341</line>
           <properties documentPath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs" initialLine="342" containingFunctionPresentation="method 'MockBasicUsersRepository_When_Add'">
             <startOffsets>
-              <option value="12808" />
+              <option value="12946" />
             </startOffsets>
             <endOffsets>
-              <option value="12910" />
+              <option value="13048" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <condition expression="basicUserSurname.Equals(&quot;Sise&quot;)" language="C#" />
+          <condition expression="basicUserId == -1" language="C#" />
           <url>file://$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs</url>
-          <line>342</line>
+          <line>346</line>
           <properties documentPath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs" initialLine="347" containingFunctionPresentation="method 'MockBasicUsersRepository_When_Add'">
             <startOffsets>
-              <option value="13004" />
+              <option value="13142" />
             </startOffsets>
             <endOffsets>
-              <option value="13117" />
+              <option value="13255" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <condition expression="basicUserSurname.Equals(&quot;Sise&quot;)" language="C#" />
+          <condition expression="basicUserId == -1" language="C#" />
           <url>file://$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs</url>
-          <line>347</line>
+          <line>351</line>
           <properties documentPath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs" initialLine="352" containingFunctionPresentation="method 'MockBasicUsersRepository_When_Add'">
             <startOffsets>
-              <option value="13240" />
+              <option value="13378" />
             </startOffsets>
             <endOffsets>
-              <option value="13241" />
+              <option value="13379" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <condition expression="basicUserSurname.Equals(&quot;Sise&quot;)" language="C#" />
+          <condition expression="basicUserId == -1" language="C#" />
           <url>file://$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs</url>
-          <line>351</line>
+          <line>355</line>
           <properties documentPath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs" initialLine="356" containingFunctionPresentation="method 'MockBasicUsersRepository_When_Add'">
             <startOffsets>
-              <option value="13321" />
+              <option value="13459" />
             </startOffsets>
             <endOffsets>
-              <option value="13345" />
+              <option value="13483" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <condition expression="basicUserSurname.Equals(&quot;Sise&quot;)" language="C#" />
+          <condition expression="basicUserId == -1" language="C#" />
           <url>file://$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs</url>
-          <line>314</line>
+          <line>318</line>
           <properties documentPath="$PROJECT_DIR$/cashDispenserLibraryTest/MockRepositoriesTests/MockBasicUsersRepository_Test.cs" initialLine="319" containingFunctionPresentation="method 'MockBasicUsersRepository_When_Add'">
             <startOffsets>
-              <option value="11910" />
+              <option value="12048" />
             </startOffsets>
             <endOffsets>
-              <option value="12399" />
+              <option value="12537" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="24" />
