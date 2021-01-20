@@ -1,9 +1,30 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002FUsers_002Fmichal_002FDesktop_002FPwS_002FcashDispenserLibrary_002FcashDispenserLibrary_002Fbin_002FDebug_002FcashDispenserLibrary_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=042dee35_002Dfebd_002D4d5b_002D9d5c_002Def33fac8ef36/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MockBasicUsersRepository_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;And&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockBasicUsersRepository_Test&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;Not&gt;
+      &lt;And&gt;
+        &lt;Project Location="/Users/michal/Desktop/PwS/cashDispenserLibraryTest/cashDispenserLibraryTest" Presentation="&amp;lt;cashDispenserLibraryTest&amp;gt;" /&gt;
+        &lt;Namespace&gt;cashDispenserTest.MockRepositoriesTest&lt;/Namespace&gt;
+      &lt;/And&gt;
+    &lt;/Not&gt;
+  &lt;/And&gt;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0a74dc74_002Db869_002D42b0_002D913e_002Dab3173a8a223/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.BasicUser_Test&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+  &lt;And&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockBasicUsersRepository_Test&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockPhysicalMoneyRepository_Test&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;Not&gt;
+      &lt;TestAncestor&gt;
+        &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockPhysicalMoneyRepository_Test&lt;/TestId&gt;
+      &lt;/TestAncestor&gt;
+    &lt;/Not&gt;
+  &lt;/And&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=171b1008_002D0c36_002D4489_002Db208_002Dc4c7e2ed4607/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MoneyVAL_Test_Cases" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
@@ -12,7 +33,17 @@
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=543f01bf_002Dcf94_002D404e_002D91fb_002D8d121b2b33ee/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BasicUser_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.BasicUser_Test&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockBasicUsersRepository_Test.MockBasicUsersRepository_When_Get_All&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e0296634_002D7bdd_002D4a07_002D9a42_002D778b4ef87fe9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Not&gt;
+    &lt;Project Location="/Users/michal/Desktop/PwS/cashDispenserLibraryTest/cashDispenserLibraryTest" Presentation="&amp;lt;cashDispenserLibraryTest&amp;gt;" /&gt;
+  &lt;/Not&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fe529089_002Ddedf_002D45f3_002D8292_002D8e8eb24a0174/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MockBasicUsersRepository_When_Get_All" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockBasicUsersRepository_Test.MockBasicUsersRepository_When_Get_All&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	
