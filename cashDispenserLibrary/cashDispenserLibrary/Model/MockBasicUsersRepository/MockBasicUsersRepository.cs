@@ -9,7 +9,6 @@ using cashDispenserLibrary.Model.Exceptions;
 
 namespace cashDispenserLibrary.Model
 {
-    //TODO implement basic users with bank account information
     public class MockBasicUsersRepository
     {
         public PlatformType _PlatformType { get; private set; }
@@ -92,6 +91,13 @@ namespace cashDispenserLibrary.Model
                 (basicUserData) =>
                     (basicUserData[0] == basicUserId.ToString()));
 
+            //Check basic user exist
+            if (responseBasicUser == null)
+            {
+                throw new MockBasicUsersRepository_Exception(
+                    MockBasicUsersRepository_ExceptionType.BasicUserNotExist);
+            }
+
             return new BasicUser(id: int.Parse(responseBasicUser[0]),
                 pin: new PinVAL(value: responseBasicUser[1]),
                 name: new NameVAL(value: responseBasicUser[2]),
@@ -118,13 +124,6 @@ namespace cashDispenserLibrary.Model
                 while (sr.Peek() >= 0)
                 {
                     basicUsersData.Add(sr.ReadLine().Split(';'));
-                }
-
-                //Check empty file
-                if (basicUsersData.Count == 0)
-                {
-                    throw new MockBasicUsersRepository_Exception(
-                        MockBasicUsersRepository_ExceptionType.EmptyFile);
                 }
             }
 
@@ -158,15 +157,15 @@ namespace cashDispenserLibrary.Model
                 {
                     for (int i = 0; i < basicUserData.Length; ++i)
                     {
-                        sw.Write(basicUserData);
+                        sw.Write(basicUserData[i]);
 
                         if (i != (basicUsersData.Count - 1))
                         {
                             sw.Write(';');
                         }
-
-                        sw.Write('\n');
                     }
+
+                    sw.Write('\n');
                 }
             }
         }
@@ -229,15 +228,15 @@ namespace cashDispenserLibrary.Model
                 {
                     for (int i = 0; i < basicUserData.Length; ++i)
                     {
-                        sw.Write(basicUserData);
+                        sw.Write(basicUserData[i]);
 
                         if (i != (basicUsersData.Count - 1))
                         {
                             sw.Write(';');
                         }
-
-                        sw.Write('\n');
                     }
+
+                    sw.Write('\n');
                 }
             }
         }
@@ -292,15 +291,15 @@ namespace cashDispenserLibrary.Model
                 {
                     for (int i = 0; i < basicUserData.Length; ++i)
                     {
-                        sw.Write(basicUserData);
+                        sw.Write(basicUserData[i]);
 
                         if (i != (basicUsersData.Count - 1))
                         {
                             sw.Write(';');
                         }
-
-                        sw.Write('\n');
                     }
+
+                    sw.Write('\n');
                 }
             }
         }
