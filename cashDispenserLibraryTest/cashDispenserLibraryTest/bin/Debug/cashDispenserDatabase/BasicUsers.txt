@@ -1,5 +1,5 @@
-1;0009;Michał;Kopiel;300.99;0;
-2;0123;Ryszard;Ryszardzki;380.23;0;
-3;1111;Krzysiu;Sise;7777.33;0;
-4;1001;Radziu;Grudlewski;5555.05;0;
-5;1090;Krzyś;NieOdDziś;333.33;0;
+0;0007;James;Bond;3000582.69;0
+1;0009;Michał;Kopiel;300.99;0
+2;0123;Ryszard;Ryszardzki;500.01;0
+3;1111;Krzysiu;Sise;7777.33;0
+4;1001;Radziu;Grudlewski;5555.05;0

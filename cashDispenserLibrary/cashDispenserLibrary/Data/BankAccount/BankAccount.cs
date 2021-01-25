@@ -1,8 +1,8 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using cashDispenserLibrary.Data.Exceptions;
 using cashDispenserLibrary.Model;
+using cashDispenserLibrary.Model.Exceptions;
 using cashDispenserLibrary.Model.MockPhysicalMoneyRepository;
 
 // ReSharper disable RedundantBoolCompare
@@ -78,6 +78,25 @@ namespace cashDispenserLibrary.Data
                 //Take out money from account
                 if (money._Value <= state._Value)
                 {
+                    //Arrange bank account database connection
+                    MockBasicUsersRepository mockBasicUsersRepository =
+                        new MockBasicUsersRepository(
+                            platformType: SystemSettings._PlatformType);
+
+
+                    //Update Basic user account state
+                    var basicUser = mockBasicUsersRepository.Get(
+                        basicUserId: user._Id);
+
+                    basicUser._BankAccount.state.ChangeMoney(
+                        moneyVAL: new MoneyVAL(
+                            value: (basicUser._BankAccount.state._Value
+                                    - money._Value),
+                            currency: Currency.PLN));
+
+                    //Save changes
+                    mockBasicUsersRepository.Update(basicUser);
+
                     //Arrange physical money database connection
                     MockPhysicalMoneyRepository mockPhysicalMoneyRepository =
                         new MockPhysicalMoneyRepository(
@@ -97,8 +116,6 @@ namespace cashDispenserLibrary.Data
                             value: (mockPhysicalMoney._Value - money._Value),
                             currency: Currency.PLN));
 
-                    // TODO Update Basic user account state
-
                     //Take out money
                     return money;
                 }
@@ -115,6 +132,25 @@ namespace cashDispenserLibrary.Data
                 //Take out money from account
                 if (money._Value <= (state._Value / currencyRate))
                 {
+                    //Arrange bank account database connection
+                    MockBasicUsersRepository mockBasicUsersRepository =
+                        new MockBasicUsersRepository(
+                            platformType: SystemSettings._PlatformType);
+
+
+                    //Update Basic user account state
+                    var basicUser = mockBasicUsersRepository.Get(
+                        basicUserId: user._Id);
+
+                    basicUser._BankAccount.state.ChangeMoney(
+                        moneyVAL: new MoneyVAL(
+                            value: (basicUser._BankAccount.state._Value
+                                    - (money._Value * currencyRate)),
+                            currency: Currency.PLN));
+
+                    //Save changes
+                    mockBasicUsersRepository.Update(basicUser);
+
                     //Arrange physical money database connection
                     MockPhysicalMoneyRepository mockPhysicalMoneyRepository =
                         new MockPhysicalMoneyRepository(SystemSettings._PlatformType);
@@ -133,8 +169,6 @@ namespace cashDispenserLibrary.Data
                         currencyRate: currencyRate, new PhysicalMoneyVAL(
                             value: (mockPhysicalMoney._Value - money._Value),
                             currency: money._Currency));
-
-                    // TODO Update Basic user account state
 
                     //Take out money
                     return money;
@@ -161,6 +195,24 @@ namespace cashDispenserLibrary.Data
             //Add money to account in core currency case
             if (money._Currency == Currency.PLN)
             {
+                //Arrange bank account database connection
+                MockBasicUsersRepository mockBasicUsersRepository =
+                    new MockBasicUsersRepository(
+                        platformType: SystemSettings._PlatformType);
+
+
+                //Update Basic user account state
+                var basicUser = mockBasicUsersRepository.Get(
+                    basicUserId: user._Id);
+
+                basicUser._BankAccount.state.ChangeMoney(
+                    moneyVAL: new MoneyVAL(
+                        value: (basicUser._BankAccount.state._Value
+                                + money._Value),
+                        currency: Currency.PLN));
+
+                mockBasicUsersRepository.Update(basicUser);
+
                 //Arrange physical money database connection
                 MockPhysicalMoneyRepository mockPhysicalMoneyRepository =
                     new MockPhysicalMoneyRepository(
@@ -180,12 +232,29 @@ namespace cashDispenserLibrary.Data
                     currencyRate: currencyRate, new PhysicalMoneyVAL(
                         value: (mockPhysicalMoney._Value + money._Value),
                         currency: Currency.PLN));
-
-                // TODO Update Basic user account state
             }
             //Others currency case
             else
             {
+                //Arrange bank account database connection
+                MockBasicUsersRepository mockBasicUsersRepository =
+                    new MockBasicUsersRepository(
+                        platformType: SystemSettings._PlatformType);
+
+
+                //Update Basic user account state
+                var basicUser = mockBasicUsersRepository.Get(
+                    basicUserId: user._Id);
+
+                basicUser._BankAccount.state.ChangeMoney(
+                    moneyVAL: new MoneyVAL(
+                        value: (basicUser._BankAccount.state._Value
+                                + (money._Value * currencyRate)),
+                        currency: Currency.PLN));
+
+                //Save changes
+                mockBasicUsersRepository.Update(basicUser);
+
                 //Arrange physical money database connection
                 MockPhysicalMoneyRepository mockPhysicalMoneyRepository =
                     new MockPhysicalMoneyRepository(
@@ -205,8 +274,6 @@ namespace cashDispenserLibrary.Data
                     currencyRate: currencyRate, new PhysicalMoneyVAL(
                         value: (mockPhysicalMoney._Value + money._Value),
                         currency: money._Currency));
-
-                // TODO Update Basic user account state
             }
         }
     }

@@ -10,6 +10,7 @@ using NUnit.Framework;
 
 namespace cashDispenserTest.DataTests
 {
+    // TODO before update test it can't work (BankAccount is in test phase)
     [TestFixture]
     public class BasicUser_Test
     {

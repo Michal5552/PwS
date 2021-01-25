@@ -11,7 +11,8 @@ namespace cashDispenserTest.DataTests
         [TestCase(15.50, Currency.PLN, "OK"),
          TestCase(0.0, Currency.GBP, "OK"),
          TestCase(-300.1, Currency.PLN,
-             "!!! Zła Wartość Wprowadzanej Kwoty Fizycznych Pieniędzy !!!")]
+             "!!! Zła Wartość Wprowadzanej Kwoty Fizycznych Pieniędzy !!!"),
+         Order(0)]
         public void PhysicalMoneyVAL_When_Init(
             decimal value, Currency currency, string expected)
         {
@@ -53,7 +54,8 @@ namespace cashDispenserTest.DataTests
         [TestCase(123.56, Currency.USD, "OK"),
          TestCase(0.0, Currency.GBP, "OK"),
          TestCase(-1, Currency.EUR,
-             "!!! Zła Wartość Wprowadzanej Kwoty Fizycznych Pieniędzy !!!")]
+             "!!! Zła Wartość Wprowadzanej Kwoty Fizycznych Pieniędzy !!!"),
+         Order(0)]
         public void PhysicalMoneyVAL_When_Change_Money(
             decimal changeValue, Currency changeCurrency, string expected)
         {
