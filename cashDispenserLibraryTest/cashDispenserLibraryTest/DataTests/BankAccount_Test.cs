@@ -367,7 +367,7 @@ namespace cashDispenserTest.DataTests
                 result = mbur_e.What();
             }
 
-            //Get basic user's begin nak account state
+            //Get basic user's begin account state
             if (result.Equals("OK"))
             {
                 beginBasicUserBankAccountState =

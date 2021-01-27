@@ -25,29 +25,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="494494bf-5558-4b1e-9cc3-ac755e3808da" name="Default Changelist" comment="MockBasicUsersRepository work complete">
+    <list default="true" id="494494bf-5558-4b1e-9cc3-ac755e3808da" name="Default Changelist" comment="After write test for BankAccount class">
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibraryTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibraryTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/BankAccount_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/BankAccount_Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/BasicUser_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/BasicUser_Test.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/PhysicalMoneyVAL_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/DataTests/PhysicalMoneyVAL_Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/BasicUsers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/BasicUsers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/PhysicalMoney.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/PhysicalMoney.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../documentation/CashDispenserModel.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/../documentation/CashDispenserModel.mdj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../documentation/CashDispenser_BasicUserClassDiagram.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../documentation/CashDispenser_BasicUserClassDiagram.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +48,36 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/MoneyVAL/Exceptions/MoneyVAL_Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/MoneyVAL/MoneyVAL.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04DC7BAA-E88C-476E-A5BF-B7668D57F21C/94/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/NameVAL/NameVAL.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04DC7BAA-E88C-476E-A5BF-B7668D57F21C/94/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04DC7BAA-E88C-476E-A5BF-B7668D57F21C/101/exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04DC7BAA-E88C-476E-A5BF-B7668D57F21C/402/TargetInvocationException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../cashDispenserLibrary/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -94,7 +106,7 @@
     <property name="settings.editor.selected.configurable" value="RiderUnitTestingPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="8edaaea0-29dc-401b-b762-aa0447e7fa41" />
+  <component name="RunManager" selected="15f11be3-05de-41c4-9955-61a92919fb3c" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -140,7 +152,9 @@
       <workItem from="1611582267593" duration="315000" />
       <workItem from="1611582792338" duration="1301000" />
       <workItem from="1611588106006" duration="3762000" />
-      <workItem from="1611598237717" duration="3201000" />
+      <workItem from="1611598237717" duration="3308000" />
+      <workItem from="1611601779951" duration="16000" />
+      <workItem from="1611765698153" duration="1781000" />
     </task>
     <task id="LOCAL-00001" summary="Before test BasicUser">
       <created>1611072149382</created>
@@ -184,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611181973754</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="After write test for BankAccount class">
+      <created>1611601762585</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611601762585</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +245,7 @@
     <MESSAGE value="MockBasicUsersRepository_When_Get_All work" />
     <MESSAGE value="Finish test MockBasicUsersRepository" />
     <MESSAGE value="MockBasicUsersRepository work complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="MockBasicUsersRepository work complete" />
+    <MESSAGE value="After write test for BankAccount class" />
+    <option name="LAST_COMMIT_MESSAGE" value="After write test for BankAccount class" />
   </component>
 </project>

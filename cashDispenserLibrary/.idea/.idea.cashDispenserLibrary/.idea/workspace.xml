@@ -27,26 +27,15 @@
   <component name="ChangeListManager">
     <list default="true" id="545e1128-3307-4f9f-aebb-6f17bd2c8d8c" name="Default Changelist" comment="Finish implement and test BankAccount class">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/.idea/.idea.cashDispenserLibraryTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/.idea/.idea.cashDispenserLibraryTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/BankAccount_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/BankAccount_Test.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/PhysicalMoneyVAL_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/PhysicalMoneyVAL_Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/BasicUser_Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/BasicUser_Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/BasicUsers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/BasicUsers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/PhysicalMoney.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserDatabase/PhysicalMoney.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/bin/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/obj/Debug/cashDispenserLibraryTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../documentation/CashDispenserModel.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/../documentation/CashDispenserModel.mdj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../documentation/CashDispenser_BasicUserClassDiagram.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../documentation/CashDispenser_BasicUserClassDiagram.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +131,8 @@
       <workItem from="1611180857115" duration="1148000" />
       <workItem from="1611580222302" duration="2311000" />
       <workItem from="1611586516453" duration="3867000" />
+      <workItem from="1611766865398" duration="17000" />
+      <workItem from="1611767291977" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="bankAccount implement in progress">
       <created>1606084617124</created>

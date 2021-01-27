@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using cashDispenserLibrary.Data;
 using cashDispenserLibrary.Data.Exceptions;
@@ -10,7 +11,6 @@ using NUnit.Framework;
 
 namespace cashDispenserTest.DataTests
 {
-    // TODO before update test it can't work (BankAccount is in test phase)
     [TestFixture]
     public class BasicUser_Test
     {
@@ -588,7 +588,9 @@ namespace cashDispenserTest.DataTests
             //Init database
             initData();
 
-            try
+            //Init basic users database
+            using (StreamWriter sw = new StreamWriter(
+                "cashDispenserDatabase/BasicUsers.txt", false))
             {
                 basicUser = new BasicUser(
                     id: 0, pin: new PinVAL(value: "1111"),
@@ -598,26 +600,22 @@ namespace cashDispenserTest.DataTests
                         state: new MoneyVAL(
                             value: PhysicalMoney_txt,
                             currency: Currency.PLN)));
+                sw.WriteLine($"0;1111;Imię;Nazwisko;{PhysicalMoney_txt.ToString(new CultureInfo("en-US"))};0");
             }
-            catch (PinVAL_Exception p_e)
+
+            //Get respectively basic user's from database
+            try
             {
-                result = p_e.What();
+                MockBasicUsersRepository mockBasicUsersRepository =
+                    new MockBasicUsersRepository(
+                        cashDispenserLibraryTestSettings._SystemSettings);
+
+                basicUser = mockBasicUsersRepository.Get(
+                    basicUserId: 0);
             }
-            catch (NameVAL_Exception n_e)
+            catch (MockBasicUsersRepository_Exception mbur_e)
             {
-                result = n_e.What();
-            }
-            catch (SurnameVAL_Exception s_e)
-            {
-                result = s_e.What();
-            }
-            catch (BankAccount_Exception b_e)
-            {
-                result = b_e.What();
-            }
-            catch (MoneyVAL_Exception m_e)
-            {
-                result = m_e.What();
+                result = mbur_e.What();
             }
 
             //act
@@ -631,7 +629,7 @@ namespace cashDispenserTest.DataTests
                     takeOutMoneyResult = basicUser._BankAccount.TakeOutMoney(
                         currencyRate: takeOutCurrencyRate,
                         money: new MoneyVAL(value: takeOutValue,
-                            currency: takeOutCurrency), null);
+                            currency: takeOutCurrency), basicUser);
                 }
                 catch (BankAccount_Exception ba_e)
                 {
@@ -740,7 +738,9 @@ namespace cashDispenserTest.DataTests
             //Init database
             initData();
 
-            try
+            //Init basic users database
+            using (StreamWriter sw = new StreamWriter(
+                "cashDispenserDatabase/BasicUsers.txt", false))
             {
                 basicUser = new BasicUser(
                     id: 0, pin: new PinVAL(value: "1111"),
@@ -750,26 +750,22 @@ namespace cashDispenserTest.DataTests
                         state: new MoneyVAL(
                             value: PhysicalMoney_txt,
                             currency: Currency.PLN)));
+                sw.WriteLine($"0;1111;Imię;Nazwisko;{PhysicalMoney_txt.ToString(new CultureInfo("en-US"))};0");
             }
-            catch (PinVAL_Exception p_e)
+
+            //Get respectively basic user's from database
+            try
             {
-                result = p_e.What();
+                MockBasicUsersRepository mockBasicUsersRepository =
+                    new MockBasicUsersRepository(
+                        cashDispenserLibraryTestSettings._SystemSettings);
+
+                basicUser = mockBasicUsersRepository.Get(
+                    basicUserId: 0);
             }
-            catch (NameVAL_Exception n_e)
+            catch (MockBasicUsersRepository_Exception mbur_e)
             {
-                result = n_e.What();
-            }
-            catch (SurnameVAL_Exception s_e)
-            {
-                result = s_e.What();
-            }
-            catch (BankAccount_Exception b_e)
-            {
-                result = b_e.What();
-            }
-            catch (MoneyVAL_Exception m_e)
-            {
-                result = m_e.What();
+                result = mbur_e.What();
             }
 
             //act
@@ -780,7 +776,7 @@ namespace cashDispenserTest.DataTests
                 {
                     basicUser._BankAccount.AddMoney(currencyRate: addCurrencyRate,
                         money: new MoneyVAL(value: addValue,
-                            currency: addCurrency), null);
+                            currency: addCurrency), basicUser);
                 }
                 catch (MoneyVAL_Exception m_e)
                 {
