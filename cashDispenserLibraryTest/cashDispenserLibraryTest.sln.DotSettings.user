@@ -1,9 +1,17 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002FUsers_002Fmichal_002FDesktop_002FPwS_002FcashDispenserLibrary_002FcashDispenserLibrary_002Fbin_002FDebug_002FcashDispenserLibrary_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;Assembly Path="/Users/michal/Desktop/PwS/cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String>
 	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=15f11be3_002D05de_002D41c4_002D9955_002D61a92919fb3c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="BasicUser_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=15f11be3_002D05de_002D41c4_002D9955_002D61a92919fb3c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BasicUser_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.BasicUser_Test&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3614fce4_002D0624_002D4a12_002Db91f_002D249e65fd59c7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MockAdministratorsRepository_When_Find_Administrator_By_Pin" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockAdministratorsRepository_Test.MockAdministratorsRepository_When_Find_Administrator_By_Pin&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5e82443e_002D5d2c_002D4bdb_002Db947_002D37eacf32d5c0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="VAL_Objects_Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
@@ -12,6 +20,12 @@
     &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.PhysicalMoneyVAL_Test&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7663a2cd_002Db539_002D4af2_002Dac62_002D5417281dac82/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MockAdministratorsRepository_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.MockRepositoriesTest.MockAdministratorsRepository_Test&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8edaaea0_002D29dc_002D401b_002Db762_002Daa0447e7fa41/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BankAccount_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::C1EBB551-4321-4FC9-A117-5C521D08DC20::.NETFramework,Version=v4.8::cashDispenserTest.DataTests.BankAccount_Test&lt;/TestId&gt;

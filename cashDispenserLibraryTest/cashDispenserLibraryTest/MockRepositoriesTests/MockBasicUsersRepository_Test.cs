@@ -45,6 +45,7 @@ namespace cashDispenserTest.MockRepositoriesTest
                 insertBasicUsers.Add(basicUserData.Split(';'));
             }
 
+            //Save basic users data
             using (StreamWriter sw = new StreamWriter(
                 (cashDispenserLibraryTestSettings._SystemSettings
                  == PlatformType.Windows)

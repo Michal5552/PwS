@@ -64,6 +64,13 @@
           <e p="User.cs" t="Include" />
         </e>
         <e p="Model" t="Include">
+          <e p="MockAdministratorsRepository" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="MockAdministratorsRepository_Exception.cs" t="Include" />
+              <e p="MockAdministratorsRepository_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="MockAdministratorsRepository.cs" t="Include" />
+          </e>
           <e p="MockBasicUsersRepository" t="Include">
             <e p="Exceptions" t="Include">
               <e p="MockBasicUsersRepository_Exception.cs" t="Include" />

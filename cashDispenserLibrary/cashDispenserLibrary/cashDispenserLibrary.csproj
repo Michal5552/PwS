@@ -66,6 +66,9 @@
         <Compile Include="Data\TransactionReportVAL\TransactionReportType.cs" />
         <Compile Include="Data\TransactionReportVAL\TransactionReportVAL.cs" />
         <Compile Include="Data\User.cs" />
+        <Compile Include="Model\MockAdministratorsRepository\Exceptions\MockAdministratorsRepository_Exception.cs" />
+        <Compile Include="Model\MockAdministratorsRepository\Exceptions\MockAdministratorsRepository_ExceptionType.cs" />
+        <Compile Include="Model\MockAdministratorsRepository\MockAdministratorsRepository.cs" />
         <Compile Include="Model\MockBasicUsersRepository\Exceptions\MockBasicUsersRepository_Exception.cs" />
         <Compile Include="Model\MockBasicUsersRepository\Exceptions\MockBasicUsersRepository_ExceptionType.cs" />
         <Compile Include="Model\MockBasicUsersRepository\MockBasicUsersRepository.cs" />

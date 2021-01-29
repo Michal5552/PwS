@@ -16,6 +16,7 @@
           <e p="TransactionReportVAL_Test.cs" t="Include" />
         </e>
         <e p="MockRepositoriesTests" t="Include">
+          <e p="MockAdministratorsRepository_Test.cs" t="Include" />
           <e p="MockBasicUsersRepository_Test.cs" t="Include" />
           <e p="MockPhysicalMoneyRepository_Test.cs" t="Include" />
         </e>
