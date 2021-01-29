@@ -1,0 +1,6 @@
+0;000007;James;Bond;
+1;150009;Michał;Kopiel;
+2;570123;Ryszard;Ryszardzki;
+3;101111;Krzysiu;Sise;
+4;011001;Radziu;Grudlewski;
+5;331090;Krzyś;NieOdDziś;
