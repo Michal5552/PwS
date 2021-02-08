@@ -34,7 +34,13 @@ namespace CashWithdrawal.Views
 
             // Show basic user information
             BasicUserInformationLabel.Text =
-                (basicUser._Name._Value + basicUser._Surname._Value);
+                (basicUser._Name._Value + ' ' + basicUser._Surname._Value);
+        }
+
+        private void BasicUserPanel_FormClosing(object sender, FormClosingEventArgs e)
+        {
+           // Safe close program
+            loginPanel.Close();
         }
     }
 }

@@ -34,7 +34,13 @@ namespace CashWithdrawal.Views
 
             // Show basic user information
             AdministratorInformationLabel.Text =
-                (administrator._Name._Value + administrator._Surname._Value);
+                (administrator._Name._Value + ' ' + administrator._Surname._Value);
+        }
+
+        private void AdministratorPanel_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Safe close program
+            loginPanel.Close();
         }
     }
 }

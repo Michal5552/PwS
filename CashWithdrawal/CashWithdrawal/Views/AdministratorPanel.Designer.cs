@@ -86,6 +86,7 @@ namespace CashWithdrawal.Views
             this.Name = "AdministratorPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Panel Administratora";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AdministratorPanel_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
