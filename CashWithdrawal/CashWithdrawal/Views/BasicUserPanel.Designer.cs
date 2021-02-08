@@ -69,6 +69,7 @@ namespace CashWithdrawal.Views
             this.LogoutButton.TabIndex = 3;
             this.LogoutButton.Text = "Wylogowanie";
             this.LogoutButton.UseVisualStyleBackColor = true;
+            this.LogoutButton.Click += new System.EventHandler(this.LogoutButton_Click);
             // 
             // TakeOutMoneyButton
             // 

@@ -17,11 +17,6 @@ namespace CashWithdrawal.Views
         private LoginPanel loginPanel;
         private BasicUser basicUser;
 
-        public BasicUserPanel()
-        {
-            InitializeComponent();
-        }
-
         public BasicUserPanel(BasicUserPanelVM basicUserPanelVM)
         {
             InitializeComponent();
@@ -36,6 +31,11 @@ namespace CashWithdrawal.Views
             BasicUserInformationLabel.Text = $"Witaj {basicUser._Name._Value } " +
                 $"{basicUser._Surname._Value}";
         }
+        private void BasicUserPanel_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Safe close program
+            loginPanel.Close();
+        }
 
         private void AddMoneyButton_Click(object sender, EventArgs e)
         {
@@ -43,12 +43,12 @@ namespace CashWithdrawal.Views
         }
         private void BasicUserAccountStateButton_Click(object sender, EventArgs e)
         {
-
             // Redirect to basic user account state panel
             BasicUserAccountStatePanelVM basicUserAccountStatePanelVM =
                 new BasicUserAccountStatePanelVM
                 {
                     loginPanel = loginPanel,
+                    basicUserPanel = this,
                     basicUser = basicUser
                 };
 
@@ -62,10 +62,10 @@ namespace CashWithdrawal.Views
         {
 
         }
-        private void BasicUserPanel_FormClosing(object sender, FormClosingEventArgs e)
+
+        private void LogoutButton_Click(object sender, EventArgs e)
         {
-            // Safe close program
-            loginPanel.Close();
+
         }
     }
 }

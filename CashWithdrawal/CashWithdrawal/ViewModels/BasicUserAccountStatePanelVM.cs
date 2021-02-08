@@ -1,4 +1,5 @@
 ﻿using cashDispenserLibrary.Data;
+using CashWithdrawal.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,7 @@ namespace CashWithdrawal.ViewModels
     public class BasicUserAccountStatePanelVM
     {
         public LoginPanel loginPanel { get; set; }
+        public BasicUserPanel basicUserPanel { get; set; }
         public BasicUser basicUser { get; set; }
     }
 }

@@ -54,6 +54,7 @@
     <Compile Include="CashWithdrawalProperties\ExchangeRates.cs" />
     <Compile Include="ViewModels\AdministratorPanelVM.cs" />
     <Compile Include="ViewModels\BasicUserAccountStatePanelVM.cs" />
+    <Compile Include="ViewModels\BasicUserAccountStateReportPanelVM.cs" />
     <Compile Include="ViewModels\BasicUserPanelVM.cs" />
     <Compile Include="Views\AdministratorPanel.cs">
       <SubType>Form</SubType>
@@ -66,6 +67,12 @@
     </Compile>
     <Compile Include="Views\BasicUserAccountStatePanel.Designer.cs">
       <DependentUpon>BasicUserAccountStatePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BasicUserAccountStateReportPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BasicUserAccountStateReportPanel.Designer.cs">
+      <DependentUpon>BasicUserAccountStateReportPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\BasicUserPanel.cs">
       <SubType>Form</SubType>
@@ -95,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\BasicUserAccountStatePanel.resx">
       <DependentUpon>BasicUserAccountStatePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BasicUserAccountStateReportPanel.resx">
+      <DependentUpon>BasicUserAccountStateReportPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\BasicUserPanel.resx">
       <DependentUpon>BasicUserPanel.cs</DependentUpon>
