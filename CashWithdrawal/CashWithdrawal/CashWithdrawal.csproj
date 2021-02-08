@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7FD2BBF9-D444-404B-B2C4-2E3D0E22B5D5}</ProjectGuid>
+    <ProjectGuid>{AF2AA9A0-CF51-47E6-A6D5-65AEAAD85C39}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>CashWithdrawal</RootNamespace>
     <AssemblyName>CashWithdrawal</AssemblyName>
@@ -12,7 +12,6 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,100 +50,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminWithdrawPopup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminWithdrawPopup.Designer.cs">
-      <DependentUpon>AdminWithdrawPopup.cs</DependentUpon>
-    </Compile>
     <Compile Include="CashWithdrawalProperties\CashWithdrawalProperties.cs" />
-    <Compile Include="CashWithdrawalProperties\ExchangeRates.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="ViewModels\AdministratorPanelVM.cs" />
+    <Compile Include="ViewModels\BasicUserPanelVM.cs" />
+    <Compile Include="Views\AdministratorPanel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Views\AdministratorPanel.Designer.cs">
+      <DependentUpon>AdministratorPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserWelcomeScreen.cs">
+    <Compile Include="Views\BasicUserPanel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserWelcomeScreen.Designer.cs">
-      <DependentUpon>UserWelcomeScreen.cs</DependentUpon>
+    <Compile Include="Views\BasicUserPanel.Designer.cs">
+      <DependentUpon>BasicUserPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginWindow.cs">
+    <Compile Include="Views\LoginPanel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginWindow.Designer.cs">
-      <DependentUpon>LoginWindow.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserWithdraw.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserWithdraw.Designer.cs">
-      <DependentUpon>UserWithdraw.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserDeposit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserDeposit.Designer.cs">
-      <DependentUpon>UserDeposit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserAccountBalance.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserAccountBalance.Designer.cs">
-      <DependentUpon>UserAccountBalance.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AdminManageUsers.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminManageUsers.Designer.cs">
-      <DependentUpon>AdminManageUsers.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AdminMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminMenu.Designer.cs">
-      <DependentUpon>AdminMenu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AdminCashStatus.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminCashStatus.Designer.cs">
-      <DependentUpon>AdminCashStatus.cs</DependentUpon>
+    <Compile Include="Views\LoginPanel.Designer.cs">
+      <DependentUpon>LoginPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AdminWithdrawPopup.resx">
-      <DependentUpon>AdminWithdrawPopup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserWelcomeScreen.resx">
-      <DependentUpon>UserWelcomeScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LoginWindow.resx">
-      <DependentUpon>LoginWindow.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserWithdraw.resx">
-      <DependentUpon>UserWithdraw.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserDeposit.resx">
-      <DependentUpon>UserDeposit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserAccountBalance.resx">
-      <DependentUpon>UserAccountBalance.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AdminManageUsers.resx">
-      <DependentUpon>AdminManageUsers.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AdminMenu.resx">
-      <DependentUpon>AdminMenu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AdminCashStatus.resx">
-      <DependentUpon>AdminCashStatus.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -153,8 +81,16 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Views\AdministratorPanel.resx">
+      <DependentUpon>AdministratorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BasicUserPanel.resx">
+      <DependentUpon>BasicUserPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LoginPanel.resx">
+      <DependentUpon>LoginPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -168,6 +104,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
