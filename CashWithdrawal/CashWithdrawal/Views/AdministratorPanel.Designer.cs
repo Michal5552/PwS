@@ -72,9 +72,9 @@ namespace CashWithdrawal.Views
             this.AdministratorInformationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.AdministratorInformationLabel.Location = new System.Drawing.Point(134, 30);
             this.AdministratorInformationLabel.Name = "AdministratorInformationLabel";
-            this.AdministratorInformationLabel.Size = new System.Drawing.Size(261, 32);
+            this.AdministratorInformationLabel.Size = new System.Drawing.Size(286, 32);
             this.AdministratorInformationLabel.TabIndex = 5;
-            this.AdministratorInformationLabel.Text = "Witaj <Użytkownik>";
+            this.AdministratorInformationLabel.Text = "Witaj <Administrator>";
             // 
             // AdministratorPanel
             // 

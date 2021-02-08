@@ -59,72 +59,95 @@ namespace CashWithdrawal
             }
             catch (PinVAL_Exception p_e)
             {
-                ErrorLabel.Show();
                 ErrorLabel.Text = p_e.What();
+                ErrorLabel.Show();
             }
 
-            // Login basic user
-            if (pinCode._Value.Length == 4)
+            if (pinCode != null)
             {
-                try
+                // Login basic user
+                if (pinCode._Value.Length == 4)
                 {
-                    // Connect with basic users database
-                    MockBasicUsersRepository mockBasicUsersRepository =
-                        new MockBasicUsersRepository(SystemSettings._PlatformType);
-
-                    // Get information about basic user with respectively pin code
-                    // from database
-                    BasicUserPanelVM basicUserPanelVM = new BasicUserPanelVM
+                    try
                     {
-                        basicUser = mockBasicUsersRepository.GetAll().FirstOrDefault(
-                            (singleBasicUser) => singleBasicUser._Pin._Value == pinCode._Value)
-                    };
+                        // Connect with basic users database
+                        MockBasicUsersRepository mockBasicUsersRepository =
+                            new MockBasicUsersRepository(SystemSettings._PlatformType);
 
-                    // Redirect to Basic User Panel
-                    basicUserPanelVM.loginPanel = this;
+                        // Get information about basic user with respectively pin code
+                        // from database
+                        BasicUserPanelVM basicUserPanelVM = new BasicUserPanelVM
+                        {
+                            basicUser = mockBasicUsersRepository.GetAll().FirstOrDefault(
+                                (singleBasicUser) => singleBasicUser._Pin._Value == pinCode._Value)
+                        };
 
-                    BasicUserPanel basicUserPanel = new BasicUserPanel(basicUserPanelVM);
-                    
-                    basicUserPanel.Show();
-                    this.Hide();
-                }
-                catch (MockBasicUsersRepository_Exception mbur_e)
-                {
-                    ErrorLabel.Text = mbur_e.What();
-                }
-            }
-            // Login administrator
-            else if (pinCode._Value.Length == 6)
-            {
-                try
-                {
-                    // Connect with administrators database
-                    MockAdministratorsRepository mockAdministratorsRepository =
-                        new MockAdministratorsRepository(SystemSettings._PlatformType);
+                        // Check basic user's find result
+                        if (basicUserPanelVM.basicUser != null)
+                        {
+                            // Redirect to Basic User Panel
+                            basicUserPanelVM.loginPanel = this;
 
-                    // Get information about administrator with respectively pin code
-                    // from database
-                    AdministratorPanelVM administratorPanelVM = new AdministratorPanelVM
+                            BasicUserPanel basicUserPanel = new BasicUserPanel(basicUserPanelVM);
+
+                            basicUserPanel.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            ErrorLabel.Text = "!!! Użytkownik O Podanym Pinie Nie Istnieje !!!";
+                            ErrorLabel.Show();
+                        }
+                    }
+                    catch (MockBasicUsersRepository_Exception mbur_e)
                     {
-                        administrator = mockAdministratorsRepository.GetAll().
-                        FirstOrDefault((singleAdministrator) =>
-                        singleAdministrator._Pin._Value == pinCode._Value)
-                    };
-
-                    // Redirect to administrator panel
-                    administratorPanelVM.loginPanel = this;
-
-                    AdministratorPanel administratorPanel =
-                        new AdministratorPanel(administratorPanelVM);
-                    
-                    administratorPanel.Show();
-                    this.Hide();
+                        ErrorLabel.Text = mbur_e.What();
+                        ErrorLabel.Show();
+                    }
                 }
-                catch (MockAdministratorsRepository_Exception mar_e)
+                // Login administrator
+                else if (pinCode._Value.Length == 6)
                 {
-                    ErrorLabel.Text = mar_e.What();
-                }
+                    try
+                    {
+                        // Connect with administrators database
+                        MockAdministratorsRepository mockAdministratorsRepository =
+                            new MockAdministratorsRepository(SystemSettings._PlatformType);
 
+                        // Get information about administrator with respectively pin code
+                        // from database
+                        AdministratorPanelVM administratorPanelVM = new AdministratorPanelVM
+                        {
+                            administrator = mockAdministratorsRepository.GetAll().
+                            FirstOrDefault((singleAdministrator) =>
+                            singleAdministrator._Pin._Value == pinCode._Value)
+                        };
+
+                        // Check administrator's find result
+                        if (administratorPanelVM.administrator != null)
+                        {
+                            // Redirect to administrator panel
+                            administratorPanelVM.loginPanel = this;
+
+                            AdministratorPanel administratorPanel =
+                                new AdministratorPanel(administratorPanelVM);
+
+                            administratorPanel.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            ErrorLabel.Text = "!!! Użytkownik O Podanym Pinie Nie Istnieje !!!";
+                            ErrorLabel.Show();
+                        }
+                    }
+                    catch (MockAdministratorsRepository_Exception mar_e)
+                    {
+                        ErrorLabel.Text = mar_e.What();
+                        ErrorLabel.Show();
+                    }
+
+                }
             }
         }
 

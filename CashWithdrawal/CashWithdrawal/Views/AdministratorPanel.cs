@@ -33,8 +33,8 @@ namespace CashWithdrawal.Views
             this.administrator = administratorPanelVM.administrator;
 
             // Show basic user information
-            AdministratorInformationLabel.Text =
-                (administrator._Name._Value + ' ' + administrator._Surname._Value);
+            AdministratorInformationLabel.Text = $"Witaj {administrator._Name._Value } " +
+                $"{administrator._Surname._Value}";
         }
 
         private void AdministratorPanel_FormClosing(object sender, FormClosingEventArgs e)

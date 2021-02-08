@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 using cashDispenserLibrary.Data;
 
-namespace CashWithdrawal.CashWithdrawalProperties
+namespace CashWithdrawal
 {
     public static class CashWithdrawalProperties
     {
-        
+        public static ExchangeRates exchangeRates = new ExchangeRates();
     }
 }

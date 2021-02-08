@@ -51,7 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CashWithdrawalProperties\CashWithdrawalProperties.cs" />
+    <Compile Include="CashWithdrawalProperties\ExchangeRates.cs" />
     <Compile Include="ViewModels\AdministratorPanelVM.cs" />
+    <Compile Include="ViewModels\BasicUserAccountStatePanelVM.cs" />
     <Compile Include="ViewModels\BasicUserPanelVM.cs" />
     <Compile Include="Views\AdministratorPanel.cs">
       <SubType>Form</SubType>
@@ -90,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="Views\AdministratorPanel.resx">
       <DependentUpon>AdministratorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BasicUserAccountStatePanel.resx">
+      <DependentUpon>BasicUserAccountStatePanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\BasicUserPanel.resx">
       <DependentUpon>BasicUserPanel.cs</DependentUpon>

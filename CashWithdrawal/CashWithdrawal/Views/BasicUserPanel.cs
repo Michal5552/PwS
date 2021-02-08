@@ -33,13 +33,38 @@ namespace CashWithdrawal.Views
             this.basicUser = basicUserPanelVM.basicUser;
 
             // Show basic user information
-            BasicUserInformationLabel.Text =
-                (basicUser._Name._Value + ' ' + basicUser._Surname._Value);
+            BasicUserInformationLabel.Text = $"Witaj {basicUser._Name._Value } " +
+                $"{basicUser._Surname._Value}";
         }
 
+        private void AddMoneyButton_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void BasicUserAccountStateButton_Click(object sender, EventArgs e)
+        {
+
+            // Redirect to basic user account state panel
+            BasicUserAccountStatePanelVM basicUserAccountStatePanelVM =
+                new BasicUserAccountStatePanelVM
+                {
+                    loginPanel = loginPanel,
+                    basicUser = basicUser
+                };
+
+            BasicUserAccountStatePanel basicUserAccountStatePanel =
+                new BasicUserAccountStatePanel(basicUserAccountStatePanelVM);
+
+            basicUserAccountStatePanel.Show();
+            this.Hide();
+        }
+        private void TakeOutMoneyButton_Click(object sender, EventArgs e)
+        {
+
+        }
         private void BasicUserPanel_FormClosing(object sender, FormClosingEventArgs e)
         {
-           // Safe close program
+            // Safe close program
             loginPanel.Close();
         }
     }
