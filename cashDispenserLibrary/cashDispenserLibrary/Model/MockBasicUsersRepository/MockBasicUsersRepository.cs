@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -158,7 +159,7 @@ namespace cashDispenserLibrary.Model
                         sw.Write(basicUserData[i] + ';');
                     }
 
-                    sw.Write('\n');
+                    sw.Write(Environment.NewLine);
                 }
             }
         }
@@ -224,7 +225,7 @@ namespace cashDispenserLibrary.Model
                         sw.Write(basicUserData[i] + ';');
                     }
 
-                    sw.Write('\n');
+                    sw.Write(Environment.NewLine);
                 }
             }
         }
@@ -282,7 +283,7 @@ namespace cashDispenserLibrary.Model
                         sw.Write(basicUserData[i] + ';');
                     }
 
-                    sw.Write('\n');
+                    sw.Write(Environment.NewLine);
                 }
             }
         }

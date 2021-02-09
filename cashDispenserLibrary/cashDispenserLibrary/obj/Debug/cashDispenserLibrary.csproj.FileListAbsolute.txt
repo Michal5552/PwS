@@ -3,3 +3,9 @@
 /Users/michal/Desktop/PwS/cashDispenserLibrary/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb
 /Users/michal/Desktop/PwS/cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll
 /Users/michal/Desktop/PwS/cashDispenserLibrary/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb
+C:\Users\OKNO-8\Desktop\PwS\cashDispenserLibrary\cashDispenserLibrary\bin\Debug\cashDispenserLibrary.dll
+C:\Users\OKNO-8\Desktop\PwS\cashDispenserLibrary\cashDispenserLibrary\bin\Debug\cashDispenserLibrary.pdb
+C:\Users\OKNO-8\Desktop\PwS\cashDispenserLibrary\cashDispenserLibrary\obj\Debug\cashDispenserLibrary.csprojAssemblyReference.cache
+C:\Users\OKNO-8\Desktop\PwS\cashDispenserLibrary\cashDispenserLibrary\obj\Debug\cashDispenserLibrary.csproj.CoreCompileInputs.cache
+C:\Users\OKNO-8\Desktop\PwS\cashDispenserLibrary\cashDispenserLibrary\obj\Debug\cashDispenserLibrary.dll
+C:\Users\OKNO-8\Desktop\PwS\cashDispenserLibrary\cashDispenserLibrary\obj\Debug\cashDispenserLibrary.pdb
