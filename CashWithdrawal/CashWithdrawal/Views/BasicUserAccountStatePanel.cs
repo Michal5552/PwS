@@ -64,7 +64,8 @@ namespace CashWithdrawal.Views
         private void BasicUserAccountStatePanel_FormClosing(
             object sender, FormClosingEventArgs e)
         {
-            basicUserPanel.Close();
+            // Safe close
+            basicUserPanel.Dispose();
             loginPanel.Close();
         }
 

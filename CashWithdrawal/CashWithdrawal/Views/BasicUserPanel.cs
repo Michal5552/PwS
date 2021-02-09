@@ -39,7 +39,19 @@ namespace CashWithdrawal.Views
 
         private void AddMoneyButton_Click(object sender, EventArgs e)
         {
+            // Redirect to add money panel
+            BasicUserAddMoneyPanelVM basicUserAddMoneyPanelVM =
+                new BasicUserAddMoneyPanelVM
+                {
+                    loginPanel = loginPanel,
+                    basicUserPanel = this,
+                    basicUser = basicUser
+                };
+            BasicUserAddMoneyPanel basicUserAddMoneyPanel =
+                new BasicUserAddMoneyPanel(basicUserAddMoneyPanelVM);
 
+            basicUserAddMoneyPanel.Show();
+            this.Hide();
         }
         private void BasicUserAccountStateButton_Click(object sender, EventArgs e)
         {

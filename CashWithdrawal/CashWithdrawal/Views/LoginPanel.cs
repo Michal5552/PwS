@@ -38,10 +38,6 @@ namespace CashWithdrawal
             this.ErrorLabel.Hide();
         }
 
-        private void LoginPanel_Load(object sender, EventArgs e)
-        {
-        }
-
         private void ClearButton_Click(object sender, EventArgs e)
         {
             this.PinCodeTextBox.Clear();
@@ -149,11 +145,6 @@ namespace CashWithdrawal
 
                 }
             }
-        }
-
-        private void ErrorLabel_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -85,7 +85,6 @@ namespace CashWithdrawal
             this.ErrorLabel.TabIndex = 3;
             this.ErrorLabel.Text = "ErrorLabel";
             this.ErrorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ErrorLabel.Click += new System.EventHandler(this.ErrorLabel_Click);
             // 
             // PinCodeLabel
             // 
@@ -117,7 +116,6 @@ namespace CashWithdrawal
             this.Name = "LoginPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login Panel";
-            this.Load += new System.EventHandler(this.LoginPanel_Load);
             this.LoginPanelPanel.ResumeLayout(false);
             this.LoginPanelPanel.PerformLayout();
             this.ResumeLayout(false);

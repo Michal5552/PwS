@@ -14,35 +14,35 @@ namespace CashWithdrawal.Views
             InitializeComponent();
 
             // Show date information
-            DateValueLabel.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            this.DateValueLabel.Text = DateTime.Now.ToString("dd/MM/yyyy");
 
             // Show currency information
             switch (basicUserAccountStateReportPanelVM.currency)
             {
                 case Currency.PLN:
                     {
-                        CurrencyValueLabel.Text = "Polski Złoty";
+                        this.CurrencyValueLabel.Text = "Polski Złoty";
                     }
                     break;
                 case Currency.USD:
                     {
-                        CurrencyValueLabel.Text = "Dolar";
+                        this.CurrencyValueLabel.Text = "Dolar";
                     }
                     break;
                 case Currency.EUR:
                     {
-                        CurrencyValueLabel.Text = "Euro";
+                        this.CurrencyValueLabel.Text = "Euro";
                     }
                     break;
                 case Currency.GBP:
                     {
-                        CurrencyValueLabel.Text = "Funt Brytyjski";
+                        this.CurrencyValueLabel.Text = "Funt Brytyjski";
                     }
                     break;
             }
-            
+
             // Show account state information
-            AccountStateValueLabel.Text = String.Format("{0:0.00}",
+            this.AccountStateValueLabel.Text = String.Format("{0:0.00}",
                 basicUserAccountStateReportPanelVM.accountState)
                 .ToString(new CultureInfo("en-US"));
         }

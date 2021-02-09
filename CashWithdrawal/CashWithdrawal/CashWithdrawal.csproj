@@ -55,6 +55,8 @@
     <Compile Include="ViewModels\AdministratorPanelVM.cs" />
     <Compile Include="ViewModels\BasicUserAccountStatePanelVM.cs" />
     <Compile Include="ViewModels\BasicUserAccountStateReportPanelVM.cs" />
+    <Compile Include="ViewModels\BasicUserAddMoneyPanelVM.cs" />
+    <Compile Include="ViewModels\BasicUserAddMoneyReportPanelVM.cs" />
     <Compile Include="ViewModels\BasicUserPanelVM.cs" />
     <Compile Include="Views\AdministratorPanel.cs">
       <SubType>Form</SubType>
@@ -73,6 +75,24 @@
     </Compile>
     <Compile Include="Views\BasicUserAccountStateReportPanel.Designer.cs">
       <DependentUpon>BasicUserAccountStateReportPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BasicUserAddMoneyExecutePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BasicUserAddMoneyExecutePanel.Designer.cs">
+      <DependentUpon>BasicUserAddMoneyExecutePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BasicUserAddMoneyPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BasicUserAddMoneyPanel.Designer.cs">
+      <DependentUpon>BasicUserAddMoneyPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BasicUserAddMoneyReportPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BasicUserAddMoneyReportPanel.Designer.cs">
+      <DependentUpon>BasicUserAddMoneyReportPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\BasicUserPanel.cs">
       <SubType>Form</SubType>
@@ -105,6 +125,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\BasicUserAccountStateReportPanel.resx">
       <DependentUpon>BasicUserAccountStateReportPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BasicUserAddMoneyExecutePanel.resx">
+      <DependentUpon>BasicUserAddMoneyExecutePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BasicUserAddMoneyPanel.resx">
+      <DependentUpon>BasicUserAddMoneyPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BasicUserAddMoneyReportPanel.resx">
+      <DependentUpon>BasicUserAddMoneyReportPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\BasicUserPanel.resx">
       <DependentUpon>BasicUserPanel.cs</DependentUpon>
