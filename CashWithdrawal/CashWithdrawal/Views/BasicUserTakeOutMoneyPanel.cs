@@ -183,7 +183,38 @@ namespace CashWithdrawal.Views
             }
             else
             {
-                // TODO redirect to basic user take out money report panel
+                // Check correct take out money process
+                if (takeOutMoneyResult.Equals(
+                    "Transakcja Przeprowadzona \nPomyślnie") == true)
+                {
+                    // Redirect to basic user take out money report panel
+                    BasicUserTakeOutMoneyReportPanelVM basicUserTakeOutMoneyReportPanelVM =
+                        new BasicUserTakeOutMoneyReportPanelVM
+                        {
+                            accountState = this.basicUser._BankAccount.state._Value,
+                            takeOutMoneyValue = takeOutMoneyValue
+                        };
+
+                    BasicUserTakeOutMoneyReportPanel basicUserTakeOutMoneyReportPanel =
+                        new BasicUserTakeOutMoneyReportPanel(basicUserTakeOutMoneyReportPanelVM);
+
+                    basicUserTakeOutMoneyReportPanel.ShowDialog();
+                }
+                else
+                {
+                    // redirect to basic user take out money execute panel
+                    BasicUserTakeOutMoneyExecutePanelVM basicUserTakeOutMoneyExecutePanelVM =
+                        new BasicUserTakeOutMoneyExecutePanelVM
+                        {
+                            takeOutMoneyResult = takeOutMoneyResult
+                        };
+
+                    BasicUserTakeOutMoneyExecutePanel basicUserTakeOutMoneyExecutePanel =
+                        new BasicUserTakeOutMoneyExecutePanel(
+                            basicUserTakeOutMoneyExecutePanelVM);
+
+                    basicUserTakeOutMoneyExecutePanel.ShowDialog();
+                }
             }
         }
     }

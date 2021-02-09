@@ -19,3 +19,4 @@ C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdraw
 C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.exe
 C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.pdb
 C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\bin\Debug\cashDispenserLibrary.dll
+C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.Views.BasicUserTakeOutMoneyReportPanel.resources

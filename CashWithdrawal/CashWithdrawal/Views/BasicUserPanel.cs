@@ -34,6 +34,7 @@ namespace CashWithdrawal.Views
         private void BasicUserPanel_FormClosing(object sender, FormClosingEventArgs e)
         {
             // Safe close program
+            this.Dispose();
             loginPanel.Close();
         }
 
@@ -90,7 +91,9 @@ namespace CashWithdrawal.Views
 
         private void LogoutButton_Click(object sender, EventArgs e)
         {
-
+            // Safe 
+            this.loginPanel.Show();
+            this.Dispose();
         }
     }
 }

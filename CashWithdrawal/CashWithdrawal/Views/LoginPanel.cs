@@ -86,6 +86,7 @@ namespace CashWithdrawal
 
                             BasicUserPanel basicUserPanel = new BasicUserPanel(basicUserPanelVM);
 
+                            this.PinCodeTextBox.Clear();
                             basicUserPanel.Show();
                             this.Hide();
                         }

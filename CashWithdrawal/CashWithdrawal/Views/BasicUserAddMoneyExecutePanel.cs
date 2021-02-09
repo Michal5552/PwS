@@ -23,6 +23,7 @@ namespace CashWithdrawal.Views
 
         private void ExitToBasicUserAddMoneyPanel_Click(object sender, EventArgs e)
         {
+            // Safe close
             this.Close();
         }
     }
