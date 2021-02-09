@@ -60,7 +60,7 @@ namespace CashWithdrawal.Views
             // 
             this.TakeOutMoneyLabel.AutoSize = true;
             this.TakeOutMoneyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.TakeOutMoneyLabel.Location = new System.Drawing.Point(10, 181);
+            this.TakeOutMoneyLabel.Location = new System.Drawing.Point(16, 181);
             this.TakeOutMoneyLabel.Name = "TakeOutMoneyLabel";
             this.TakeOutMoneyLabel.Size = new System.Drawing.Size(184, 29);
             this.TakeOutMoneyLabel.TabIndex = 9;
@@ -121,7 +121,7 @@ namespace CashWithdrawal.Views
             // 
             this.DateLabel.AutoSize = true;
             this.DateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.DateLabel.Location = new System.Drawing.Point(28, 99);
+            this.DateLabel.Location = new System.Drawing.Point(27, 99);
             this.DateLabel.Name = "DateLabel";
             this.DateLabel.Size = new System.Drawing.Size(165, 29);
             this.DateLabel.TabIndex = 0;
@@ -146,7 +146,7 @@ namespace CashWithdrawal.Views
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "BasicUserTakeOutMoneyReportPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Panel raportu Wypłaty";
+            this.Text = "Panel Raportu Wypłaty";
             this.BasicUserTakeOutMoneyPanelPanel.ResumeLayout(false);
             this.BasicUserTakeOutMoneyPanelPanel.PerformLayout();
             this.ResumeLayout(false);

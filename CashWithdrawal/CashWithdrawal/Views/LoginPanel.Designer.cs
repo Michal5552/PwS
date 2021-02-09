@@ -47,7 +47,7 @@ namespace CashWithdrawal
             this.LoginPanelPanel.Controls.Add(this.ErrorLabel);
             this.LoginPanelPanel.Controls.Add(this.PinCodeLabel);
             this.LoginPanelPanel.Controls.Add(this.PinCodeTextBox);
-            this.LoginPanelPanel.Location = new System.Drawing.Point(156, 94);
+            this.LoginPanelPanel.Location = new System.Drawing.Point(23, 25);
             this.LoginPanelPanel.Name = "LoginPanelPanel";
             this.LoginPanelPanel.Size = new System.Drawing.Size(551, 266);
             this.LoginPanelPanel.TabIndex = 0;
@@ -55,7 +55,7 @@ namespace CashWithdrawal
             // ClearButton
             // 
             this.ClearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ClearButton.Location = new System.Drawing.Point(43, 139);
+            this.ClearButton.Location = new System.Drawing.Point(61, 139);
             this.ClearButton.Name = "ClearButton";
             this.ClearButton.Size = new System.Drawing.Size(111, 44);
             this.ClearButton.TabIndex = 5;
@@ -66,7 +66,7 @@ namespace CashWithdrawal
             // AcceptButton
             // 
             this.AcceptButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AcceptButton.Location = new System.Drawing.Point(384, 139);
+            this.AcceptButton.Location = new System.Drawing.Point(388, 139);
             this.AcceptButton.Name = "AcceptButton";
             this.AcceptButton.Size = new System.Drawing.Size(111, 44);
             this.AcceptButton.TabIndex = 4;
@@ -79,7 +79,7 @@ namespace CashWithdrawal
             this.ErrorLabel.AutoSize = true;
             this.ErrorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.ErrorLabel.ForeColor = System.Drawing.Color.Red;
-            this.ErrorLabel.Location = new System.Drawing.Point(49, 210);
+            this.ErrorLabel.Location = new System.Drawing.Point(56, 210);
             this.ErrorLabel.Name = "ErrorLabel";
             this.ErrorLabel.Size = new System.Drawing.Size(127, 29);
             this.ErrorLabel.TabIndex = 3;
@@ -110,7 +110,7 @@ namespace CashWithdrawal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(599, 324);
             this.Controls.Add(this.LoginPanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "LoginPanel";

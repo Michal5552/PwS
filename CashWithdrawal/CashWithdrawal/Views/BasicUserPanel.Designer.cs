@@ -113,7 +113,7 @@ namespace CashWithdrawal.Views
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "BasicUserPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Panel Uytkownika";
+            this.Text = "Panel Użytkownika";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BasicUserPanel_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

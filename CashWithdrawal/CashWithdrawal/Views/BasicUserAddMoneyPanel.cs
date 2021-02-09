@@ -44,7 +44,7 @@ namespace CashWithdrawal.Views
 
             // Set currency combobox
             this.CurrencyComboBox.Items.Add("Polski Złoty");
-            this.CurrencyComboBox.Items.Add("Dolar");
+            this.CurrencyComboBox.Items.Add("Dolar Amerykański");
             this.CurrencyComboBox.Items.Add("Euro");
             this.CurrencyComboBox.Items.Add("Funt Brytyjski");
 

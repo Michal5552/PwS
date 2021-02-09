@@ -26,7 +26,7 @@ namespace CashWithdrawal.Views
                     break;
                 case Currency.USD:
                     {
-                        this.CurrencyValueLabel.Text = "Dolar";
+                        this.CurrencyValueLabel.Text = "Dolar Amerykański";
                     }
                     break;
                 case Currency.EUR:

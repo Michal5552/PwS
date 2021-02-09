@@ -73,7 +73,7 @@ namespace CashWithdrawal.Views
             this.panel1.Controls.Add(this.DateValueLabel);
             this.panel1.Location = new System.Drawing.Point(242, 32);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(351, 410);
+            this.panel1.Size = new System.Drawing.Size(422, 410);
             this.panel1.TabIndex = 2;
             // 
             // AccountStateReportLabel
@@ -101,7 +101,7 @@ namespace CashWithdrawal.Views
             // 
             this.CurrencyLabel.AutoSize = true;
             this.CurrencyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.CurrencyLabel.Location = new System.Drawing.Point(95, 137);
+            this.CurrencyLabel.Location = new System.Drawing.Point(99, 137);
             this.CurrencyLabel.Name = "CurrencyLabel";
             this.CurrencyLabel.Size = new System.Drawing.Size(98, 29);
             this.CurrencyLabel.TabIndex = 4;
@@ -121,7 +121,7 @@ namespace CashWithdrawal.Views
             // 
             this.AccountStateLabel.AutoSize = true;
             this.AccountStateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AccountStateLabel.Location = new System.Drawing.Point(52, 178);
+            this.AccountStateLabel.Location = new System.Drawing.Point(54, 178);
             this.AccountStateLabel.Name = "AccountStateLabel";
             this.AccountStateLabel.Size = new System.Drawing.Size(141, 29);
             this.AccountStateLabel.TabIndex = 2;

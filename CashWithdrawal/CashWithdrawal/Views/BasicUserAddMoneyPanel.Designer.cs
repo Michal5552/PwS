@@ -63,7 +63,7 @@ namespace CashWithdrawal.Views
             this.BasicUserAddMoneyPanelPanel.Controls.Add(this.AddMoneyValueComboBox);
             this.BasicUserAddMoneyPanelPanel.Location = new System.Drawing.Point(57, 24);
             this.BasicUserAddMoneyPanelPanel.Name = "BasicUserAddMoneyPanelPanel";
-            this.BasicUserAddMoneyPanelPanel.Size = new System.Drawing.Size(805, 476);
+            this.BasicUserAddMoneyPanelPanel.Size = new System.Drawing.Size(815, 476);
             this.BasicUserAddMoneyPanelPanel.TabIndex = 0;
             // 
             // CurrencyRatesPanel
@@ -77,16 +77,16 @@ namespace CashWithdrawal.Views
             this.CurrencyRatesPanel.Controls.Add(this.PLN_ExchangeRateValueLabel);
             this.CurrencyRatesPanel.Controls.Add(this.PLN_ExchangeRateLabel);
             this.CurrencyRatesPanel.Controls.Add(this.ExchangeRatesLabel);
-            this.CurrencyRatesPanel.Location = new System.Drawing.Point(39, 17);
+            this.CurrencyRatesPanel.Location = new System.Drawing.Point(25, 17);
             this.CurrencyRatesPanel.Name = "CurrencyRatesPanel";
-            this.CurrencyRatesPanel.Size = new System.Drawing.Size(321, 272);
+            this.CurrencyRatesPanel.Size = new System.Drawing.Size(377, 272);
             this.CurrencyRatesPanel.TabIndex = 9;
             // 
             // GBP_ExchangeRateValueLabel
             // 
             this.GBP_ExchangeRateValueLabel.AutoSize = true;
             this.GBP_ExchangeRateValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.GBP_ExchangeRateValueLabel.Location = new System.Drawing.Point(199, 220);
+            this.GBP_ExchangeRateValueLabel.Location = new System.Drawing.Point(242, 220);
             this.GBP_ExchangeRateValueLabel.Name = "GBP_ExchangeRateValueLabel";
             this.GBP_ExchangeRateValueLabel.Size = new System.Drawing.Size(100, 29);
             this.GBP_ExchangeRateValueLabel.TabIndex = 10;
@@ -96,7 +96,7 @@ namespace CashWithdrawal.Views
             // 
             this.EUR_ExchangeRateValueLabel.AutoSize = true;
             this.EUR_ExchangeRateValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.EUR_ExchangeRateValueLabel.Location = new System.Drawing.Point(199, 179);
+            this.EUR_ExchangeRateValueLabel.Location = new System.Drawing.Point(242, 179);
             this.EUR_ExchangeRateValueLabel.Name = "EUR_ExchangeRateValueLabel";
             this.EUR_ExchangeRateValueLabel.Size = new System.Drawing.Size(100, 29);
             this.EUR_ExchangeRateValueLabel.TabIndex = 8;
@@ -106,7 +106,7 @@ namespace CashWithdrawal.Views
             // 
             this.GBP_ExchangeRateLabel.AutoSize = true;
             this.GBP_ExchangeRateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.GBP_ExchangeRateLabel.Location = new System.Drawing.Point(22, 220);
+            this.GBP_ExchangeRateLabel.Location = new System.Drawing.Point(65, 220);
             this.GBP_ExchangeRateLabel.Name = "GBP_ExchangeRateLabel";
             this.GBP_ExchangeRateLabel.Size = new System.Drawing.Size(166, 29);
             this.GBP_ExchangeRateLabel.TabIndex = 9;
@@ -116,7 +116,7 @@ namespace CashWithdrawal.Views
             // 
             this.EUR_ExchangeRateLabel.AutoSize = true;
             this.EUR_ExchangeRateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.EUR_ExchangeRateLabel.Location = new System.Drawing.Point(112, 177);
+            this.EUR_ExchangeRateLabel.Location = new System.Drawing.Point(155, 177);
             this.EUR_ExchangeRateLabel.Name = "EUR_ExchangeRateLabel";
             this.EUR_ExchangeRateLabel.Size = new System.Drawing.Size(76, 29);
             this.EUR_ExchangeRateLabel.TabIndex = 7;
@@ -126,7 +126,7 @@ namespace CashWithdrawal.Views
             // 
             this.USD_ExchangeRateValueLabel.AutoSize = true;
             this.USD_ExchangeRateValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.USD_ExchangeRateValueLabel.Location = new System.Drawing.Point(199, 140);
+            this.USD_ExchangeRateValueLabel.Location = new System.Drawing.Point(242, 140);
             this.USD_ExchangeRateValueLabel.Name = "USD_ExchangeRateValueLabel";
             this.USD_ExchangeRateValueLabel.Size = new System.Drawing.Size(100, 29);
             this.USD_ExchangeRateValueLabel.TabIndex = 6;
@@ -136,17 +136,17 @@ namespace CashWithdrawal.Views
             // 
             this.USD_ExchangeRateLabel.AutoSize = true;
             this.USD_ExchangeRateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.USD_ExchangeRateLabel.Location = new System.Drawing.Point(105, 138);
+            this.USD_ExchangeRateLabel.Location = new System.Drawing.Point(7, 140);
             this.USD_ExchangeRateLabel.Name = "USD_ExchangeRateLabel";
-            this.USD_ExchangeRateLabel.Size = new System.Drawing.Size(83, 29);
+            this.USD_ExchangeRateLabel.Size = new System.Drawing.Size(225, 29);
             this.USD_ExchangeRateLabel.TabIndex = 5;
-            this.USD_ExchangeRateLabel.Text = "Dolar :";
+            this.USD_ExchangeRateLabel.Text = "Dolar Amerykański :";
             // 
             // PLN_ExchangeRateValueLabel
             // 
             this.PLN_ExchangeRateValueLabel.AutoSize = true;
             this.PLN_ExchangeRateValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.PLN_ExchangeRateValueLabel.Location = new System.Drawing.Point(199, 99);
+            this.PLN_ExchangeRateValueLabel.Location = new System.Drawing.Point(242, 99);
             this.PLN_ExchangeRateValueLabel.Name = "PLN_ExchangeRateValueLabel";
             this.PLN_ExchangeRateValueLabel.Size = new System.Drawing.Size(100, 29);
             this.PLN_ExchangeRateValueLabel.TabIndex = 4;
@@ -156,7 +156,7 @@ namespace CashWithdrawal.Views
             // 
             this.PLN_ExchangeRateLabel.AutoSize = true;
             this.PLN_ExchangeRateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.PLN_ExchangeRateLabel.Location = new System.Drawing.Point(37, 99);
+            this.PLN_ExchangeRateLabel.Location = new System.Drawing.Point(85, 99);
             this.PLN_ExchangeRateLabel.Name = "PLN_ExchangeRateLabel";
             this.PLN_ExchangeRateLabel.Size = new System.Drawing.Size(151, 29);
             this.PLN_ExchangeRateLabel.TabIndex = 3;
@@ -166,7 +166,7 @@ namespace CashWithdrawal.Views
             // 
             this.ExchangeRatesLabel.AutoSize = true;
             this.ExchangeRatesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ExchangeRatesLabel.Location = new System.Drawing.Point(64, 10);
+            this.ExchangeRatesLabel.Location = new System.Drawing.Point(107, 10);
             this.ExchangeRatesLabel.Name = "ExchangeRatesLabel";
             this.ExchangeRatesLabel.Size = new System.Drawing.Size(209, 64);
             this.ExchangeRatesLabel.TabIndex = 2;
@@ -217,11 +217,12 @@ namespace CashWithdrawal.Views
             // 
             // CurrencyComboBox
             // 
+            this.CurrencyComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CurrencyComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.CurrencyComboBox.FormattingEnabled = true;
             this.CurrencyComboBox.Location = new System.Drawing.Point(549, 72);
             this.CurrencyComboBox.Name = "CurrencyComboBox";
-            this.CurrencyComboBox.Size = new System.Drawing.Size(182, 37);
+            this.CurrencyComboBox.Size = new System.Drawing.Size(234, 37);
             this.CurrencyComboBox.TabIndex = 2;
             // 
             // AddMoneyValueLabel
@@ -236,11 +237,12 @@ namespace CashWithdrawal.Views
             // 
             // AddMoneyValueComboBox
             // 
+            this.AddMoneyValueComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.AddMoneyValueComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.AddMoneyValueComboBox.FormattingEnabled = true;
             this.AddMoneyValueComboBox.Location = new System.Drawing.Point(549, 126);
             this.AddMoneyValueComboBox.Name = "AddMoneyValueComboBox";
-            this.AddMoneyValueComboBox.Size = new System.Drawing.Size(182, 37);
+            this.AddMoneyValueComboBox.Size = new System.Drawing.Size(234, 37);
             this.AddMoneyValueComboBox.TabIndex = 0;
             // 
             // BasicUserAddMoneyPanel

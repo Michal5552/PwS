@@ -60,7 +60,7 @@ namespace CashWithdrawal.Views
             // 
             this.AddMoneyLabel.AutoSize = true;
             this.AddMoneyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AddMoneyLabel.Location = new System.Drawing.Point(20, 181);
+            this.AddMoneyLabel.Location = new System.Drawing.Point(27, 181);
             this.AddMoneyLabel.Name = "AddMoneyLabel";
             this.AddMoneyLabel.Size = new System.Drawing.Size(173, 29);
             this.AddMoneyLabel.TabIndex = 9;
@@ -121,7 +121,7 @@ namespace CashWithdrawal.Views
             // 
             this.DateLabel.AutoSize = true;
             this.DateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.DateLabel.Location = new System.Drawing.Point(28, 99);
+            this.DateLabel.Location = new System.Drawing.Point(27, 99);
             this.DateLabel.Name = "DateLabel";
             this.DateLabel.Size = new System.Drawing.Size(165, 29);
             this.DateLabel.TabIndex = 0;

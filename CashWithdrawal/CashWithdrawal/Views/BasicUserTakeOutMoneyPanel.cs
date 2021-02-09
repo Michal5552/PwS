@@ -53,7 +53,7 @@ namespace CashWithdrawal.Views
 
             // Set currency combobox
             this.CurrencyComboBox.Items.Add("Polski Złoty");
-            this.CurrencyComboBox.Items.Add("Dolar");
+            this.CurrencyComboBox.Items.Add("Dolar Amerykański");
             this.CurrencyComboBox.Items.Add("Euro");
             this.CurrencyComboBox.Items.Add("Funt Brytyjski");
 
@@ -85,7 +85,7 @@ namespace CashWithdrawal.Views
         private void TakeOutMoneyButton_Click(object sender, EventArgs e)
         {
             // Take out money process
-            string takeOutMoneyResult = "Transakcja Przeprowadzona \nPomyślnie";
+            string takeOutMoneyResult = "       Transakcja Przeprowadzona Pomyślnie";
             Currency exchangeRateCurrency = Currency.PLN;
             decimal exchangeRate = 0.0M;
             decimal takeOutMoneyValue = 0.0M;
@@ -185,7 +185,7 @@ namespace CashWithdrawal.Views
             {
                 // Check correct take out money process
                 if (takeOutMoneyResult.Equals(
-                    "Transakcja Przeprowadzona \nPomyślnie") == true)
+                    "       Transakcja Przeprowadzona Pomyślnie") == true)
                 {
                     // Redirect to basic user take out money report panel
                     BasicUserTakeOutMoneyReportPanelVM basicUserTakeOutMoneyReportPanelVM =
