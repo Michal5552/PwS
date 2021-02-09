@@ -1,6 +1,7 @@
 ﻿using cashDispenserLibrary.Data;
 using cashDispenserLibrary.Data.Exceptions;
 using CashWithdrawal.ViewModels;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace CashWithdrawal.Views
@@ -23,6 +24,23 @@ namespace CashWithdrawal.Views
 
             // Set basic user information
             this.basicUser = basicUserAddMoneyPanelVM.basicUser;
+
+            // Set exchange rates information
+            this.PLN_ExchangeRateValueLabel.Text =
+                CashWithdrawalProperties.exchangeRates.PLN_exchangeRate.ToString(
+                    new CultureInfo("en-US"));
+
+            this.USD_ExchangeRateValueLabel.Text =
+                CashWithdrawalProperties.exchangeRates.USD_exchangeRate.ToString(
+                    new CultureInfo("en-US"));
+
+            this.EUR_ExchangeRateValueLabel.Text =
+                CashWithdrawalProperties.exchangeRates.EUR_exchangeRate.ToString(
+                    new CultureInfo("en-US"));
+
+            this.GBP_ExchangeRateValueLabel.Text =
+                CashWithdrawalProperties.exchangeRates.GBP_exchangeRate.ToString(
+                    new CultureInfo("en-US"));
 
             // Set currency combobox
             this.CurrencyComboBox.Items.Add("Polski Złoty");

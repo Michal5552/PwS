@@ -41,13 +41,13 @@ namespace CashWithdrawal.Views
             this.BasicUserAddMoneyExecutePanelPanel.Controls.Add(this.AddMoneyResultLabel);
             this.BasicUserAddMoneyExecutePanelPanel.Location = new System.Drawing.Point(34, 25);
             this.BasicUserAddMoneyExecutePanelPanel.Name = "BasicUserAddMoneyExecutePanelPanel";
-            this.BasicUserAddMoneyExecutePanelPanel.Size = new System.Drawing.Size(277, 220);
+            this.BasicUserAddMoneyExecutePanelPanel.Size = new System.Drawing.Size(468, 260);
             this.BasicUserAddMoneyExecutePanelPanel.TabIndex = 0;
             // 
             // ExitToBasicUserAddMoneyPanel
             // 
             this.ExitToBasicUserAddMoneyPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ExitToBasicUserAddMoneyPanel.Location = new System.Drawing.Point(34, 118);
+            this.ExitToBasicUserAddMoneyPanel.Location = new System.Drawing.Point(135, 153);
             this.ExitToBasicUserAddMoneyPanel.Name = "ExitToBasicUserAddMoneyPanel";
             this.ExitToBasicUserAddMoneyPanel.Size = new System.Drawing.Size(220, 81);
             this.ExitToBasicUserAddMoneyPanel.TabIndex = 8;
@@ -59,17 +59,18 @@ namespace CashWithdrawal.Views
             // 
             this.AddMoneyResultLabel.AutoSize = true;
             this.AddMoneyResultLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AddMoneyResultLabel.Location = new System.Drawing.Point(28, 31);
+            this.AddMoneyResultLabel.Location = new System.Drawing.Point(62, 31);
             this.AddMoneyResultLabel.Name = "AddMoneyResultLabel";
             this.AddMoneyResultLabel.Size = new System.Drawing.Size(229, 32);
             this.AddMoneyResultLabel.TabIndex = 0;
             this.AddMoneyResultLabel.Text = "Wynik Transakcji";
+            this.AddMoneyResultLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BasicUserAddMoneyExecutePanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(338, 269);
+            this.ClientSize = new System.Drawing.Size(550, 313);
             this.Controls.Add(this.BasicUserAddMoneyExecutePanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "BasicUserAddMoneyExecutePanel";

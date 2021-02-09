@@ -22,18 +22,15 @@ namespace CashWithdrawal.Views
             // Show date information
             this.DateValueLabel.Text = DateTime.Now.ToString("dd/MM/yyyy");
 
-            // Show currency information
-            this.CurrencyValueLabel.Text = "Polski Złoty";
-
             // Show account state information
             this.AccountStateValueLabel.Text =
-                String.Format("{0:0.00}", basicUserAddMoneyReportPanelVM.accountState)
-                .ToString(new CultureInfo("en-US"));
+                (String.Format("{0:0.00}", basicUserAddMoneyReportPanelVM.accountState)
+                .ToString(new CultureInfo("en-US")) + " PLN");
 
             // Show add money information
             this.AddMoneyValueLabel.Text =
-                String.Format("{0:0.00}", basicUserAddMoneyReportPanelVM.addMoneyValue)
-                .ToString(new CultureInfo("en-US"));
+                (String.Format("{0:0.00}", basicUserAddMoneyReportPanelVM.addMoneyValue)
+                .ToString(new CultureInfo("en-US")) + " PLN");
         }
 
         private void ExitToBasicUserAddMoneyPanel_Click(object sender, EventArgs e)

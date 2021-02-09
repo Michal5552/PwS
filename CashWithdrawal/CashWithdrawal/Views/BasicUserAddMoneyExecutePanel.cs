@@ -18,7 +18,7 @@ namespace CashWithdrawal.Views
             InitializeComponent();
 
             // Set add money result information
-            this.AddMoneyResultLabel.Text = "Transakcja Przeprowadzona Pomyślnie";
+            this.AddMoneyResultLabel.Text = "Transakcja Przeprowadzona \nPomyślnie";
         }
 
         private void ExitToBasicUserAddMoneyPanel_Click(object sender, EventArgs e)
