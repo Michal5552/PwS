@@ -1,7 +1,7 @@
 ﻿
 namespace CashWithdrawal.Views
 {
-    partial class BasicUserAddMoneyPanel
+    partial class BasicUserTakeOutMoneyPanel
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace CashWithdrawal.Views
         /// </summary>
         private void InitializeComponent()
         {
-            this.BasicUserAddMoneyPanelPanel = new System.Windows.Forms.Panel();
+            this.BasicUserTakeOutMoneyPanelPanel = new System.Windows.Forms.Panel();
             this.CurrencyRatesPanel = new System.Windows.Forms.Panel();
             this.GBP_ExchangeRateValueLabel = new System.Windows.Forms.Label();
             this.EUR_ExchangeRateValueLabel = new System.Windows.Forms.Label();
@@ -40,31 +40,31 @@ namespace CashWithdrawal.Views
             this.PLN_ExchangeRateValueLabel = new System.Windows.Forms.Label();
             this.PLN_ExchangeRateLabel = new System.Windows.Forms.Label();
             this.ExchangeRatesLabel = new System.Windows.Forms.Label();
-            this.AddMoneyButton = new System.Windows.Forms.Button();
+            this.TakeOutMoneyButton = new System.Windows.Forms.Button();
             this.ExitToBasicUserPanelButton = new System.Windows.Forms.Button();
-            this.AddMoneyReportCheckBox = new System.Windows.Forms.CheckBox();
+            this.TakeOutMoneyReportCheckBox = new System.Windows.Forms.CheckBox();
             this.CurrencyLabel = new System.Windows.Forms.Label();
             this.CurrencyComboBox = new System.Windows.Forms.ComboBox();
-            this.AddMoneyValueLabel = new System.Windows.Forms.Label();
-            this.AddMoneyValueComboBox = new System.Windows.Forms.ComboBox();
-            this.BasicUserAddMoneyPanelPanel.SuspendLayout();
+            this.TakeOutMoneyValueLabel = new System.Windows.Forms.Label();
+            this.TakeOutMoneyValueComboBox = new System.Windows.Forms.ComboBox();
+            this.BasicUserTakeOutMoneyPanelPanel.SuspendLayout();
             this.CurrencyRatesPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // BasicUserAddMoneyPanelPanel
+            // BasicUserTakeOutMoneyPanelPanel
             // 
-            this.BasicUserAddMoneyPanelPanel.Controls.Add(this.CurrencyRatesPanel);
-            this.BasicUserAddMoneyPanelPanel.Controls.Add(this.AddMoneyButton);
-            this.BasicUserAddMoneyPanelPanel.Controls.Add(this.ExitToBasicUserPanelButton);
-            this.BasicUserAddMoneyPanelPanel.Controls.Add(this.AddMoneyReportCheckBox);
-            this.BasicUserAddMoneyPanelPanel.Controls.Add(this.CurrencyLabel);
-            this.BasicUserAddMoneyPanelPanel.Controls.Add(this.CurrencyComboBox);
-            this.BasicUserAddMoneyPanelPanel.Controls.Add(this.AddMoneyValueLabel);
-            this.BasicUserAddMoneyPanelPanel.Controls.Add(this.AddMoneyValueComboBox);
-            this.BasicUserAddMoneyPanelPanel.Location = new System.Drawing.Point(57, 24);
-            this.BasicUserAddMoneyPanelPanel.Name = "BasicUserAddMoneyPanelPanel";
-            this.BasicUserAddMoneyPanelPanel.Size = new System.Drawing.Size(805, 476);
-            this.BasicUserAddMoneyPanelPanel.TabIndex = 0;
+            this.BasicUserTakeOutMoneyPanelPanel.Controls.Add(this.CurrencyRatesPanel);
+            this.BasicUserTakeOutMoneyPanelPanel.Controls.Add(this.TakeOutMoneyButton);
+            this.BasicUserTakeOutMoneyPanelPanel.Controls.Add(this.ExitToBasicUserPanelButton);
+            this.BasicUserTakeOutMoneyPanelPanel.Controls.Add(this.TakeOutMoneyReportCheckBox);
+            this.BasicUserTakeOutMoneyPanelPanel.Controls.Add(this.CurrencyLabel);
+            this.BasicUserTakeOutMoneyPanelPanel.Controls.Add(this.CurrencyComboBox);
+            this.BasicUserTakeOutMoneyPanelPanel.Controls.Add(this.TakeOutMoneyValueLabel);
+            this.BasicUserTakeOutMoneyPanelPanel.Controls.Add(this.TakeOutMoneyValueComboBox);
+            this.BasicUserTakeOutMoneyPanelPanel.Location = new System.Drawing.Point(31, 21);
+            this.BasicUserTakeOutMoneyPanelPanel.Name = "BasicUserTakeOutMoneyPanelPanel";
+            this.BasicUserTakeOutMoneyPanelPanel.Size = new System.Drawing.Size(805, 476);
+            this.BasicUserTakeOutMoneyPanelPanel.TabIndex = 1;
             // 
             // CurrencyRatesPanel
             // 
@@ -172,16 +172,16 @@ namespace CashWithdrawal.Views
             this.ExchangeRatesLabel.TabIndex = 2;
             this.ExchangeRatesLabel.Text = "Współczynniki\r\n    Walutowe";
             // 
-            // AddMoneyButton
+            // TakeOutMoneyButton
             // 
-            this.AddMoneyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AddMoneyButton.Location = new System.Drawing.Point(442, 349);
-            this.AddMoneyButton.Name = "AddMoneyButton";
-            this.AddMoneyButton.Size = new System.Drawing.Size(220, 81);
-            this.AddMoneyButton.TabIndex = 8;
-            this.AddMoneyButton.Text = "Wpłata";
-            this.AddMoneyButton.UseVisualStyleBackColor = true;
-            this.AddMoneyButton.Click += new System.EventHandler(this.AddMoneyButton_Click);
+            this.TakeOutMoneyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TakeOutMoneyButton.Location = new System.Drawing.Point(442, 349);
+            this.TakeOutMoneyButton.Name = "TakeOutMoneyButton";
+            this.TakeOutMoneyButton.Size = new System.Drawing.Size(220, 81);
+            this.TakeOutMoneyButton.TabIndex = 8;
+            this.TakeOutMoneyButton.Text = "Wypłata";
+            this.TakeOutMoneyButton.UseVisualStyleBackColor = true;
+            this.TakeOutMoneyButton.Click += new System.EventHandler(this.TakeOutMoneyButton_Click);
             // 
             // ExitToBasicUserPanelButton
             // 
@@ -194,16 +194,16 @@ namespace CashWithdrawal.Views
             this.ExitToBasicUserPanelButton.UseVisualStyleBackColor = true;
             this.ExitToBasicUserPanelButton.Click += new System.EventHandler(this.ExitToBasicUserPanelButton_Click);
             // 
-            // AddMoneyReportCheckBox
+            // TakeOutMoneyReportCheckBox
             // 
-            this.AddMoneyReportCheckBox.AutoSize = true;
-            this.AddMoneyReportCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AddMoneyReportCheckBox.Location = new System.Drawing.Point(471, 224);
-            this.AddMoneyReportCheckBox.Name = "AddMoneyReportCheckBox";
-            this.AddMoneyReportCheckBox.Size = new System.Drawing.Size(161, 29);
-            this.AddMoneyReportCheckBox.TabIndex = 4;
-            this.AddMoneyReportCheckBox.Text = "Raport Wpłaty";
-            this.AddMoneyReportCheckBox.UseVisualStyleBackColor = true;
+            this.TakeOutMoneyReportCheckBox.AutoSize = true;
+            this.TakeOutMoneyReportCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TakeOutMoneyReportCheckBox.Location = new System.Drawing.Point(471, 224);
+            this.TakeOutMoneyReportCheckBox.Name = "TakeOutMoneyReportCheckBox";
+            this.TakeOutMoneyReportCheckBox.Size = new System.Drawing.Size(171, 29);
+            this.TakeOutMoneyReportCheckBox.TabIndex = 4;
+            this.TakeOutMoneyReportCheckBox.Text = "Raport Wypłaty";
+            this.TakeOutMoneyReportCheckBox.UseVisualStyleBackColor = true;
             // 
             // CurrencyLabel
             // 
@@ -224,38 +224,38 @@ namespace CashWithdrawal.Views
             this.CurrencyComboBox.Size = new System.Drawing.Size(182, 37);
             this.CurrencyComboBox.TabIndex = 2;
             // 
-            // AddMoneyValueLabel
+            // TakeOutMoneyValueLabel
             // 
-            this.AddMoneyValueLabel.AutoSize = true;
-            this.AddMoneyValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AddMoneyValueLabel.Location = new System.Drawing.Point(419, 126);
-            this.AddMoneyValueLabel.Name = "AddMoneyValueLabel";
-            this.AddMoneyValueLabel.Size = new System.Drawing.Size(124, 37);
-            this.AddMoneyValueLabel.TabIndex = 1;
-            this.AddMoneyValueLabel.Text = "Kwota :";
+            this.TakeOutMoneyValueLabel.AutoSize = true;
+            this.TakeOutMoneyValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TakeOutMoneyValueLabel.Location = new System.Drawing.Point(419, 126);
+            this.TakeOutMoneyValueLabel.Name = "TakeOutMoneyValueLabel";
+            this.TakeOutMoneyValueLabel.Size = new System.Drawing.Size(124, 37);
+            this.TakeOutMoneyValueLabel.TabIndex = 1;
+            this.TakeOutMoneyValueLabel.Text = "Kwota :";
             // 
-            // AddMoneyValueComboBox
+            // TakeOutMoneyValueComboBox
             // 
-            this.AddMoneyValueComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AddMoneyValueComboBox.FormattingEnabled = true;
-            this.AddMoneyValueComboBox.Location = new System.Drawing.Point(549, 126);
-            this.AddMoneyValueComboBox.Name = "AddMoneyValueComboBox";
-            this.AddMoneyValueComboBox.Size = new System.Drawing.Size(182, 37);
-            this.AddMoneyValueComboBox.TabIndex = 0;
+            this.TakeOutMoneyValueComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TakeOutMoneyValueComboBox.FormattingEnabled = true;
+            this.TakeOutMoneyValueComboBox.Location = new System.Drawing.Point(549, 126);
+            this.TakeOutMoneyValueComboBox.Name = "TakeOutMoneyValueComboBox";
+            this.TakeOutMoneyValueComboBox.Size = new System.Drawing.Size(182, 37);
+            this.TakeOutMoneyValueComboBox.TabIndex = 0;
             // 
-            // BasicUserAddMoneyPanel
+            // BasicUserTakeOutMoneyPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(915, 534);
-            this.Controls.Add(this.BasicUserAddMoneyPanelPanel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "BasicUserAddMoneyPanel";
+            this.ClientSize = new System.Drawing.Size(869, 522);
+            this.Controls.Add(this.BasicUserTakeOutMoneyPanelPanel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Name = "BasicUserTakeOutMoneyPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Panel Wpłaty";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BasicUserAddMoneyPanel_FormClosing);
-            this.BasicUserAddMoneyPanelPanel.ResumeLayout(false);
-            this.BasicUserAddMoneyPanelPanel.PerformLayout();
+            this.Text = "Panel Wypłaty";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BasicUserTakeOutMoneyPanel_FormClosing);
+            this.BasicUserTakeOutMoneyPanelPanel.ResumeLayout(false);
+            this.BasicUserTakeOutMoneyPanelPanel.PerformLayout();
             this.CurrencyRatesPanel.ResumeLayout(false);
             this.CurrencyRatesPanel.PerformLayout();
             this.ResumeLayout(false);
@@ -264,14 +264,7 @@ namespace CashWithdrawal.Views
 
         #endregion
 
-        private System.Windows.Forms.Panel BasicUserAddMoneyPanelPanel;
-        private System.Windows.Forms.CheckBox AddMoneyReportCheckBox;
-        private System.Windows.Forms.Label CurrencyLabel;
-        private System.Windows.Forms.ComboBox CurrencyComboBox;
-        private System.Windows.Forms.Label AddMoneyValueLabel;
-        private System.Windows.Forms.ComboBox AddMoneyValueComboBox;
-        private System.Windows.Forms.Button AddMoneyButton;
-        private System.Windows.Forms.Button ExitToBasicUserPanelButton;
+        private System.Windows.Forms.Panel BasicUserTakeOutMoneyPanelPanel;
         private System.Windows.Forms.Panel CurrencyRatesPanel;
         private System.Windows.Forms.Label GBP_ExchangeRateValueLabel;
         private System.Windows.Forms.Label EUR_ExchangeRateValueLabel;
@@ -282,5 +275,12 @@ namespace CashWithdrawal.Views
         private System.Windows.Forms.Label PLN_ExchangeRateValueLabel;
         private System.Windows.Forms.Label PLN_ExchangeRateLabel;
         private System.Windows.Forms.Label ExchangeRatesLabel;
+        private System.Windows.Forms.Button TakeOutMoneyButton;
+        private System.Windows.Forms.Button ExitToBasicUserPanelButton;
+        private System.Windows.Forms.CheckBox TakeOutMoneyReportCheckBox;
+        private System.Windows.Forms.Label CurrencyLabel;
+        private System.Windows.Forms.ComboBox CurrencyComboBox;
+        private System.Windows.Forms.Label TakeOutMoneyValueLabel;
+        private System.Windows.Forms.ComboBox TakeOutMoneyValueComboBox;
     }
 }

@@ -72,7 +72,20 @@ namespace CashWithdrawal.Views
         }
         private void TakeOutMoneyButton_Click(object sender, EventArgs e)
         {
+            // Redirect to take out money panel
+            BasicUserTakeOutMoneyPanelVM basicUserTakeOutMoneyPanelVM =
+                new BasicUserTakeOutMoneyPanelVM
+                {
+                    loginPanel = this.loginPanel,
+                    basicUserPanel = this,
+                    basicUser = this.basicUser
+                };
 
+            BasicUserTakeOutMoneyPanel basicUserTakeOutMoneyPanel =
+                new BasicUserTakeOutMoneyPanel(basicUserTakeOutMoneyPanelVM);
+
+            basicUserTakeOutMoneyPanel.Show();
+            this.Hide();
         }
 
         private void LogoutButton_Click(object sender, EventArgs e)

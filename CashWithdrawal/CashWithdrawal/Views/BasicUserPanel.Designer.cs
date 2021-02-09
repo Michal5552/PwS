@@ -76,7 +76,7 @@ namespace CashWithdrawal.Views
             this.TakeOutMoneyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.TakeOutMoneyButton.Location = new System.Drawing.Point(369, 89);
             this.TakeOutMoneyButton.Name = "TakeOutMoneyButton";
-            this.TakeOutMoneyButton.Size = new System.Drawing.Size(111, 44);
+            this.TakeOutMoneyButton.Size = new System.Drawing.Size(119, 44);
             this.TakeOutMoneyButton.TabIndex = 2;
             this.TakeOutMoneyButton.Text = "Wypłata";
             this.TakeOutMoneyButton.UseVisualStyleBackColor = true;
@@ -98,7 +98,7 @@ namespace CashWithdrawal.Views
             this.AddMoneyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.AddMoneyButton.Location = new System.Drawing.Point(35, 89);
             this.AddMoneyButton.Name = "AddMoneyButton";
-            this.AddMoneyButton.Size = new System.Drawing.Size(111, 44);
+            this.AddMoneyButton.Size = new System.Drawing.Size(119, 44);
             this.AddMoneyButton.TabIndex = 0;
             this.AddMoneyButton.Text = "Wpłata";
             this.AddMoneyButton.UseVisualStyleBackColor = true;

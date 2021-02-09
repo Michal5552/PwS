@@ -58,6 +58,8 @@
     <Compile Include="ViewModels\BasicUserAddMoneyPanelVM.cs" />
     <Compile Include="ViewModels\BasicUserAddMoneyReportPanelVM.cs" />
     <Compile Include="ViewModels\BasicUserPanelVM.cs" />
+    <Compile Include="ViewModels\BasicUserTakeOutMoneyExecutePanelVM.cs" />
+    <Compile Include="ViewModels\BasicUserTakeOutMoneyPanelVM.cs" />
     <Compile Include="Views\AdministratorPanel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +102,18 @@
     <Compile Include="Views\BasicUserPanel.Designer.cs">
       <DependentUpon>BasicUserPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\BasicUserTakeOutMoneyExecutePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BasicUserTakeOutMoneyExecutePanel.Designer.cs">
+      <DependentUpon>BasicUserTakeOutMoneyExecutePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BasicUserTakeOutMoneyPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BasicUserTakeOutMoneyPanel.Designer.cs">
+      <DependentUpon>BasicUserTakeOutMoneyPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\LoginPanel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +151,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\BasicUserPanel.resx">
       <DependentUpon>BasicUserPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BasicUserTakeOutMoneyExecutePanel.resx">
+      <DependentUpon>BasicUserTakeOutMoneyExecutePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BasicUserTakeOutMoneyPanel.resx">
+      <DependentUpon>BasicUserTakeOutMoneyPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\LoginPanel.resx">
       <DependentUpon>LoginPanel.cs</DependentUpon>
