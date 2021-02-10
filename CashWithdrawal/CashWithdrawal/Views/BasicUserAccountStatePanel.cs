@@ -59,7 +59,8 @@ namespace CashWithdrawal.Views
 
             // Set account state information
             this.AccountStateValueLabel.Text =
-                basicUser._BankAccount.state._Value.ToString(new CultureInfo("en-US"));
+                (String.Format("{0:0.00}", basicUser._BankAccount.state._Value)
+                .ToString(new CultureInfo("en-US")));
         }
         private void BasicUserAccountStatePanel_FormClosing(
             object sender, FormClosingEventArgs e)

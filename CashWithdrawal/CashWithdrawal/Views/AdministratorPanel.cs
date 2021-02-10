@@ -59,7 +59,20 @@ namespace CashWithdrawal.Views
 
         private void CashWithdrawalStateButton_Click(object sender, EventArgs e)
         {
+            // Redirect to administrator cash dispenser state panel
+            AdministratorCashDispenserStatePanelVM administratorCashDispenserStatePanelVM =
+                new AdministratorCashDispenserStatePanelVM
+                {
+                    loginPanel = this.loginPanel,
+                    administratorPanel = this
+                };
 
+            AdministratorCashDispenserStatePanel administratorCashDispenserStatePanel =
+                new AdministratorCashDispenserStatePanel(
+                    administratorCashDispenserStatePanelVM);
+
+            administratorCashDispenserStatePanel.Show();
+            this.Hide();
         }
 
         private void LogoutButton_Click(object sender, EventArgs e)

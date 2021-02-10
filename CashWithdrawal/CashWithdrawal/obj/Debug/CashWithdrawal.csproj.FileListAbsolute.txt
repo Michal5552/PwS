@@ -27,3 +27,6 @@ C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdraw
 C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.Views.AdministratorUpdateBasicUserResultPanel.resources
 C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.Views.AdministratorRemoveBasicUserPanel.resources
 C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.ViewModels.AdministratorRemoveBasicUserResultPanel.resources
+C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.Views.AdministratorCashDispenserStatePanel.resources
+C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.Views.AdministratorChangeCashDispenserStatePanel.resources
+C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.Views.AdministratorChangeCashDispenserStateResultPanel.resources

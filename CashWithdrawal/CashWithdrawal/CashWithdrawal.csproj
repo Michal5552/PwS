@@ -52,8 +52,28 @@
     <Compile Include="CashWithdrawalProperties\CashWithdrawalProperties.cs" />
     <Compile Include="CashWithdrawalProperties\ExchangeRates.cs" />
     <Compile Include="Data\BasicUsersDataGridViewModel.cs" />
+    <Compile Include="ViewModels\AdministratorCashDispenserStatePanelVM.cs" />
+    <Compile Include="ViewModels\AdministratorChangeCashDispenserStatePanelVM.cs" />
     <Compile Include="ViewModels\AdministratorPanelVM.cs" />
     <Compile Include="ViewModels\AdministratorRemoveBasicUserPanelVM.cs" />
+    <Compile Include="Views\AdministratorCashDispenserStatePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdministratorCashDispenserStatePanel.Designer.cs">
+      <DependentUpon>AdministratorCashDispenserStatePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdministratorChangeCashDispenserStatePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdministratorChangeCashDispenserStatePanel.Designer.cs">
+      <DependentUpon>AdministratorChangeCashDispenserStatePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdministratorChangeCashDispenserStateResultPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdministratorChangeCashDispenserStateResultPanel.Designer.cs">
+      <DependentUpon>AdministratorChangeCashDispenserStateResultPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\AdministratorRemoveBasicUserResultPanel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +204,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Views\AdministratorCashDispenserStatePanel.resx">
+      <DependentUpon>AdministratorCashDispenserStatePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdministratorChangeCashDispenserStatePanel.resx">
+      <DependentUpon>AdministratorChangeCashDispenserStatePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdministratorChangeCashDispenserStateResultPanel.resx">
+      <DependentUpon>AdministratorChangeCashDispenserStateResultPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\AdministratorRemoveBasicUserResultPanel.resx">
       <DependentUpon>AdministratorRemoveBasicUserResultPanel.cs</DependentUpon>
     </EmbeddedResource>
