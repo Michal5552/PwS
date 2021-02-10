@@ -33,6 +33,7 @@ namespace CashWithdrawal.Views
             this.CashWithdrawalStateButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.AdministratorInformationLabel = new System.Windows.Forms.Label();
+            this.LogoutButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +46,7 @@ namespace CashWithdrawal.Views
             this.ManageBasicUsersButton.TabIndex = 0;
             this.ManageBasicUsersButton.Text = "Przegląd Użytkowników";
             this.ManageBasicUsersButton.UseVisualStyleBackColor = true;
+            this.ManageBasicUsersButton.Click += new System.EventHandler(this.ManageBasicUsersButton_Click);
             // 
             // CashWithdrawalStateButton
             // 
@@ -55,15 +57,17 @@ namespace CashWithdrawal.Views
             this.CashWithdrawalStateButton.TabIndex = 1;
             this.CashWithdrawalStateButton.Text = "Stan Bankomatu";
             this.CashWithdrawalStateButton.UseVisualStyleBackColor = true;
+            this.CashWithdrawalStateButton.Click += new System.EventHandler(this.CashWithdrawalStateButton_Click);
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.LogoutButton);
             this.panel1.Controls.Add(this.AdministratorInformationLabel);
             this.panel1.Controls.Add(this.CashWithdrawalStateButton);
             this.panel1.Controls.Add(this.ManageBasicUsersButton);
-            this.panel1.Location = new System.Drawing.Point(150, 115);
+            this.panel1.Location = new System.Drawing.Point(142, 33);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(510, 202);
+            this.panel1.Size = new System.Drawing.Size(510, 319);
             this.panel1.TabIndex = 2;
             // 
             // AdministratorInformationLabel
@@ -76,11 +80,22 @@ namespace CashWithdrawal.Views
             this.AdministratorInformationLabel.TabIndex = 5;
             this.AdministratorInformationLabel.Text = "Witaj <Administrator>";
             // 
+            // LogoutButton
+            // 
+            this.LogoutButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.LogoutButton.Location = new System.Drawing.Point(159, 222);
+            this.LogoutButton.Name = "LogoutButton";
+            this.LogoutButton.Size = new System.Drawing.Size(184, 75);
+            this.LogoutButton.TabIndex = 6;
+            this.LogoutButton.Text = "Wylogowanie";
+            this.LogoutButton.UseVisualStyleBackColor = true;
+            this.LogoutButton.Click += new System.EventHandler(this.LogoutButton_Click);
+            // 
             // AdministratorPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 399);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AdministratorPanel";
@@ -99,5 +114,6 @@ namespace CashWithdrawal.Views
         private System.Windows.Forms.Button CashWithdrawalStateButton;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label AdministratorInformationLabel;
+        private System.Windows.Forms.Button LogoutButton;
     }
 }

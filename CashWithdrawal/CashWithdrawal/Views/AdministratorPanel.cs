@@ -17,11 +17,6 @@ namespace CashWithdrawal.Views
         private LoginPanel loginPanel;
         private Administrator administrator;
 
-        public AdministratorPanel()
-        {
-            InitializeComponent();
-        }
-
         public AdministratorPanel(AdministratorPanelVM administratorPanelVM)
         {
             InitializeComponent();
@@ -29,7 +24,7 @@ namespace CashWithdrawal.Views
             // Set information about login panel
             loginPanel = administratorPanelVM.loginPanel;
 
-            // Set administrator data
+            // Set administrator information
             this.administrator = administratorPanelVM.administrator;
 
             // Show basic user information
@@ -40,7 +35,38 @@ namespace CashWithdrawal.Views
         private void AdministratorPanel_FormClosing(object sender, FormClosingEventArgs e)
         {
             // Safe close program
+            this.Dispose();
             loginPanel.Close();
+        }
+
+        private void ManageBasicUsersButton_Click(object sender, EventArgs e)
+        {
+            // Redirect to manage basic users panel
+            AdministratorManageBasicUsersPanelVM manageBasicUsersPanelVM =
+                new AdministratorManageBasicUsersPanelVM
+                {
+                    loginPanel = this.loginPanel,
+                    administratorPanel = this,
+                    administrator = this.administrator
+                };
+
+            AdministratorManageBasicUsersPanel administratorManageBasicUsersPanel = new
+                AdministratorManageBasicUsersPanel(manageBasicUsersPanelVM);
+
+            administratorManageBasicUsersPanel.Show();
+            this.Hide();
+        }
+
+        private void CashWithdrawalStateButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LogoutButton_Click(object sender, EventArgs e)
+        {
+            // Safe logout
+            this.loginPanel.Show();
+            this.Dispose();
         }
     }
 }

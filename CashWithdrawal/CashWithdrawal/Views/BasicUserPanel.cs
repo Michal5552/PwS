@@ -91,7 +91,7 @@ namespace CashWithdrawal.Views
 
         private void LogoutButton_Click(object sender, EventArgs e)
         {
-            // Safe 
+            // Safe close
             this.loginPanel.Show();
             this.Dispose();
         }

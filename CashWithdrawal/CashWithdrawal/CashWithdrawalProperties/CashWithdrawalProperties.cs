@@ -10,6 +10,8 @@ namespace CashWithdrawal
 {
     public static class CashWithdrawalProperties
     {
+        // TODO set autoincrement in basic user
+        
         public static ExchangeRates exchangeRates = new ExchangeRates();
     }
 }

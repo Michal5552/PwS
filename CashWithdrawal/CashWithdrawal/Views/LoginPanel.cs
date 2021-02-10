@@ -31,6 +31,18 @@ namespace CashWithdrawal
             // Set System Settings
             SystemSettings._PlatformType = PlatformType.Windows;
 
+            // Set autoincrement value
+            try
+            {
+                MockBasicUsersRepository mockBasicUsersRepository =
+                    new MockBasicUsersRepository(SystemSettings._PlatformType);
+
+                User._Id_counter = (mockBasicUsersRepository.GetAll().Last()._Id + 1);
+            }
+            catch (MockBasicUsersRepository_Exception mbur_e)
+            {
+            }
+
             // Set Pin Code TextBox
             this.PinCodeTextBox.PasswordChar = '*';
 
@@ -129,6 +141,7 @@ namespace CashWithdrawal
                             AdministratorPanel administratorPanel =
                                 new AdministratorPanel(administratorPanelVM);
 
+                            this.PinCodeTextBox.Clear();
                             administratorPanel.Show();
                             this.Hide();
                         }
