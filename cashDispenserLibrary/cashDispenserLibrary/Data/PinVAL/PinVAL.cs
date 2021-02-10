@@ -9,6 +9,12 @@ namespace cashDispenserLibrary.Data
 
         public PinVAL(string value)
         {
+            // Check empty pin
+            if (value.Length == 0)
+            {
+                throw new PinVAL_Exception(PinVAL_ExceptionType.BadPinLength);
+            }
+            
             //Search any letter
             if (value.Any((value_character) =>
                 ((value_character < '0') || (value_character > '9'))
