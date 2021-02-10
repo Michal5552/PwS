@@ -25,3 +25,5 @@ C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdraw
 C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.Views.AdministratorAddBasicUserResultPanel.resources
 C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.Views.AdministratorUpdateBasicUserPanel.resources
 C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.Views.AdministratorUpdateBasicUserResultPanel.resources
+C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.Views.AdministratorRemoveBasicUserPanel.resources
+C:\Users\OKNO-8\Desktop\PwS\CashWithdrawal\CashWithdrawal\obj\Debug\CashWithdrawal.ViewModels.AdministratorRemoveBasicUserResultPanel.resources

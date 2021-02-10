@@ -53,6 +53,13 @@
     <Compile Include="CashWithdrawalProperties\ExchangeRates.cs" />
     <Compile Include="Data\BasicUsersDataGridViewModel.cs" />
     <Compile Include="ViewModels\AdministratorPanelVM.cs" />
+    <Compile Include="ViewModels\AdministratorRemoveBasicUserPanelVM.cs" />
+    <Compile Include="Views\AdministratorRemoveBasicUserResultPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdministratorRemoveBasicUserResultPanel.Designer.cs">
+      <DependentUpon>AdministratorRemoveBasicUserResultPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewModels\AdministratorUpdateBasicUserPanelVM.cs" />
     <Compile Include="ViewModels\BasicUserAccountStatePanelVM.cs" />
     <Compile Include="ViewModels\BasicUserAccountStateReportPanelVM.cs" />
@@ -80,6 +87,12 @@
     </Compile>
     <Compile Include="Views\AdministratorPanel.Designer.cs">
       <DependentUpon>AdministratorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdministratorRemoveBasicUserPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdministratorRemoveBasicUserPanel.Designer.cs">
+      <DependentUpon>AdministratorRemoveBasicUserPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\AdministratorUpdateBasicUserPanel.cs">
       <SubType>Form</SubType>
@@ -171,6 +184,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Views\AdministratorRemoveBasicUserResultPanel.resx">
+      <DependentUpon>AdministratorRemoveBasicUserResultPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\AdministratorAddBasicUserPanel.resx">
       <DependentUpon>AdministratorAddBasicUserPanel.cs</DependentUpon>
     </EmbeddedResource>
@@ -179,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\AdministratorPanel.resx">
       <DependentUpon>AdministratorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdministratorRemoveBasicUserPanel.resx">
+      <DependentUpon>AdministratorRemoveBasicUserPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\AdministratorUpdateBasicUserPanel.resx">
       <DependentUpon>AdministratorUpdateBasicUserPanel.cs</DependentUpon>

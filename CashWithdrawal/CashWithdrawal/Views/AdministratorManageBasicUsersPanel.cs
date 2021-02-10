@@ -221,7 +221,55 @@ namespace CashWithdrawal.Views
 
         private void RemoveBasicUserButton_Click(object sender, System.EventArgs e)
         {
+            AdministratorRemoveBasicUserPanelVM administratorRemoveBasicUserPanelVM =
+                new AdministratorRemoveBasicUserPanelVM
+                {
+                    basicUserToRemove = this.selectedBasicUsersDataGridViewRow
+                };
 
+            // Redirect to remove basic user panel
+            AdministratorRemoveBasicUserPanel administratorRemoveBasicUserPanel =
+                new AdministratorRemoveBasicUserPanel(administratorRemoveBasicUserPanelVM);
+
+            administratorRemoveBasicUserPanel.ShowDialog();
+
+            // Get checked basic user
+            DataGridViewRow basicUsersDataGridViewRow = this.BasicUsersDataGridView.CurrentRow;
+
+            // Redirect to change basic user panel
+            AdministratorUpdateBasicUserPanelVM administratorUpdateBasicUserPanelVM =
+                new AdministratorUpdateBasicUserPanelVM
+                {
+                    basicUser = this.selectedBasicUsersDataGridViewRow
+                };
+
+            // Update grid view information
+            try
+            {
+                // Connect with database
+                MockBasicUsersRepository mockBasicUsersRepository = new
+                MockBasicUsersRepository(SystemSettings._PlatformType);
+
+                // Get basic users
+                var basicUsersDataGridViewModels =
+                    mockBasicUsersRepository.GetAll().Select((singleBasicUser) =>
+                    {
+                        return new BasicUsersDataGridViewModel
+                        {
+                            BasicUserId = singleBasicUser._Id,
+                            accountState = singleBasicUser._BankAccount.state._Value,
+                            pin = singleBasicUser._Pin._Value,
+                            name = singleBasicUser._Name._Value,
+                            surname = singleBasicUser._Surname._Value
+                        };
+                    }).ToList();
+
+                this.BasicUsersDataGridView.DataSource = basicUsersDataGridViewModels;
+            }
+            catch (MockBasicUsersRepository_Exception mbur_e)
+            {
+
+            }
         }
 
         private void ExitToAdministratorPanelButton_Click(object sender, System.EventArgs e)
