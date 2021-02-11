@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="cashDispenserLibrary" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="cashDispenserLibrary.csproj" t="IncludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="Administrator.cs" t="Include" />
+          <e p="BankAccount" t="Include">
+            <e p="BankAccount.cs" t="Include" />
+            <e p="Exceptions" t="Include">
+              <e p="BankAccount_Exception.cs" t="Include" />
+              <e p="BankAccount_ExceptionType.cs" t="Include" />
+            </e>
+          </e>
+          <e p="BasicUser.cs" t="Include" />
+          <e p="Currency.cs" t="Include" />
+          <e p="MoneyVAL" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="MoneyVAL_Exception.cs" t="Include" />
+              <e p="MoneyVAL_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="MoneyVAL.cs" t="Include" />
+          </e>
+          <e p="NameVAL" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="NameVAL_Exception.cs" t="Include" />
+              <e p="NameVAL_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="NameVAL.cs" t="Include" />
+          </e>
+          <e p="PhysicalMoneyVAL" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="PhysicalMoneyVAL_Exception.cs" t="Include" />
+              <e p="PhysicalMoneyVAL_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="PhysicalMoneyVAL.cs" t="Include" />
+          </e>
+          <e p="PinVAL" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="PinVAL_Exception.cs" t="Include" />
+              <e p="PinVAL_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="PinVAL.cs" t="Include" />
+          </e>
+          <e p="PlatformType.cs" t="Include" />
+          <e p="SurnameVAL" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="SurnameVAL_Exception.cs" t="Include" />
+              <e p="SurnameVAL_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="SurnameVAL.cs" t="Include" />
+          </e>
+          <e p="SystemSettings.cs" t="Include" />
+          <e p="TransactionReportVAL" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="TransactionReportVAL_Exception.cs" t="Include" />
+              <e p="TransactionReportVAL_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="TransactionReportType.cs" t="Include" />
+            <e p="TransactionReportVAL.cs" t="Include" />
+          </e>
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="Model" t="Include">
+          <e p="MockAdministratorsRepository" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="MockAdministratorsRepository_Exception.cs" t="Include" />
+              <e p="MockAdministratorsRepository_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="MockAdministratorsRepository.cs" t="Include" />
+          </e>
+          <e p="MockBasicUsersRepository" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="MockBasicUsersRepository_Exception.cs" t="Include" />
+              <e p="MockBasicUsersRepository_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="MockbasicUsersRepository.cs" t="Include" />
+          </e>
+          <e p="MockPhysicalMoneyRepository" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="MockPhysicalMoneyRepository_Exception.cs" t="Include" />
+              <e p="MockPhysicalMoneyRepository_ExceptionType.cs" t="Include" />
+            </e>
+            <e p="MockPhysicalMoneyRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="cashDispenserLibrary.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_cashDispenserLibrary.281675168.00" t="ExcludeRecursive" />
+  </component>
+</project>

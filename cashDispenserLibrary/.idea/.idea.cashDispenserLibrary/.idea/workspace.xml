@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:cash_dispenser_CORE" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="545e1128-3307-4f9f-aebb-6f17bd2c8d8c" name="Default Changelist" comment="Finish implement and test BankAccount class">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cashDispenserLibrary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/PinVAL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/PinVAL.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/bin/Debug/cashDispenserLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cashDispenserLibrary/obj/Debug/cashDispenserLibrary.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../cashDispenserLibraryTest/cashDispenserLibraryTest/DataTests/BankAccount_Test.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/NameVAL/NameVAL.cs" />
+      <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockPhysicalMoneyRepository/MockPhysicalMoneyRepository.cs" />
+      <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockBasicUsersRepository/Exceptions/MockBasicUsersRepository_ExceptionType.cs" />
+      <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockBasicUsersRepository/Exceptions/MockBasicUsersRepository_Exception.cs" />
+      <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockBasicUsersRepository/MockBasicUsersRepository.cs" />
+      <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/BankAccount/BankAccount.cs" />
+      <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/Administrator.cs" />
+      <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockAdministratorsRepository/MockAdministratorsRepository.cs" />
+      <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockAdministratorsRepository/Exceptions/MockAdministratorsRepository_Exception.cs" />
+      <option value="$PROJECT_DIR$/cashDispenserLibrary/Model/MockAdministratorsRepository/Exceptions/MockAdministratorsRepository_ExceptionType.cs" />
+      <option value="$PROJECT_DIR$/cashDispenserLibrary/Data/PinVAL/PinVAL.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1kdxuJxdggFEnIGJw0bZBUPlQSB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="545e1128-3307-4f9f-aebb-6f17bd2c8d8c" name="Default Changelist" comment="" />
+      <created>1606044490732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606044490732</updated>
+      <workItem from="1606044496146" duration="334000" />
+      <workItem from="1606045076558" duration="3296000" />
+      <workItem from="1606055029767" duration="1610000" />
+      <workItem from="1606058147454" duration="4319000" />
+      <workItem from="1606069566487" duration="1893000" />
+      <workItem from="1606075300460" duration="1135000" />
+      <workItem from="1606081639896" duration="882000" />
+      <workItem from="1606082603471" duration="2050000" />
+      <workItem from="1606115363049" duration="2669000" />
+      <workItem from="1606123868049" duration="55000" />
+      <workItem from="1606130251824" duration="657000" />
+      <workItem from="1607257852153" duration="4758000" />
+      <workItem from="1607266387922" duration="8213000" />
+      <workItem from="1607278495084" duration="5646000" />
+      <workItem from="1607287159594" duration="676000" />
+      <workItem from="1607336020584" duration="763000" />
+      <workItem from="1607345634904" duration="4583000" />
+      <workItem from="1607359876779" duration="1563000" />
+      <workItem from="1607423741942" duration="1658000" />
+      <workItem from="1610827361945" duration="48000" />
+      <workItem from="1610827466043" duration="5379000" />
+      <workItem from="1610884523504" duration="1528000" />
+      <workItem from="1610889113899" duration="5436000" />
+      <workItem from="1610898985210" duration="4092000" />
+      <workItem from="1610906408737" duration="5979000" />
+      <workItem from="1610913017069" duration="93000" />
+      <workItem from="1610971506870" duration="4126000" />
+      <workItem from="1610979133948" duration="3590000" />
+      <workItem from="1610996501715" duration="6375000" />
+      <workItem from="1611007342642" duration="1904000" />
+      <workItem from="1611009348532" duration="180000" />
+      <workItem from="1611063418233" duration="2220000" />
+      <workItem from="1611069865160" duration="141000" />
+      <workItem from="1611070937357" duration="699000" />
+      <workItem from="1611071836598" duration="262000" />
+      <workItem from="1611073850251" duration="1707000" />
+      <workItem from="1611090345101" duration="2313000" />
+      <workItem from="1611149433018" duration="3973000" />
+      <workItem from="1611156670927" duration="3004000" />
+      <workItem from="1611161289036" duration="4001000" />
+      <workItem from="1611169871787" duration="4405000" />
+      <workItem from="1611180857115" duration="1148000" />
+      <workItem from="1611580222302" duration="2311000" />
+      <workItem from="1611586516453" duration="3867000" />
+      <workItem from="1611766865398" duration="17000" />
+      <workItem from="1611767291977" duration="323000" />
+      <workItem from="1611936622269" duration="2282000" />
+      <workItem from="1611943179588" duration="2380000" />
+      <workItem from="1611947196267" duration="1024000" />
+      <workItem from="1612434941677" duration="689000" />
+      <workItem from="1612971544529" duration="1163000" />
+    </task>
+    <task id="LOCAL-00001" summary="bankAccount implement in progress">
+      <created>1606084617124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606084617124</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Almost finish implement BankAccount">
+      <created>1607284115143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607284115144</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Almost finish implement BankAccount ver 2.0">
+      <created>1607284146265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607284146265</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finish implement physical money VAL">
+      <created>1610832732788</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610832732788</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finish implement physical money VAL with workspace.xml">
+      <created>1610832863362</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610832863362</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finish implement MockPhysicalMoneyRepository">
+      <created>1610913048703</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610913048703</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finish implement MockPhysicalMoneyRepository">
+      <created>1610913074162</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610913074162</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test BankAccount class">
+      <created>1611009393751</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611009393751</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Finish implement and test BankAccount class">
+      <created>1611069907973</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611069907974</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="cash_dispenser_CORE" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="cash_dispenser_CORE" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="bankAccount implement in progress" />
+    <MESSAGE value="Almost finish implement BankAccount" />
+    <MESSAGE value="Almost finish implement BankAccount ver 2.0" />
+    <MESSAGE value="Finish implement physical money VAL" />
+    <MESSAGE value="Finish implement physical money VAL with workspace.xml" />
+    <MESSAGE value="Finish implement MockPhysicalMoneyRepository" />
+    <MESSAGE value="test BankAccount class" />
+    <MESSAGE value="Finish implement and test BankAccount class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish implement and test BankAccount class" />
+  </component>
+</project>

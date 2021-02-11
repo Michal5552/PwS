@@ -1,0 +1,10 @@
+D:\studia\PwŚ\Okienkowy kalkulator BMI\BMICalculator\BMICalculator\bin\Debug\BMICalculator.exe.config
+D:\studia\PwŚ\Okienkowy kalkulator BMI\BMICalculator\BMICalculator\bin\Debug\BMICalculator.exe
+D:\studia\PwŚ\Okienkowy kalkulator BMI\BMICalculator\BMICalculator\bin\Debug\BMICalculator.pdb
+D:\studia\PwŚ\Okienkowy kalkulator BMI\BMICalculator\BMICalculator\obj\Debug\BMICalculator.csprojAssemblyReference.cache
+D:\studia\PwŚ\Okienkowy kalkulator BMI\BMICalculator\BMICalculator\obj\Debug\BMICalculator.CalcForm.resources
+D:\studia\PwŚ\Okienkowy kalkulator BMI\BMICalculator\BMICalculator\obj\Debug\BMICalculator.Properties.Resources.resources
+D:\studia\PwŚ\Okienkowy kalkulator BMI\BMICalculator\BMICalculator\obj\Debug\BMICalculator.csproj.GenerateResource.cache
+D:\studia\PwŚ\Okienkowy kalkulator BMI\BMICalculator\BMICalculator\obj\Debug\BMICalculator.csproj.CoreCompileInputs.cache
+D:\studia\PwŚ\Okienkowy kalkulator BMI\BMICalculator\BMICalculator\obj\Debug\BMICalculator.exe
+D:\studia\PwŚ\Okienkowy kalkulator BMI\BMICalculator\BMICalculator\obj\Debug\BMICalculator.pdb
