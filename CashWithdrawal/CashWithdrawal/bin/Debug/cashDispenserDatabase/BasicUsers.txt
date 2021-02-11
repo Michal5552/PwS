@@ -1,5 +1,10 @@
-0;1010;Jann;Kwalskii;1802.010;0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-1;1011;Staszak;Nie Od Dziś;3253.060;0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-3;0909;dada;dadwd;0.0;0;;;;;;;;;;;;;;;;;;;;;
-7;0909;dada;wwww;0.0;0;;;;;;;;;;;
-8;0090;jasiu;jasiowski;0.90;0;;;;
+0;1825;Mariusz;Stankiewicz;182.60
+1;7437;Krystian;Mazurek;5504.00
+2;2355;Kacper;Krajewski;1000.00
+3;9989;Alfred;Czarnecki;2235.90
+4;2367;Alicja;Baranowska;2364.11
+5;7843;Henryk;Nowak;105.80
+6;5983;Ewelina;Wiśniewska;80.00
+7;4373;Celina;Ostrowska;1020.55
+8;2474;Edward;Kołodziej;10279.62
+9;5473;Patrycja;Zielińska;505.22
