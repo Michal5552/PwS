@@ -50,9 +50,9 @@ namespace CashWithdrawal.Views
             this.UpdateBasicUserResultLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.UpdateBasicUserResultLabel.Location = new System.Drawing.Point(49, 29);
             this.UpdateBasicUserResultLabel.Name = "UpdateBasicUserResultLabel";
-            this.UpdateBasicUserResultLabel.Size = new System.Drawing.Size(373, 64);
+            this.UpdateBasicUserResultLabel.Size = new System.Drawing.Size(380, 64);
             this.UpdateBasicUserResultLabel.TabIndex = 12;
-            this.UpdateBasicUserResultLabel.Text = "Dane użytkownika zostały \r\nzaktualizowane pomyślnie";
+            this.UpdateBasicUserResultLabel.Text = "Dane Użytkownika Zostały \r\nZaktualizowane Pomyślnie";
             this.UpdateBasicUserResultLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ExitToAdministratorManageBasicUsersButton
@@ -62,7 +62,7 @@ namespace CashWithdrawal.Views
             this.ExitToAdministratorManageBasicUsersButton.Name = "ExitToAdministratorManageBasicUsersButton";
             this.ExitToAdministratorManageBasicUsersButton.Size = new System.Drawing.Size(233, 118);
             this.ExitToAdministratorManageBasicUsersButton.TabIndex = 11;
-            this.ExitToAdministratorManageBasicUsersButton.Text = "Powrót do panelu zarządzania użytkownikami";
+            this.ExitToAdministratorManageBasicUsersButton.Text = "Powrót Do Panelu Zarządzania Użytkownikami";
             this.ExitToAdministratorManageBasicUsersButton.UseVisualStyleBackColor = true;
             this.ExitToAdministratorManageBasicUsersButton.Click += new System.EventHandler(this.ExitToAdministratorManageBasicUsersButton_Click);
             // 
@@ -73,9 +73,10 @@ namespace CashWithdrawal.Views
             this.ClientSize = new System.Drawing.Size(642, 450);
             this.Controls.Add(this.AdministratorAddBasicUserResultPanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "AdministratorUpdateBasicUserResultPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Panel rezultatu aktualizacji użytkownika";
+            this.Text = "Panel Rezultatu Aktualizacji Użytkownika";
             this.AdministratorAddBasicUserResultPanelPanel.ResumeLayout(false);
             this.AdministratorAddBasicUserResultPanelPanel.PerformLayout();
             this.ResumeLayout(false);

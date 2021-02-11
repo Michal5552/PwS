@@ -51,7 +51,7 @@ namespace CashWithdrawal.Views
             this.ExitToAdministratorPanel.Name = "ExitToAdministratorPanel";
             this.ExitToAdministratorPanel.Size = new System.Drawing.Size(250, 104);
             this.ExitToAdministratorPanel.TabIndex = 8;
-            this.ExitToAdministratorPanel.Text = "Powrót do panelu \r\nadministratora";
+            this.ExitToAdministratorPanel.Text = "Powrót Do Panelu Zmiany Stanu Bankomatu";
             this.ExitToAdministratorPanel.UseVisualStyleBackColor = true;
             this.ExitToAdministratorPanel.Click += new System.EventHandler(this.ExitToAdministratorPanel_Click);
             // 
@@ -61,9 +61,9 @@ namespace CashWithdrawal.Views
             this.ChangeCashDispenserStateResultLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.ChangeCashDispenserStateResultLabel.Location = new System.Drawing.Point(71, 36);
             this.ChangeCashDispenserStateResultLabel.Name = "ChangeCashDispenserStateResultLabel";
-            this.ChangeCashDispenserStateResultLabel.Size = new System.Drawing.Size(339, 64);
+            this.ChangeCashDispenserStateResultLabel.Size = new System.Drawing.Size(350, 64);
             this.ChangeCashDispenserStateResultLabel.TabIndex = 0;
-            this.ChangeCashDispenserStateResultLabel.Text = "zmiana stanu bankomatu \r\nzakończona pomyślnie";
+            this.ChangeCashDispenserStateResultLabel.Text = "Zmiana Stanu Bankomatu \r\nZakończona Pomyślnie";
             this.ChangeCashDispenserStateResultLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // AdministratorChangeCashDispenserStateResultPanel
@@ -73,9 +73,10 @@ namespace CashWithdrawal.Views
             this.ClientSize = new System.Drawing.Size(682, 352);
             this.Controls.Add(this.BasicUserAddMoneyExecutePanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "AdministratorChangeCashDispenserStateResultPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Panel rezultatu zmiany stanu bankomatu";
+            this.Text = "Panel Rezultatu Zmiany Stanu Bankomatu";
             this.BasicUserAddMoneyExecutePanelPanel.ResumeLayout(false);
             this.BasicUserAddMoneyExecutePanelPanel.PerformLayout();
             this.ResumeLayout(false);

@@ -63,7 +63,6 @@ namespace CashWithdrawal.Views
         private void ExitToChangeCashDispenserPanelButton_Click(object sender, EventArgs e)
         {
             // Redirect to administrator change cash dispenser panel
-
             this.administratorCashDispenserStatePanel.Show();
             this.Dispose();
         }
@@ -72,6 +71,13 @@ namespace CashWithdrawal.Views
             // Connect with database
             try
             {
+                if (this.ChangeCashDispenserValueValueTextBox.TextLength == 0)
+                {
+                    ErrorLabel.Show();
+                    ErrorLabel.Text = "Niedozwolona Wartość Kwoty";
+                    throw new Exception();
+                }
+
                 MockPhysicalMoneyRepository mockPhysicalMoneyRepository = new
                     MockPhysicalMoneyRepository(SystemSettings._PlatformType);
 
@@ -108,6 +114,10 @@ namespace CashWithdrawal.Views
             {
                 this.ErrorLabel.Text = pm_e.What();
                 this.ErrorLabel.Show();
+            }
+            catch (Exception ex)
+            {
+
             }
         }
     }

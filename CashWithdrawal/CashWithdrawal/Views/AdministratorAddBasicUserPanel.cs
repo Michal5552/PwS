@@ -31,19 +31,33 @@ namespace CashWithdrawal.Views
 
         private void AddBasicUserButton_Click(object sender, EventArgs e)
         {
-            // Get new basic user's informations
-            string basicUserName = this.NameValueTextBox.Text;
-            string basicUserSurname = this.SurnameValueTextBox.Text;
-
-            string basicUserPin = this.PinValueTextBox.Text;
-            decimal basicUserAccountState =
-                ((this.AccountStateValueTextBox.Text.Length > 0) ? decimal.Parse(
-                this.AccountStateValueTextBox.Text.Replace(',', '.'),
-                CultureInfo.InvariantCulture) : 0.0M);
 
             // Add new basic user
             try
             {
+                // Get new basic user's informations
+                string basicUserName = this.NameValueTextBox.Text;
+                string basicUserSurname = this.SurnameValueTextBox.Text;
+
+                string basicUserPin = this.PinValueTextBox.Text;
+
+                // Connect with database
+                MockBasicUsersRepository mockBasicUsersRepository =
+                    new MockBasicUsersRepository(SystemSettings._PlatformType);
+
+                // Check pin in database
+                if (mockBasicUsersRepository.GetAll().Any((singleBasicUser) =>
+                singleBasicUser._Pin._Value == basicUserPin) == true)
+                {
+                    this.ErrorLabel.Show();
+                    this.ErrorLabel.Text = "Użytkownik O Podanym Pinie Istnieje W Bazie";
+                    throw new Exception();
+                }
+
+                decimal basicUserAccountState =
+                    ((this.AccountStateValueTextBox.Text.Length > 0) ? decimal.Parse(
+                    this.AccountStateValueTextBox.Text.Replace(',', '.'),
+                    CultureInfo.InvariantCulture) : 0.0M);
                 BasicUser basicUser = new BasicUser(
                     id: -1, name: new NameVAL(value: basicUserName),
                     pin: new PinVAL(value: basicUserPin),
@@ -51,10 +65,6 @@ namespace CashWithdrawal.Views
                     bankAccount: new BankAccount(
                         state: new MoneyVAL(value: basicUserAccountState,
                         currency: Currency.PLN)));
-
-                // Connect with database
-                MockBasicUsersRepository mockBasicUsersRepository =
-                    new MockBasicUsersRepository(SystemSettings._PlatformType);
 
                 // Add new basic user's record
                 mockBasicUsersRepository.Add(basicUser: basicUser);
@@ -92,6 +102,7 @@ namespace CashWithdrawal.Views
                 this.ErrorLabel.Text = m_e.What();
                 this.ErrorLabel.Show();
             }
+            catch (Exception ex) { }
         }
     }
 }

@@ -40,6 +40,9 @@ namespace CashWithdrawal.Views
             this.PinValueTextBox.Text = basicUser._Pin._Value;
             this.AccountStateValueTextBox.Text =
                 basicUser._BankAccount.state._Value.ToString(new CultureInfo("en-US"));
+
+            // Hide error label
+            this.ErrorLabel.Visible = false;
         }
 
         private void ExitToAdministratorManageBasicUsersButton_Click(object sender, EventArgs e)

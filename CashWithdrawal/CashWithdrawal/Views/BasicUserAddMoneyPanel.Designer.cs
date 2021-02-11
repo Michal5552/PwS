@@ -252,6 +252,7 @@ namespace CashWithdrawal.Views
             this.ClientSize = new System.Drawing.Size(915, 534);
             this.Controls.Add(this.BasicUserAddMoneyPanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "BasicUserAddMoneyPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Panel Wpłaty";

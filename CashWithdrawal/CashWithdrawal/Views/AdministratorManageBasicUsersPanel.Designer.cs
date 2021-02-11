@@ -60,7 +60,7 @@ namespace CashWithdrawal.Views
             this.ExitToAdministratorPanelButton.Name = "ExitToAdministratorPanelButton";
             this.ExitToAdministratorPanelButton.Size = new System.Drawing.Size(248, 75);
             this.ExitToAdministratorPanelButton.TabIndex = 5;
-            this.ExitToAdministratorPanelButton.Text = "Powrót do panelu administratora";
+            this.ExitToAdministratorPanelButton.Text = "Powrót Do Panelu Administratora";
             this.ExitToAdministratorPanelButton.UseVisualStyleBackColor = true;
             this.ExitToAdministratorPanelButton.Click += new System.EventHandler(this.ExitToAdministratorPanelButton_Click);
             // 
@@ -71,7 +71,7 @@ namespace CashWithdrawal.Views
             this.RemoveBasicUserButton.Name = "RemoveBasicUserButton";
             this.RemoveBasicUserButton.Size = new System.Drawing.Size(171, 75);
             this.RemoveBasicUserButton.TabIndex = 4;
-            this.RemoveBasicUserButton.Text = "Usuń użytkownika";
+            this.RemoveBasicUserButton.Text = "Usuń Użytkownika";
             this.RemoveBasicUserButton.UseVisualStyleBackColor = true;
             this.RemoveBasicUserButton.Click += new System.EventHandler(this.RemoveBasicUserButton_Click);
             // 
@@ -82,7 +82,7 @@ namespace CashWithdrawal.Views
             this.UpdateBasicUserButton.Name = "UpdateBasicUserButton";
             this.UpdateBasicUserButton.Size = new System.Drawing.Size(171, 75);
             this.UpdateBasicUserButton.TabIndex = 3;
-            this.UpdateBasicUserButton.Text = "Edytuj użytkownika";
+            this.UpdateBasicUserButton.Text = "Edytuj Użytkownika";
             this.UpdateBasicUserButton.UseVisualStyleBackColor = true;
             this.UpdateBasicUserButton.Click += new System.EventHandler(this.UpdateBasicUserButton_Click);
             // 
@@ -93,7 +93,7 @@ namespace CashWithdrawal.Views
             this.AddBasicUserButton.Name = "AddBasicUserButton";
             this.AddBasicUserButton.Size = new System.Drawing.Size(171, 75);
             this.AddBasicUserButton.TabIndex = 2;
-            this.AddBasicUserButton.Text = "Dodaj użytkownika";
+            this.AddBasicUserButton.Text = "Dodaj Użytkownika";
             this.AddBasicUserButton.UseVisualStyleBackColor = true;
             this.AddBasicUserButton.Click += new System.EventHandler(this.AddBasicUserButton_Click);
             // 
@@ -101,11 +101,11 @@ namespace CashWithdrawal.Views
             // 
             this.AdministratorInformationLabel.AutoSize = true;
             this.AdministratorInformationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AdministratorInformationLabel.Location = new System.Drawing.Point(23, 22);
+            this.AdministratorInformationLabel.Location = new System.Drawing.Point(101, 20);
             this.AdministratorInformationLabel.Name = "AdministratorInformationLabel";
-            this.AdministratorInformationLabel.Size = new System.Drawing.Size(226, 29);
+            this.AdministratorInformationLabel.Size = new System.Drawing.Size(232, 29);
             this.AdministratorInformationLabel.TabIndex = 1;
-            this.AdministratorInformationLabel.Text = "Zalogowano jako :";
+            this.AdministratorInformationLabel.Text = "Zalogowano Jako :";
             // 
             // BasicUsersDataGridView
             // 
@@ -130,9 +130,11 @@ namespace CashWithdrawal.Views
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(798, 642);
             this.Controls.Add(this.ManageBasicUsersPanelPanel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "AdministratorManageBasicUsersPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Panel zarządzania użytkownikami";
+            this.Text = "Panel Zarządzania Użytkownikami";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ManageBasicUsersPanel_FormClosing);
             this.ManageBasicUsersPanelPanel.ResumeLayout(false);
             this.ManageBasicUsersPanelPanel.PerformLayout();

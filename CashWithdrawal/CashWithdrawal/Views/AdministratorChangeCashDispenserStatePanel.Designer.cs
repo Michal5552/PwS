@@ -55,7 +55,7 @@ namespace CashWithdrawal.Views
             this.BasicUserAddMoneyPanelPanel.Controls.Add(this.ChangeCashDispenserValueLabel);
             this.BasicUserAddMoneyPanelPanel.Location = new System.Drawing.Point(28, 24);
             this.BasicUserAddMoneyPanelPanel.Name = "BasicUserAddMoneyPanelPanel";
-            this.BasicUserAddMoneyPanelPanel.Size = new System.Drawing.Size(815, 493);
+            this.BasicUserAddMoneyPanelPanel.Size = new System.Drawing.Size(744, 462);
             this.BasicUserAddMoneyPanelPanel.TabIndex = 1;
             // 
             // ErrorLabel
@@ -63,7 +63,7 @@ namespace CashWithdrawal.Views
             this.ErrorLabel.AutoSize = true;
             this.ErrorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.ErrorLabel.ForeColor = System.Drawing.Color.Red;
-            this.ErrorLabel.Location = new System.Drawing.Point(37, 307);
+            this.ErrorLabel.Location = new System.Drawing.Point(37, 249);
             this.ErrorLabel.Name = "ErrorLabel";
             this.ErrorLabel.Size = new System.Drawing.Size(133, 29);
             this.ErrorLabel.TabIndex = 13;
@@ -72,7 +72,7 @@ namespace CashWithdrawal.Views
             // ChangeCashDispenserValueValueTextBox
             // 
             this.ChangeCashDispenserValueValueTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ChangeCashDispenserValueValueTextBox.Location = new System.Drawing.Point(408, 216);
+            this.ChangeCashDispenserValueValueTextBox.Location = new System.Drawing.Point(408, 158);
             this.ChangeCashDispenserValueValueTextBox.Name = "ChangeCashDispenserValueValueTextBox";
             this.ChangeCashDispenserValueValueTextBox.Size = new System.Drawing.Size(194, 44);
             this.ChangeCashDispenserValueValueTextBox.TabIndex = 12;
@@ -81,7 +81,7 @@ namespace CashWithdrawal.Views
             // 
             this.CurrencyValueLabel.AutoSize = true;
             this.CurrencyValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.CurrencyValueLabel.Location = new System.Drawing.Point(401, 158);
+            this.CurrencyValueLabel.Location = new System.Drawing.Point(401, 100);
             this.CurrencyValueLabel.Name = "CurrencyValueLabel";
             this.CurrencyValueLabel.Size = new System.Drawing.Size(80, 37);
             this.CurrencyValueLabel.TabIndex = 11;
@@ -91,7 +91,7 @@ namespace CashWithdrawal.Views
             // 
             this.CashDispenserStateValueLabel.AutoSize = true;
             this.CashDispenserStateValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.CashDispenserStateValueLabel.Location = new System.Drawing.Point(401, 82);
+            this.CashDispenserStateValueLabel.Location = new System.Drawing.Point(401, 46);
             this.CashDispenserStateValueLabel.Name = "CashDispenserStateValueLabel";
             this.CashDispenserStateValueLabel.Size = new System.Drawing.Size(136, 37);
             this.CashDispenserStateValueLabel.TabIndex = 10;
@@ -101,7 +101,7 @@ namespace CashWithdrawal.Views
             // 
             this.CashDispenserStateLabel.AutoSize = true;
             this.CashDispenserStateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.CashDispenserStateLabel.Location = new System.Drawing.Point(206, 82);
+            this.CashDispenserStateLabel.Location = new System.Drawing.Point(206, 44);
             this.CashDispenserStateLabel.Name = "CashDispenserStateLabel";
             this.CashDispenserStateLabel.Size = new System.Drawing.Size(189, 37);
             this.CashDispenserStateLabel.TabIndex = 9;
@@ -110,22 +110,22 @@ namespace CashWithdrawal.Views
             // ChangeCashDispenserStateButton
             // 
             this.ChangeCashDispenserStateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ChangeCashDispenserStateButton.Location = new System.Drawing.Point(444, 365);
+            this.ChangeCashDispenserStateButton.Location = new System.Drawing.Point(444, 307);
             this.ChangeCashDispenserStateButton.Name = "ChangeCashDispenserStateButton";
-            this.ChangeCashDispenserStateButton.Size = new System.Drawing.Size(251, 103);
+            this.ChangeCashDispenserStateButton.Size = new System.Drawing.Size(251, 118);
             this.ChangeCashDispenserStateButton.TabIndex = 8;
-            this.ChangeCashDispenserStateButton.Text = "Zmiana stanu konta";
+            this.ChangeCashDispenserStateButton.Text = "Zmiana Stanu Konta";
             this.ChangeCashDispenserStateButton.UseVisualStyleBackColor = true;
             this.ChangeCashDispenserStateButton.Click += new System.EventHandler(this.ChangeCashDispenserStateButton_Click);
             // 
             // ExitToAdministratorPanelButton
             // 
             this.ExitToAdministratorPanelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ExitToAdministratorPanelButton.Location = new System.Drawing.Point(127, 365);
+            this.ExitToAdministratorPanelButton.Location = new System.Drawing.Point(127, 307);
             this.ExitToAdministratorPanelButton.Name = "ExitToAdministratorPanelButton";
-            this.ExitToAdministratorPanelButton.Size = new System.Drawing.Size(251, 103);
+            this.ExitToAdministratorPanelButton.Size = new System.Drawing.Size(251, 118);
             this.ExitToAdministratorPanelButton.TabIndex = 7;
-            this.ExitToAdministratorPanelButton.Text = "Powrót do panelu\r\nzmiany stanu bankomatu";
+            this.ExitToAdministratorPanelButton.Text = "Powrót Do Panelu Zmiany Stanu Bankomatu";
             this.ExitToAdministratorPanelButton.UseVisualStyleBackColor = true;
             this.ExitToAdministratorPanelButton.Click += new System.EventHandler(this.ExitToChangeCashDispenserPanelButton_Click);
             // 
@@ -133,7 +133,7 @@ namespace CashWithdrawal.Views
             // 
             this.CurrencyLabel.AutoSize = true;
             this.CurrencyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.CurrencyLabel.Location = new System.Drawing.Point(259, 158);
+            this.CurrencyLabel.Location = new System.Drawing.Point(259, 100);
             this.CurrencyLabel.Name = "CurrencyLabel";
             this.CurrencyLabel.Size = new System.Drawing.Size(136, 37);
             this.CurrencyLabel.TabIndex = 3;
@@ -143,7 +143,7 @@ namespace CashWithdrawal.Views
             // 
             this.ChangeCashDispenserValueLabel.AutoSize = true;
             this.ChangeCashDispenserValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ChangeCashDispenserValueLabel.Location = new System.Drawing.Point(271, 216);
+            this.ChangeCashDispenserValueLabel.Location = new System.Drawing.Point(271, 158);
             this.ChangeCashDispenserValueLabel.Name = "ChangeCashDispenserValueLabel";
             this.ChangeCashDispenserValueLabel.Size = new System.Drawing.Size(124, 37);
             this.ChangeCashDispenserValueLabel.TabIndex = 1;
@@ -153,12 +153,13 @@ namespace CashWithdrawal.Views
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(882, 529);
+            this.ClientSize = new System.Drawing.Size(810, 523);
             this.Controls.Add(this.BasicUserAddMoneyPanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "AdministratorChangeCashDispenserStatePanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Panel zmiany stanu bankomatu";
+            this.Text = "Panel Zmiany Stanu Bankomatu";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AdministratorChangeCashDispenserStatePanel_FormClosing);
             this.BasicUserAddMoneyPanelPanel.ResumeLayout(false);
             this.BasicUserAddMoneyPanelPanel.PerformLayout();

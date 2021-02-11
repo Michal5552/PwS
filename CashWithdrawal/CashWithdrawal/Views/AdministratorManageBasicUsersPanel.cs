@@ -59,10 +59,10 @@ namespace CashWithdrawal.Views
                         return new BasicUsersDataGridViewModel
                         {
                             BasicUserId = singleBasicUser._Id,
-                            accountState = singleBasicUser._BankAccount.state._Value,
                             pin = singleBasicUser._Pin._Value,
                             name = singleBasicUser._Name._Value,
-                            surname = singleBasicUser._Surname._Value
+                            surname = singleBasicUser._Surname._Value,
+                            accountState = singleBasicUser._BankAccount.state._Value
                         };
                     }).ToList();
 
@@ -76,13 +76,14 @@ namespace CashWithdrawal.Views
             // Set column headers names
             this.BasicUsersDataGridView.Columns[0].HeaderText = "Id";
             this.BasicUsersDataGridView.Columns[0].Visible = false;
-            this.BasicUsersDataGridView.Columns[1].HeaderText = "Stan konta";
-            this.BasicUsersDataGridView.Columns[2].HeaderText = "Pin";
-            this.BasicUsersDataGridView.Columns[3].HeaderText = "Imię";
-            this.BasicUsersDataGridView.Columns[4].HeaderText = "Nazwisko";
+           
+            this.BasicUsersDataGridView.Columns[1].HeaderText = "Pin";
+            this.BasicUsersDataGridView.Columns[2].HeaderText = "Imię";
+            this.BasicUsersDataGridView.Columns[3].HeaderText = "Nazwisko";
+            this.BasicUsersDataGridView.Columns[4].HeaderText = "Stan Konta";
 
             // Show administration information
-            this.AdministratorInformationLabel.Text = ("Zalogowano jako :"
+            this.AdministratorInformationLabel.Text = ("Zalogowano Jako :"
                 + $"{this.administrator._Name._Value} {this.administrator._Surname._Value}");
 
             // Center basic user data grid view columns headers
@@ -124,14 +125,14 @@ namespace CashWithdrawal.Views
                 this.BasicUsersDataGridView
                     .Rows[selectedBasicUserRow].Cells[0].Value.ToString()),
                 pin: new PinVAL(value: this.BasicUsersDataGridView
-                .Rows[selectedBasicUserRow].Cells[2].Value.ToString()),
+                .Rows[selectedBasicUserRow].Cells[1].Value.ToString()),
                 name: new NameVAL(value: this.BasicUsersDataGridView
-            .Rows[selectedBasicUserRow].Cells[3].Value.ToString()),
+            .Rows[selectedBasicUserRow].Cells[2].Value.ToString()),
                 surname: new SurnameVAL(value: this.BasicUsersDataGridView
-            .Rows[selectedBasicUserRow].Cells[4].Value.ToString()),
+            .Rows[selectedBasicUserRow].Cells[3].Value.ToString()),
                 bankAccount: new BankAccount(state: new MoneyVAL(
                     value: decimal.Parse(this.BasicUsersDataGridView
-                    .Rows[selectedBasicUserRow].Cells[1].Value.ToString(),
+                    .Rows[selectedBasicUserRow].Cells[4].Value.ToString(),
                     CultureInfo.InvariantCulture), currency: Currency.PLN)));
         }
 

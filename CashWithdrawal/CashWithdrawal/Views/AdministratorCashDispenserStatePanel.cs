@@ -51,7 +51,16 @@ namespace CashWithdrawal.Views
             this.GBP_ExchangeRateValueLabel.Text =
                 CashWithdrawalProperties.exchangeRates.GBP_exchangeRate.ToString(
                     new CultureInfo("en-US"));
-
+        }
+        private void AdministratorCashDispenserStatePanel_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Safe close
+            this.Dispose();
+            this.administratorPanel.Dispose();
+            this.loginPanel.Close();
+        }
+        private void AdministratorCashDispenserStatePanel_VisibleChanged(object sender, EventArgs e)
+        {
             // Set cash dispenser state information
             try
             {
@@ -74,15 +83,6 @@ namespace CashWithdrawal.Views
             {
             }
         }
-
-        private void AdministratorCashDispenserStatePanel_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            // Safe close
-            this.Dispose();
-            this.administratorPanel.Dispose();
-            this.loginPanel.Close();
-        }
-
         private void PLN_CurrencyRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             // Show cash dispenser state in PLN currency

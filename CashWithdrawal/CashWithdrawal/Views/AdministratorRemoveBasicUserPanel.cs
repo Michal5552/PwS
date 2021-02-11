@@ -29,9 +29,8 @@ namespace CashWithdrawal.Views
 
             // Show remove basic user statement
             this.RemoveBasicUserStatementLabel.Text =
-                $"Czy na pewno chcesz usunąć użytkownika: " +
-                $"{this.basicUserToRemove._Name._Value}" +
-                $" {this.basicUserToRemove._Surname._Value}";
+                $"Czy Na Pewno Chcesz Usunąć Użytkownika: " +
+                $"{this.basicUserToRemove._Pin._Value}";
         }
 
         private void AcceptRemoveBasicUserButton_Click(object sender, EventArgs e)

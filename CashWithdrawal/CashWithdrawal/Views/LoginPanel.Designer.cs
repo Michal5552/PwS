@@ -113,6 +113,7 @@ namespace CashWithdrawal
             this.ClientSize = new System.Drawing.Size(599, 324);
             this.Controls.Add(this.LoginPanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "LoginPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login Panel";

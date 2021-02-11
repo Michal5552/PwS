@@ -1,5 +1,6 @@
 ﻿using cashDispenserLibrary.Data;
 using cashDispenserLibrary.Data.Exceptions;
+using cashDispenserLibrary.Model.Exceptions;
 using CashWithdrawal.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -163,6 +164,10 @@ namespace CashWithdrawal.Views
             catch (BankAccount_Exception b_e)
             {
                 takeOutMoneyResult = b_e.What();
+            }
+            catch(PhysicalMoneyVAL_Exception pm_e)
+            {
+                takeOutMoneyResult = "!!! Stan bankomatu nie pozwala na wypłatę !!!";
             }
 
             // Check report type

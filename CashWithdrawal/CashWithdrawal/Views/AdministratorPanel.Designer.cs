@@ -32,8 +32,8 @@ namespace CashWithdrawal.Views
             this.ManageBasicUsersButton = new System.Windows.Forms.Button();
             this.CashWithdrawalStateButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.AdministratorInformationLabel = new System.Windows.Forms.Label();
             this.LogoutButton = new System.Windows.Forms.Button();
+            this.AdministratorInformationLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,16 +70,6 @@ namespace CashWithdrawal.Views
             this.panel1.Size = new System.Drawing.Size(510, 319);
             this.panel1.TabIndex = 2;
             // 
-            // AdministratorInformationLabel
-            // 
-            this.AdministratorInformationLabel.AutoSize = true;
-            this.AdministratorInformationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AdministratorInformationLabel.Location = new System.Drawing.Point(134, 30);
-            this.AdministratorInformationLabel.Name = "AdministratorInformationLabel";
-            this.AdministratorInformationLabel.Size = new System.Drawing.Size(286, 32);
-            this.AdministratorInformationLabel.TabIndex = 5;
-            this.AdministratorInformationLabel.Text = "Witaj <Administrator>";
-            // 
             // LogoutButton
             // 
             this.LogoutButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
@@ -91,6 +81,16 @@ namespace CashWithdrawal.Views
             this.LogoutButton.UseVisualStyleBackColor = true;
             this.LogoutButton.Click += new System.EventHandler(this.LogoutButton_Click);
             // 
+            // AdministratorInformationLabel
+            // 
+            this.AdministratorInformationLabel.AutoSize = true;
+            this.AdministratorInformationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.AdministratorInformationLabel.Location = new System.Drawing.Point(134, 30);
+            this.AdministratorInformationLabel.Name = "AdministratorInformationLabel";
+            this.AdministratorInformationLabel.Size = new System.Drawing.Size(286, 32);
+            this.AdministratorInformationLabel.TabIndex = 5;
+            this.AdministratorInformationLabel.Text = "Witaj <Administrator>";
+            // 
             // AdministratorPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -98,6 +98,7 @@ namespace CashWithdrawal.Views
             this.ClientSize = new System.Drawing.Size(800, 399);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "AdministratorPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Panel Administratora";

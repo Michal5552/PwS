@@ -41,7 +41,6 @@ namespace CashWithdrawal.Views
             this.SurnameLabel = new System.Windows.Forms.Label();
             this.NameValueTextBox = new System.Windows.Forms.TextBox();
             this.NameLabel = new System.Windows.Forms.Label();
-            this.AdministratorInformationLabel = new System.Windows.Forms.Label();
             this.AddBasicUserPanelPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,7 +57,7 @@ namespace CashWithdrawal.Views
             this.AddBasicUserPanelPanel.Controls.Add(this.SurnameLabel);
             this.AddBasicUserPanelPanel.Controls.Add(this.NameValueTextBox);
             this.AddBasicUserPanelPanel.Controls.Add(this.NameLabel);
-            this.AddBasicUserPanelPanel.Location = new System.Drawing.Point(51, 100);
+            this.AddBasicUserPanelPanel.Location = new System.Drawing.Point(36, 44);
             this.AddBasicUserPanelPanel.Name = "AddBasicUserPanelPanel";
             this.AddBasicUserPanelPanel.Size = new System.Drawing.Size(812, 432);
             this.AddBasicUserPanelPanel.TabIndex = 0;
@@ -81,7 +80,7 @@ namespace CashWithdrawal.Views
             this.ExitToAdministratorManageBasicUsersButton.Name = "ExitToAdministratorManageBasicUsersButton";
             this.ExitToAdministratorManageBasicUsersButton.Size = new System.Drawing.Size(233, 118);
             this.ExitToAdministratorManageBasicUsersButton.TabIndex = 10;
-            this.ExitToAdministratorManageBasicUsersButton.Text = "Powrót do panelu zarządzania użytkownikami";
+            this.ExitToAdministratorManageBasicUsersButton.Text = "Powrót Do Panelu Zarządzania Użytkownikami";
             this.ExitToAdministratorManageBasicUsersButton.UseVisualStyleBackColor = true;
             this.ExitToAdministratorManageBasicUsersButton.Click += new System.EventHandler(this.ExitToAdministratorManageBasicUsersButton_Click);
             // 
@@ -92,7 +91,7 @@ namespace CashWithdrawal.Views
             this.AddBasicUserButton.Name = "AddBasicUserButton";
             this.AddBasicUserButton.Size = new System.Drawing.Size(233, 118);
             this.AddBasicUserButton.TabIndex = 9;
-            this.AddBasicUserButton.Text = "Dodaj użytkownika";
+            this.AddBasicUserButton.Text = "Dodaj Użytkownika";
             this.AddBasicUserButton.UseVisualStyleBackColor = true;
             this.AddBasicUserButton.Click += new System.EventHandler(this.AddBasicUserButton_Click);
             // 
@@ -110,9 +109,9 @@ namespace CashWithdrawal.Views
             this.AccountStateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.AccountStateLabel.Location = new System.Drawing.Point(543, 68);
             this.AccountStateLabel.Name = "AccountStateLabel";
-            this.AccountStateLabel.Size = new System.Drawing.Size(200, 32);
+            this.AccountStateLabel.Size = new System.Drawing.Size(234, 32);
             this.AccountStateLabel.TabIndex = 7;
-            this.AccountStateLabel.Text = "Stan Konta [zł]";
+            this.AccountStateLabel.Text = "Stan Konta [PLN]";
             // 
             // PinValueTextBox
             // 
@@ -168,31 +167,20 @@ namespace CashWithdrawal.Views
             this.NameLabel.TabIndex = 0;
             this.NameLabel.Text = "Imię";
             // 
-            // AdministratorInformationLabel
-            // 
-            this.AdministratorInformationLabel.AutoSize = true;
-            this.AdministratorInformationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AdministratorInformationLabel.Location = new System.Drawing.Point(36, 35);
-            this.AdministratorInformationLabel.Name = "AdministratorInformationLabel";
-            this.AdministratorInformationLabel.Size = new System.Drawing.Size(226, 29);
-            this.AdministratorInformationLabel.TabIndex = 2;
-            this.AdministratorInformationLabel.Text = "Zalogowano jako :";
-            // 
             // AdministratorAddBasicUserPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(938, 599);
-            this.Controls.Add(this.AdministratorInformationLabel);
+            this.ClientSize = new System.Drawing.Size(885, 527);
             this.Controls.Add(this.AddBasicUserPanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "AdministratorAddBasicUserPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Panel dodania użytkownika";
+            this.Text = "Panel Dodania Użytkownika";
             this.AddBasicUserPanelPanel.ResumeLayout(false);
             this.AddBasicUserPanelPanel.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -201,7 +189,6 @@ namespace CashWithdrawal.Views
         private System.Windows.Forms.Panel AddBasicUserPanelPanel;
         private System.Windows.Forms.TextBox NameValueTextBox;
         private System.Windows.Forms.Label NameLabel;
-        private System.Windows.Forms.Label AdministratorInformationLabel;
         private System.Windows.Forms.TextBox AccountStateValueTextBox;
         private System.Windows.Forms.Label AccountStateLabel;
         private System.Windows.Forms.TextBox PinValueTextBox;

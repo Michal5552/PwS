@@ -43,13 +43,13 @@ namespace CashWithdrawal.Views
             this.AdministratorRemoveBasicUserPanelPanel.Controls.Add(this.RemoveBasicUserStatementLabel);
             this.AdministratorRemoveBasicUserPanelPanel.Location = new System.Drawing.Point(40, 37);
             this.AdministratorRemoveBasicUserPanelPanel.Name = "AdministratorRemoveBasicUserPanelPanel";
-            this.AdministratorRemoveBasicUserPanelPanel.Size = new System.Drawing.Size(773, 434);
+            this.AdministratorRemoveBasicUserPanelPanel.Size = new System.Drawing.Size(594, 265);
             this.AdministratorRemoveBasicUserPanelPanel.TabIndex = 0;
             // 
             // DropRemoveBasicUserButton
             // 
             this.DropRemoveBasicUserButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.DropRemoveBasicUserButton.Location = new System.Drawing.Point(430, 232);
+            this.DropRemoveBasicUserButton.Location = new System.Drawing.Point(144, 133);
             this.DropRemoveBasicUserButton.Name = "DropRemoveBasicUserButton";
             this.DropRemoveBasicUserButton.Size = new System.Drawing.Size(107, 46);
             this.DropRemoveBasicUserButton.TabIndex = 2;
@@ -60,7 +60,7 @@ namespace CashWithdrawal.Views
             // AcceptRemoveBasicUserButton
             // 
             this.AcceptRemoveBasicUserButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AcceptRemoveBasicUserButton.Location = new System.Drawing.Point(252, 232);
+            this.AcceptRemoveBasicUserButton.Location = new System.Drawing.Point(318, 133);
             this.AcceptRemoveBasicUserButton.Name = "AcceptRemoveBasicUserButton";
             this.AcceptRemoveBasicUserButton.Size = new System.Drawing.Size(107, 46);
             this.AcceptRemoveBasicUserButton.TabIndex = 1;
@@ -74,21 +74,22 @@ namespace CashWithdrawal.Views
             this.RemoveBasicUserStatementLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.RemoveBasicUserStatementLabel.Location = new System.Drawing.Point(48, 50);
             this.RemoveBasicUserStatementLabel.Name = "RemoveBasicUserStatementLabel";
-            this.RemoveBasicUserStatementLabel.Size = new System.Drawing.Size(472, 29);
+            this.RemoveBasicUserStatementLabel.Size = new System.Drawing.Size(492, 29);
             this.RemoveBasicUserStatementLabel.TabIndex = 0;
-            this.RemoveBasicUserStatementLabel.Text = "Czy na pewno chcesz usunąć użytkownika: ";
+            this.RemoveBasicUserStatementLabel.Text = "Czy Na Pewno Chcesz Usunąć Użytkownika: ";
             this.RemoveBasicUserStatementLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // AdministratorRemoveBasicUserPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(868, 528);
+            this.ClientSize = new System.Drawing.Size(670, 353);
             this.Controls.Add(this.AdministratorRemoveBasicUserPanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "AdministratorRemoveBasicUserPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Panel komunikatu usunięcia użytkownika";
+            this.Text = "Panel Komunikatu Usunięcia Użytkownika";
             this.AdministratorRemoveBasicUserPanelPanel.ResumeLayout(false);
             this.AdministratorRemoveBasicUserPanelPanel.PerformLayout();
             this.ResumeLayout(false);

@@ -41,7 +41,7 @@ namespace CashWithdrawal.ViewModels
             this.AdministratorRemoveBasicUserResultPanelPanel.Controls.Add(this.ExitToAdministratorManageBasicUsersButton);
             this.AdministratorRemoveBasicUserResultPanelPanel.Location = new System.Drawing.Point(137, 52);
             this.AdministratorRemoveBasicUserResultPanelPanel.Name = "AdministratorRemoveBasicUserResultPanelPanel";
-            this.AdministratorRemoveBasicUserResultPanelPanel.Size = new System.Drawing.Size(408, 321);
+            this.AdministratorRemoveBasicUserResultPanelPanel.Size = new System.Drawing.Size(420, 321);
             this.AdministratorRemoveBasicUserResultPanelPanel.TabIndex = 0;
             // 
             // AddBasicUserResultLabel
@@ -50,9 +50,9 @@ namespace CashWithdrawal.ViewModels
             this.AddBasicUserResultLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.AddBasicUserResultLabel.Location = new System.Drawing.Point(17, 30);
             this.AddBasicUserResultLabel.Name = "AddBasicUserResultLabel";
-            this.AddBasicUserResultLabel.Size = new System.Drawing.Size(388, 64);
+            this.AddBasicUserResultLabel.Size = new System.Drawing.Size(395, 64);
             this.AddBasicUserResultLabel.TabIndex = 14;
-            this.AddBasicUserResultLabel.Text = "Użytkownik został usunięty \r\nz bazy danych";
+            this.AddBasicUserResultLabel.Text = "Użytkownik Został Usunięty \r\nZ Bazy Danych";
             this.AddBasicUserResultLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ExitToAdministratorManageBasicUsersButton
@@ -62,7 +62,7 @@ namespace CashWithdrawal.ViewModels
             this.ExitToAdministratorManageBasicUsersButton.Name = "ExitToAdministratorManageBasicUsersButton";
             this.ExitToAdministratorManageBasicUsersButton.Size = new System.Drawing.Size(233, 118);
             this.ExitToAdministratorManageBasicUsersButton.TabIndex = 13;
-            this.ExitToAdministratorManageBasicUsersButton.Text = "Powrót do panelu zarządzania użytkownikami";
+            this.ExitToAdministratorManageBasicUsersButton.Text = "Powrót Do Panelu Zarządzania Użytkownikami";
             this.ExitToAdministratorManageBasicUsersButton.UseVisualStyleBackColor = true;
             this.ExitToAdministratorManageBasicUsersButton.Click += new System.EventHandler(this.ExitToAdministratorManageBasicUsersButton_Click);
             // 
@@ -73,9 +73,10 @@ namespace CashWithdrawal.ViewModels
             this.ClientSize = new System.Drawing.Size(686, 441);
             this.Controls.Add(this.AdministratorRemoveBasicUserResultPanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "AdministratorRemoveBasicUserResultPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Panel rezultatu usunięcia użytkownika";
+            this.Text = "Panel Rezultatu Usunięcia Użytkownika";
             this.AdministratorRemoveBasicUserResultPanelPanel.ResumeLayout(false);
             this.AdministratorRemoveBasicUserResultPanelPanel.PerformLayout();
             this.ResumeLayout(false);

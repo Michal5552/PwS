@@ -99,6 +99,7 @@ namespace CashWithdrawal
                             BasicUserPanel basicUserPanel = new BasicUserPanel(basicUserPanelVM);
 
                             this.PinCodeTextBox.Clear();
+                            this.ErrorLabel.Hide();
                             basicUserPanel.Show();
                             this.Hide();
                         }
@@ -142,6 +143,7 @@ namespace CashWithdrawal
                                 new AdministratorPanel(administratorPanelVM);
 
                             this.PinCodeTextBox.Clear();
+                            this.ErrorLabel.Hide();
                             administratorPanel.Show();
                             this.Hide();
                         }

@@ -312,6 +312,7 @@ namespace CashWithdrawal.Views
             this.ClientSize = new System.Drawing.Size(952, 602);
             this.Controls.Add(this.BasicUserAccountStatePanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "BasicUserAccountStatePanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Panel Stanu Konta";

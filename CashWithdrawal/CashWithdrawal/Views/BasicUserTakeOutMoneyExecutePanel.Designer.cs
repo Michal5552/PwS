@@ -73,6 +73,7 @@ namespace CashWithdrawal.Views
             this.ClientSize = new System.Drawing.Size(800, 391);
             this.Controls.Add(this.BasicUserTakeOutMoneyExecutePanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "BasicUserTakeOutMoneyExecutePanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Panel Potwierdzenia Transakcji";

@@ -50,9 +50,9 @@ namespace CashWithdrawal.Views
             this.AddBasicUserResultLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.AddBasicUserResultLabel.Location = new System.Drawing.Point(49, 29);
             this.AddBasicUserResultLabel.Name = "AddBasicUserResultLabel";
-            this.AddBasicUserResultLabel.Size = new System.Drawing.Size(365, 64);
+            this.AddBasicUserResultLabel.Size = new System.Drawing.Size(372, 64);
             this.AddBasicUserResultLabel.TabIndex = 12;
-            this.AddBasicUserResultLabel.Text = "Użytkownik został dodany\r\n do bazy danych";
+            this.AddBasicUserResultLabel.Text = "Użytkownik Został Dodany\r\n Do Bazy Danych";
             this.AddBasicUserResultLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ExitToAdministratorManageBasicUsersButton
@@ -62,7 +62,7 @@ namespace CashWithdrawal.Views
             this.ExitToAdministratorManageBasicUsersButton.Name = "ExitToAdministratorManageBasicUsersButton";
             this.ExitToAdministratorManageBasicUsersButton.Size = new System.Drawing.Size(233, 118);
             this.ExitToAdministratorManageBasicUsersButton.TabIndex = 11;
-            this.ExitToAdministratorManageBasicUsersButton.Text = "Powrót do panelu zarządzania użytkownikami";
+            this.ExitToAdministratorManageBasicUsersButton.Text = "Powrót Do Panelu Zarządzania Użytkownikami";
             this.ExitToAdministratorManageBasicUsersButton.UseVisualStyleBackColor = true;
             this.ExitToAdministratorManageBasicUsersButton.Click += new System.EventHandler(this.ExitToAdministratorManageBasicUsersButton_Click);
             // 
@@ -73,9 +73,10 @@ namespace CashWithdrawal.Views
             this.ClientSize = new System.Drawing.Size(647, 453);
             this.Controls.Add(this.AdministratorAddBasicUserResultPanelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "AdministratorAddBasicUserResultPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Panel rezultatu dodania użytkownika";
+            this.Text = "Panel Rezultatu Dodania Użytkownika";
             this.AdministratorAddBasicUserResultPanelPanel.ResumeLayout(false);
             this.AdministratorAddBasicUserResultPanelPanel.PerformLayout();
             this.ResumeLayout(false);
